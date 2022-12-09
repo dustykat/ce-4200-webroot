@@ -6,5 +6,3 @@ root: intro
 chapters:
 - file: lessons/introduction/introduction
 
-- file: markdown
-- file: notebooks
