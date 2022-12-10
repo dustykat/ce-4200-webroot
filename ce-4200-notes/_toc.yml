@@ -5,5 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: lessons/introduction/introduction
-- file: lessons/trust/trust
+- file: lessons/trusty/trusty
 
