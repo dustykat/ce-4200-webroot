@@ -14,6 +14,10 @@ prepare senior BSCE students to enter professional practice.
 
 ## Copyright
 
-Creative Commons Wording here after obtain Dr. Lawson's permission
+Copyright © 2023 William D. Lawson and Theodore G. Cleveland, *The contents of this Jupyter Book are licensed for free consumption under the following license: [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)*
 
-## Instructions
+## Webpages
+
+This course in contained within a linked directory on a webserver.  Institutional users can contact the authors for access to the GitHub source code and instructions to install and configure for customized use.  
+
+Students at TTU access the course webpage using this [link](http://54.243.252.9/ce-4200-webroot/)
