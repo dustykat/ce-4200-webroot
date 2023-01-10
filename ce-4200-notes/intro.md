@@ -10,10 +10,10 @@ prepare senior BSCE students to enter professional practice.
 
 ## Syllabus
 
-[Link to Sillybus](http://54.243.252.9/)
+[Link to Syllabus](http://54.243.252.9/ce-4200-webroot/0-Syllabus/ce-4200-2023-1-syllabus.html)
 
 ## Copyright
 
-Creative Commons Wording hera after bill permission
+Creative Commons Wording here after obtain Dr. Lawson's permission
 
 ## Instructions
