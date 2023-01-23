@@ -49,13 +49,13 @@
 # 
 # ## Where this course fits in:
 # 
-# {Image CE Dynamic Enrollment Management Plan}
+# ![BSCE Dynamic Enrollment Management Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023   BSCEDegree.png)
 # 
 # {Complete Comparison Matrix}
 # 
-# ## Syllabus
+# ## Syllabus/Schedule
 # 
-# ## Schedule
+# [Syllabus@http://54.243.252.9/ce-4200-webroot/0-Syllabus/ce-4200-2023-1-syllabus.html](http://54.243.252.9/ce-4200-webroot/0-Syllabus/ce-4200-2023-1-syllabus.html)
 # 
 # ## Textbooks
 # 
