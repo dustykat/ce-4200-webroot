@@ -49,9 +49,9 @@
 # 
 # ## Where this course fits in:
 # 
-# ![BSCE Dynamic Enrollment Management Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023   BSCEDegree.png)
+# ![BSCE Dynamic Enrollment Management Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023BSCEDegree.png)
 # 
-# {Complete Comparison Matrix}
+# ![CEBOK vs Degree Plan Comparison Matrix](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/CEDegreePlanvsBOK3E.png)
 # 
 # ## Syllabus/Schedule
 # 
@@ -71,6 +71,15 @@
 # 3. [CEBOK3 User Factsheet](https://www.asce.org/-/media/asce-images-and-files/initiatives/documents/cebok-info-full.pdf)
 # 4. [CEBOK3 Full Document (PDF)](https://ascelibrary.org/doi/book/10.1061/9780784415221)
 # 5. [Bloom's Learning Taxonomy](https://thepeakperformancecenter.com/educational-learning/learning/process/domains-of-learning/affective-domain/)
+# 
+# 6. [BSCE Degree Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023BSCEDegree.pdf)
+# 
+# 7. [ENVE Degree Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023ENVEDegreePlan.pdf)
+# 
+# 8. [ConE Degree Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023ConEDegreePlan.pdf)
+# 
+# 9. [Dual Degree Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023DualDegreePlan.pdf)
+# 
 
 # In[ ]:
 
