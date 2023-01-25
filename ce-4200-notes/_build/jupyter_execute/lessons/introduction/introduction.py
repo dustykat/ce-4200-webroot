@@ -80,6 +80,8 @@
 # 
 # 9. [Dual Degree Plan](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/2022-2023DualDegreePlan.pdf)
 # 
+# 10. [CE Degree Plan vs BOK3E (xlsx) matrix](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/introduction/CEDegreePlanvsBOK3E.xlsx)
+# 
 
 # In[ ]:
 
