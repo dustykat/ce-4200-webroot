@@ -6,4 +6,5 @@ root: intro
 chapters:
 - file: lessons/introduction/introduction
 - file: lessons/trusty/trusty
+- file: lessons/attitudes/attitudes
 - file: lessons/careerplan
