@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # DEVELOPING A PERSONAL CAREER PLAN
+# # Developing A Personal Career Plan
 # 
 # **Under development** Use the [PDF link](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/LECTURE-SOURCE/LECTURE4_CE4200EarlyCareerGuidance-S2022.pdf) for the in-class lesson.
 # 
