@@ -24,7 +24,7 @@
 # 
 # 3. [Lawson (2022), *FE Exam Preparation* Handout to accompany CE 4200, Whitacre College of Engineering, Texas Tech University](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/feexam/LECTURE8B_FEEXAMPREPARATION_S2022-handout.pdf)
 # 
-# 4. [ASCE BOK-2](https://ascelibrary.org/doi/book/10.1061/9780784409657) 
+# 4. [CE 4101 (old web pages)](http://54.243.252.9/ce-4200-webroot/ce-4101/) 
 # 
 # 5. [Texas Engineering Practice Act](https://engineers.texas.gov/downloads/enf_pub.pdf)
 
