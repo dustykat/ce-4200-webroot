@@ -10,3 +10,7 @@ chapters:
 - file: lessons/careerplan/careerplan
 - file: lessons/licensing/licensing
 - file: lessons/feexam/feexam
+- file: lessons/fereview/FER-testingprep
+  sections:
+  - file: lessons/fereview/FER-math
+  - file: lessons/fereview/FER-statistics
