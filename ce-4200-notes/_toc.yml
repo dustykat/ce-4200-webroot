@@ -14,5 +14,6 @@ chapters:
   sections:
   - file: lessons/fereview/FER-math
   - file: lessons/fereview/FER-statistics
+- file: lessons/qbs/qbs
 - file: lessons/leadershit/leadershit
 - file: lessons/dei/dei
