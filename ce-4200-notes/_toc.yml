@@ -18,3 +18,9 @@ chapters:
 - file: lessons/leadershit/leadershit
 - file: lessons/dei/dei
 - file: lessons/PM/PM
+  sections:
+  - file: lessons/PM/PM-Audit
+- file: lessons/engineeringjudgement/engineeringjudgement
+- file: lessons/criticalthinking/criticalthinking
+  sections:
+  - file: lessons/criticalthinking/criticalthinking-case1
