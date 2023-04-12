@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Project Manglement
+# # Project Management
 # 
 # **Under development** 
 # 
