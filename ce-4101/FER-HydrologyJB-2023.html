@@ -13082,7 +13082,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Problem-59">Problem 59<a class="anchor-link" href="#Problem-59">&#182;</a></h2><p>For a new development of 75 acres (0.117~$mi^2$), the peak runoff for a 25-year storm of 360 <em>cfs</em> is to be limited to 180 <em>cfs</em> by use of a detention basin.  The total runoff $Q$ is 3.4 inches.  Assume Type II rainfall. Using the TR55 Method and the figure below, the preliminary estimate of storage volume (ac-ft) is most nearly:</p>
+<h2 id="Problem-59-(NCEES-Practice-Exam-Manual)">Problem 59 (NCEES Practice Exam Manual)<a class="anchor-link" href="#Problem-59-(NCEES-Practice-Exam-Manual)">&#182;</a></h2><p>For a new development of 75 acres (0.117 $~mi^2$), the peak runoff for a 25-year storm of 360 <em>cfs</em> is to be limited to 180 <em>cfs</em> by use of a detention basin.  The total runoff $Q$ is 3.4 inches.  Assume Type II rainfall. Using the TR55 Method and the figure below, the preliminary estimate of storage volume (ac-ft) is most nearly:</p>
 
 </div>
 </div>
@@ -13194,18 +13194,91 @@ Basin Storage Required :  5.95  acre-ft
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Problem-61-(NCEES-Practice-Exam-Manual)">Problem 61 (NCEES Practice Exam Manual)<a class="anchor-link" href="#Problem-61-(NCEES-Practice-Exam-Manual)">&#182;</a></h2><p>Four monitoring wells - A,B,C,and D - lie equidistant (200~ft) form a fifth well E.  The depth to the water table is measured at each well and is shown below.  The datum for the top of casing (TOC) for each well is equal to the five wells.  Groundwater moves in which direction from point E?</p>
+<p><img src="WellField.png" alt=""></p>
+<p>(A) South <br>
+(B) East <br>
+(C) North <br>
+(D) West</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># solution - the values given are depth to water (DTW) so we subtract from TOC to get head</span>
+<span class="n">toc</span> <span class="o">=</span> <span class="mi">500</span> <span class="c1"># any number would be fine</span>
+<span class="n">dtwA</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">dtwB</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">dtwC</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">dtwD</span> <span class="o">=</span> <span class="mi">110</span>
+<span class="n">dtwE</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">hA</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwA</span>
+<span class="n">hB</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwB</span>
+<span class="n">hC</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwC</span>
+<span class="n">hD</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwD</span>
+<span class="n">hE</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwE</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head A : &quot;</span><span class="p">,</span><span class="n">hA</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head B : &quot;</span><span class="p">,</span><span class="n">hB</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head C : &quot;</span><span class="p">,</span><span class="n">hC</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head D : &quot;</span><span class="p">,</span><span class="n">hD</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head E : &quot;</span><span class="p">,</span><span class="n">hE</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>head A :  395
+head B :  400
+head C :  395
+head D :  390
+head E :  395
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>now draw equipotentials, and find flowline</p>
+<p><img src="WellFieldAnnotate.png" alt=""></p>
+<p>Best answer is A (South)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Problem">Problem<a class="anchor-link" href="#Problem">&#182;</a></h2><p>A 3.2-inch storm is uniformly distributed over a 95 acre watershed. The NRCS Curve Number for the watershed is CN = 78. The anticipated watershed runoff is about</p>
+<p>(A)  8.0 acre-feet <br>
+(B)  9.0 acre-feet <br>
+(C) 10.0 acre-feet <br>
+(D) 11.0 acre-feet</p>
+
+</div>
+</div>
 </div>
     </div>
   </div>
