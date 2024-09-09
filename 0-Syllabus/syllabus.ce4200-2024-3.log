@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  30 AUG 2024 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  9 SEP 2024 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,10 +628,10 @@ Underfull \hbox (badness 7362) in paragraph at lines 328--329
 AED: lastpage setting LastPage
 [12] (./syllabus.ce4200-2024-3.aux) ) 
 Here is how much of TeX's memory you used:
- 5832 strings out of 483183
- 78473 string characters out of 5966292
- 340681 words of memory out of 5000000
- 20732 multiletter control sequences out of 15000+600000
+ 5831 strings out of 483183
+ 78460 string characters out of 5966292
+ 339677 words of memory out of 5000000
+ 20731 multiletter control sequences out of 15000+600000
  542887 words of font info for 63 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  40i,13n,45p,1292b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -644,7 +644,7 @@ msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on syllabus.ce4200-2024-3.pdf (12 pages, 126194 bytes).
+Output written on syllabus.ce4200-2024-3.pdf (12 pages, 126197 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
