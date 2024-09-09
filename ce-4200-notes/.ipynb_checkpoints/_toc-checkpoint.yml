@@ -5,6 +5,7 @@ format: jb-book
 root: intro
 chapters:
 - file: lessons/introduction/introduction
+- file: lessons/futureexpectations/futureengineer
 - file: lessons/trusty/trusty
 - file: lessons/attitudes/attitudes
 - file: lessons/careerplan/careerplan
