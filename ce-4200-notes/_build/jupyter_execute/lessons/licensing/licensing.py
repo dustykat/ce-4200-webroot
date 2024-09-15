@@ -20,6 +20,24 @@
 # 
 # In 1920, the National Council of Examiners for Engineering and Surveying (NCEES) was formed. Its mission was to create a standardized process for engineering licensure across the states, facilitating reciprocity and ensuring that engineers met consistent standards nationwide. The NCEES developed and administered the Fundamentals of Engineering (FE) and Principles and Practice of Engineering (PE) exams, which became central to the licensure process.
 # 
+# ## New London School Disatser (Texas)
+# 
+# The New London School Disaster was a tragic event that took place on March 18, 1937, in New London, Texas. Here’s a brief history:
+# 
+# - Location and Incident: The disaster occurred at the New London Consolidated School, a large, two-story school building in New London, Texas. The building was located in a small rural community.
+# 
+# - Explosion: The tragedy struck when a natural gas explosion occurred in the school's basement. The explosion was caused by a gas leak from a faulty line that had been installed without proper safety measures.
+# 
+# - Casualties: The explosion resulted in the death of around 295 people, including students and teachers. It remains one of the deadliest school disasters in U.S. history.
+# 
+# - Immediate Aftermath: The explosion caused the school building to collapse, trapping many of the victims beneath the rubble. Rescue efforts were hampered by the extensive damage and the scale of the disaster.
+# 
+# - Investigation and Consequences: An investigation revealed that the explosion was due to a gas leak from an improperly installed pipe. This led to changes in regulations regarding natural gas safety and the installation of safety measures in schools and other public buildings.
+# 
+# - Legacy: The New London School Disaster had a profound impact on safety regulations in schools across the United States. It led to improvements in building codes and the enforcement of stricter safety standards for gas installations.
+# 
+# Shortly after the disaster, the state legislature met in an emergency session and enacted the Engineering Registration Act (now rewritten as the Texas Engineering Practice Act). Public pressure was on the government to regulate the practice of engineering due to the faulty installation of the natural gas connection. The use of the title "engineer" in Texas remains legally restricted to those who have been professionally certified by the state to practice engineering. [https://en.wikipedia.org/wiki/New_London_School_explosion](https://en.wikipedia.org/wiki/New_London_School_explosion)
+# 
 # ## Modern Engineering Licensure
 # 
 # Today, licensure remains a cornerstone of the engineering profession, particularly in fields like civil, structural, and environmental engineering, where public safety is paramount. The core principles of licensure, established over a century ago, still guide the profession: competency, accountability, and the protection of the public.
