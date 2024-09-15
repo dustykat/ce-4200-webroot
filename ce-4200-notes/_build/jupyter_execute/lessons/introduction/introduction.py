@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # # Introduction
+# 
 
 # ## Outcomes
 # - Outcomes are statements that describe what individuals are expected to know and be able to do by the time of entry into the practice of civil engineering at the professional level in the 21st century—that is, **attain licensure**.
