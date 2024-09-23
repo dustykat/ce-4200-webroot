@@ -4,26 +4,41 @@
 format: jb-book
 root: intro
 chapters:
+# Licensing
 - file: lessons/introduction/introduction
 - file: lessons/futureexpectations/futureengineer
 - file: lessons/trusty/trusty
 - file: lessons/attitudes/attitudes
 - file: lessons/careerplan/careerplan
 - file: lessons/licensing/licensing
+# ABET insertions
+- file: lessons/publichealth/publichealth
+- file: lessons/sustainability/sustainability
+# FE Exam 
 - file: lessons/feexam/feexam
 - file: lessons/fereview/FER-testingprep
   sections:
   - file: lessons/fereview/FER-math
   - file: lessons/fereview/FER-statistics
+# Business Issues
 - file: lessons/qbs/qbs
 - file: lessons/leadershit/leadershit
 - file: lessons/dei/dei
 - file: lessons/PM/PM
   sections:
   - file: lessons/PM/PM-Audit
-- file: lessons/publichealth/publichealth
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
   sections:
   - file: lessons/criticalthinking/criticalthinking-case1
 - file: lessons/socialscience/socialscience
+
+#Evaluation of public health considerations        2%
+#Evaluation of safety considerations                      2%
+#Evaluation of welfare considerations                    2%
+#Evaluation of global considerations                      2%
+#Evaluation of cultural considerations                   2%
+#Evaluation of the social considerations                              2%
+#Evaluation of the environmental considerations             2%
+#Evaluation of the economic considerations       2%
+#Evaluation of the sustainability in your design  2%
