@@ -21,6 +21,7 @@ chapters:
 - file: lessons/PM/PM
   sections:
   - file: lessons/PM/PM-Audit
+- file: lessons/publichealth/publichealth
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
   sections:
