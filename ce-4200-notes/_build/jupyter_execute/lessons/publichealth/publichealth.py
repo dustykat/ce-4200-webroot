@@ -94,12 +94,17 @@
 
 # ## Practical Steps for Students 
 # 
-# ### Learn and Research: Stay informed about public health principles.
-# ### Collaborate: Work with public health professionals in projects.
-# ### Design Thinking: Use design thinking to incorporate user feedback and public health needs into your designs.
-# ### Advocate: Promote health-focused engineering practices in your communities.
+# ### Learn and Research
+# Stay informed about public health principles.
 # 
-# Slide 8: Conclusion (5 minutes)
+# ### Collaborate
+# Work with public health professionals in projects.
+# ### Design Thinking
+# Use design thinking to incorporate user feedback and public health needs into your designs.
+# ### Advocate: 
+# Promote health-focused engineering practices in your communities.
+# 
+# ## Conclusion 
 # 
 # "We’ve seen how engineering decisions affect public health and how you can integrate these considerations into your work."
 # 
@@ -109,20 +114,15 @@
 
 # ## Benefit to Society
 # 
-# 
-# 
 # ## Benefit to the Engineer
-# 
-# to sign off on critical work.
-# 
-# - Expanded Service Offerings: Licensed engineers enable companies to offer a broader range of services. This is particularly beneficial in fields like civil engineering, where PEs can sign and approve designs for public works, buildings, and infrastructure projects. This flexibility allows a company to diversify its project portfolio.
-# 
-# - Reputation and Client Trust: Clients are more likely to trust companies that employ licensed professionals. A PE license signifies that the company adheres to stringent standards of quality and safety, which enhances client confidence and long-term business relationships.
-# 
 # 
 # 
 
 # ## References
+# 
+# 1. placeholder
+# 
+# 2. placeholder
 # 
 # 6. OpenAI (2024). Prompt: "Can you help me write a short script (for 40 minute presentation) on "Evaluation of Public Health Considerations" in the context of engineering design? The audience is engineering students about 4 years away from license eligibility?".  ChatGPT-4.0.  URL `https://chatgpt.com/c/66e1f0a5-21cc-800d-8b5a-ee9d9e8d2835`  
 # 
