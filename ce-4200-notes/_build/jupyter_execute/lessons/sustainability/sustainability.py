@@ -108,9 +108,11 @@
 # 
 # When evaluating sustainability in your designs, there’s a model called the Triple Bottom Line that we use: People, Planet, and Profit.
 # 
-# - People: Social impacts—How does your design impact communities and public health?
-# - Planet: Environmental impacts—What is the environmental footprint of your project? Are you considering renewable resources or minimizing waste?
-# - Profit: Economic impacts—How will your design contribute to long-term economic benefits?
+# ![](3BL.png)
+# 
+# - People: Social impacts—How does your design impact communities and public health? One component of the triple bottom line highlights a business’s societal impact, or its commitment to people. <br><br>It’s important to make the distinction between a firm’s shareholders and stakeholders. Traditionally, businesses have favored shareholder value as an indicator of success, meaning they strive to generate value for those who own shares of the company. As firms have increasingly embraced sustainability, they’ve shifted their focus toward creating value for all stakeholders impacted by business decisions, including customers, employees, and community members.<br><br>Some simple ways companies can make an impact on people—and serve future generations—include ensuring fair hiring practices and encouraging volunteerism in the workplace. They can also look externally to effect change on a larger scale. For instance, many organizations have formed successful strategic partnerships with nonprofit organizations that share a common purpose-driven goal.
+# - Planet: Environmental impacts—What is the environmental footprint of your project? Are you considering renewable resources or minimizing waste? Another component of the triple bottom line is concerned with making a positive impact on the planet.<br><br>Since the birth of the Industrial Revolution, large corporations have contributed a staggering amount of pollution to the environment, which has been a key driver of climate change and environmental concerns. A report by the International Energy Agency found that the global energy industry released 135 million tonnes of methane into the atmosphere in 2022.<br><br>While businesses have historically been the greatest contributors to climate change, they also hold the keys to driving positive change. Many business leaders are now recognizing their social responsibility to do so. This effort isn’t solely on the shoulders of the world’s largest corporations—virtually all businesses have opportunities to make changes that reduce their carbon footprint. Adjustments like using ethically sourced materials, cutting down on energy consumption, and streamlining shipping practices are steps in the right direction toward long-term sustainability.
+# - Profit: Economic impacts—How will your design contribute to long-term economic benefits?  In a capitalist economy, a firm’s success most heavily depends on its financial performance, or the profit it generates for shareholders. Strategic planning initiatives and key business decisions are generally carefully designed to maximize profits while reducing costs and mitigating risk.<br><br>In the past, many firms’ goals have solely focused on economic impact and growth. Now, purpose-driven leaders are discovering they have the power to use their businesses to effect positive change in the world without hampering financial performance. In many cases, adopting sustainability initiatives has proven to drive business success.
 
 # ## Case Study 1: Sustainable Building Design
 # 
@@ -207,10 +209,6 @@
 # - Delete this note when completed
 # :::
 
-# 
-
-# 
-
 # ## Is Sustainability Thermodynamically Possible?
 # 
 # Before we conclude, let’s consider a provocative question: Is sustainability even thermodynamically possible?
@@ -228,16 +226,20 @@
 # - Sustainability in practice involves creating systems that are highly efficient, minimizing waste and resource use, but not eliminating entropy completely.
 # 
 # ### Energy and Resource Inputs:
-# - The key is recognizing that sustainability isn’t about creating perpetual motion machines—it’s about smart design, where energy inputs are renewable, and resources are reused or recycled as much as possible.
+# - The key is recognizing that sustainability isn’t about creating perpetual motion machines—it’s about smart design, where energy inputs are renewable, and resources are reused or recycled as much as possible. 
 # - Even though some energy loss is inevitable, by relying on renewable energy sources (like solar, wind, and hydro), we can maintain a balance that mimics natural processes, like ecosystems that recycle nutrients.
+# - Or we could apply science computing an Exergy Footprint ExF, defined (Sciubba, 2012) as the amount of primary exergy (in J) globally consumed over the life of a commodity, including material, energy, labor, capital and environmental remediation costs and calculated on a life-time basis.
 # 
 # ### Pragmatic Sustainability:
 # - Sustainability is about managing resources intelligently—minimizing the depletion of non-renewable resources and reducing waste.
 # - It doesn’t mean we can entirely prevent energy loss or resource use, but we can slow down the rate at which we consume resources and ensure a regenerative approach.
 # 
 # :::{important}
-# Given the inevitability of entropy, how can we still strive for sustainability in engineering design? What role do renewable resources and efficiency play in this balance?
+# Given the inevitability of entropy, how can we still strive for sustainability in engineering design? What role do renewable resources and efficiency play in this balance? 
 # :::
+# 
+# A reference listed below has a philosophically important conclusion (Sciubba, 2021) "It is rather clear that the socio-economical interpretation must be supported by the thermodynamic one, in the sense that if a system “uses” the incoming exergy flow in a way that leads to a total net depletion rate of (fossil or renewable) exergy sources, no societal organizational form can survive in the long run unless new exergy inputs are provided at a sufficient rate. It is true that the specific form of the societal organization may affect the exergy depletion rate, but this does not imply that such a “minimum exergy consumption” society may be acceptable from an ethical point of view: this decision implies a *value choice* and is outside of the realm of Thermodynamics. Studies that do not separate these two issues are therefore bound to reach wrong and misleading conclusions."
+# 
 
 # ## References
 # 
@@ -253,6 +255,8 @@
 # 
 # 2. [B. K. Nguyen, A. Hasim (2011). *Comparative Review of Five Sustainable Rating Systems*, Procedia Engineering, Volume 21, Pages 376-386, ISSN 1877-7058,
 # https://doi.org/10.1016/j.proeng.2011.11.2029.](https://www.sciencedirect.com/science/article/pii/S1877705811048636)
+# 
+# 3. [Enrico Sciubba Sciubba, E. (2021) *A Thermodynamic Measure of Sustainability*.Frontiers in Sustainability Vol. 2. pp. 1-16 (print on demand, original paging unknown) https://doi.org/10.3389/frsus.2021.739395](https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2021.739395/full)
 # 
 # 6. OpenAI (2024). Prompt: "Can you help me prepare a short script (for 40 minute presentation) on "Evaluation of Public Health Considerations" in the context of engineering design? The audience is engineering students about 4 years away from license eligibility?".  ChatGPT-4.0.  URL `https://chatgpt.com/c/66e1f0a5-21cc-800d-8b5a-ee9d9e8d2835`  
 # 

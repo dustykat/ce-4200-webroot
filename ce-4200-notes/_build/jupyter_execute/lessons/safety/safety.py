@@ -1,161 +1,162 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Evaluation of Public Health Considerations 
+# # Evaluation of Safety Considerations 
 # 
 # **This topic is an ABET required topic transferred from CE 4330 to this course**
 # 
-# Because of their involvement with public works, civil and environmental engineers may seem to have the closest connection to public welfare. After all, civil engineers often work directly for government agencies such as FEMA, state highway departments, and municipal airport authorities. And private civil engineering consultants frequently serve government clients. Infrastructure projects such as roads, bridges, sewer systems, green stormwater infrastructure, dry docks, and canals almost never have private owners. And even privately owned buildings may be open to the public.
-# 
-# The Texas power outage of February 2021 should have come as no surprise to lawmakers, the utilities, or their regulator, Ercot. There had been a similar outage ten years before, followed by a thorough investigation and recommendations—but no action. As a result, **half of all Texans had no access to safe drinking water**, **millions** of homes were **without power or heat**, and **111 people died**.
+# You have had safety addressed directly in your laboratory classes, but safety is a broader topic.  It is largely the management of uncertainty - more uncertain, more effort at mitigation.  Here we quickly reveiw safety considerations.  
 
-# ## Why Public Health Matters in Engineering
+# ## Why Safety Matters in Engineering Design
 # 
-# - Definition of Public Health: Public health in an engineering design context refers to the integration of health principles and considerations into the planning, development, and implementation of engineering projects. This approach aims to enhance the well-being of communities by ensuring that designs promote safety, accessibility, sustainability, and the overall health of populations. It involves anticipating and mitigating health risks while maximizing positive health outcomes through innovative and inclusive engineering solutions. An overarching goal is protecting and improving the health of populations through education, policy-making, and research.
-# - Impact of Engineering: Infrastructure, products, and systems designed by engineers can significantly affect community health.
-# - Examples: Clean water systems, transportation design, waste management.
+# As engineers, we are tasked with solving problems, but those solutions must also be safe for users, the environment, and the general public.
 # 
-# :::{admonition} Discussion 
-# "Can anyone think of a recent engineering project that had a direct impact on public health?"
+# Key Points:
+# 
+# - Public Safety: Engineering designs must ensure public safety and minimize risks. For example, bridges must support weight under various conditions, electrical systems must prevent fires, and products should not harm users.
+# - Regulatory Compliance: Engineers must meet safety standards set by industry and governmental agencies, like OSHA or the National Institute of Standards and Technology (NIST).
+# - Professional Responsibility: According to the NSPE Code of Ethics, engineers must hold paramount the safety, health, and welfare of the public. This is non-negotiable in any project.
+
+# ## Risk Assessment and Hazard Identification
+# 
+# The first step in ensuring safety is to identify potential hazards and assess the risks they pose. This is often done through methods like Hazard Analysis or Failure Mode and Effects Analysis (FMEA).
+# 
+# Key Points:
+# 
+# - Risk Assessment: Involves identifying potential failure modes, estimating their likelihood, and evaluating their impact.
+# - Types of Hazards: Hazards can be physical (mechanical failures), chemical (toxic releases), environmental (natural disasters), or human-related (operator errors).
+# - Design Phase Considerations: Safety assessments must be built into the design phase, not after. If you find and address hazards early, you can design them out of the system.
+# 
+# :::{admonition} Choosing the right materials, and using enough 
+# For a bridge design, risks like material failure, overload, and seismic activity must be considered and mitigated.
 # :::
 
-# ## Key Public Health Considerations in Design 
+# ### Understanding Uncertainty in Engineering Design
 # 
-# Safety, accessibility, sustainability, and community engagement (stakeholder inputs) are key considerations in engineering design and construction.
-# - Safety: Designing safe products and infrastructure (e.g., traffic systems that reduce accidents).
-# - Accessibility: Ensuring that facilities are accessible to all, including those with disabilities.
-# - Sustainability: Considering environmental impacts (e.g., pollution from industrial processes).
-# - Community Engagement: Involving local communities in the design process to address specific health needs.
+# Uncertainty comes from a variety of sources. It can stem from:
 # 
-# ### Safety: Designing safe products and infrastructure 
-# - Overview: Safety is paramount in engineering design. Consider the implications of structural failures, product malfunctions, or hazardous materials.
-# - Example: In transportation engineering, designing roads with adequate signage, barriers, and pedestrian crossings reduces accidents and fatalities.
-# - Statistics: Use relevant statistics, such as the decrease in traffic-related injuries after implementing specific safety features to validate the emphasis on safety (often reduced injuried have direct economic benefit, and if it makes money - it will get built!)
+# 1. Inherent Variability: Natural systems, like the weather, water flow, or soil conditions, are not perfectly predictable. For example, in structural design, the load variability from wind, earthquakes, or traffic introduces uncertainty into our calculations.
 # 
-# ### Accessibility: Ensuring that facilities are accessible to all
-# - Overview: Accessibility ensures that all community members, regardless of physical abilities, can use facilities and services.
-# - Example: The Americans with Disabilities Act (ADA) sets standards for accessibility in public spaces. Engineering designs must comply with these regulations.
-# - Impact: Discuss how accessible design improves not just individual access, but also overall community health by promoting inclusion and mobility.
+# 2. Lack of Knowledge:When dealing with new technologies or materials, we often lack complete information about how they will perform over time. In emerging fields like renewable energy, for instance, engineers must consider the uncertainties in long-term performance data for materials like solar panels or batteries.
 # 
-# ### Sustainability: Considering environmental impacts
-# - Overview: Sustainable engineering practices help mitigate environmental impacts that can harm public health.
-# - Example: Designing energy-efficient buildings reduces greenhouse gas emissions, improving air quality.
-# - Long-term Benefits: Emphasize how sustainable designs contribute to resilience against climate change, which can lead to public health crises.
+# 3. Modeling Limitations: The models we use to simulate behavior often make assumptions that introduce uncertainty. Simplified models may fail to capture complex interactions between different factors, such as in fluid dynamics or thermal simulations.
 # 
-# ### Community Engagement: Involving local communities in the design process to address specific health needs.
-# - Overview: Engaging with communities during the design process ensures that their needs and concerns are addressed.
-# - Methods: Highlight tools like surveys, focus groups, and participatory design workshops.
-# - Outcome: Projects that incorporate community input often see greater acceptance and usage, leading to better public health outcomes.
+# 4. Human Factors: Uncertainty also arises from human error—whether it's operational mistakes, maintenance lapses, or incorrect assumptions during design and construction(therefore encompassing "lack of knowledge" and "model limitations" as human error).
 # 
-# :::{note}
-# To do:
-# - Include graphs or images showing the correlation between design decisions and public health outcomes. 
-# - Delete this note when completed
+# In each of these cases, engineers manage uncertainty by adopting risk mitigation strategies. As uncertainty increases, so should our efforts to ensure safety.
+# 
+# ### Uncertainty and Safety Effort—A Proportional Relationship
+# 
+# A key principle: The greater the uncertainty, the greater the effort required to mitigate risk.  Strategies include:
+# 
+# 1. Conservative Design: When uncertainty is high, we must design conservatively by increasing safety margins. This means designing structures to withstand conditions far beyond what we expect, just in case something unpredictable happens. Example: In earthquake-prone areas, buildings are often designed to handle seismic forces that are much higher than the most severe quake on record, accounting for the uncertainty in predicting future events.
+# 
+# 2. Redundancy: In situations with high uncertainty, engineers often use redundant systems to add layers of safety. Redundancy ensures that if one system fails, others can take over.  Example: In aviation, where uncertainty is high due to changing weather and complex mechanical systems, airplanes are designed with multiple engines, backup controls, and emergency systems.
+# 
+# 3. Advanced Monitoring and Feedback: One way to deal with uncertainty is by using real-time monitoring systems to gather data and adjust operations based on current conditions. Example: Large infrastructure projects, like dams and bridges, are equipped with sensors that monitor structural health, giving engineers critical information about how the system is performing under real-world conditions.
+# 
+# 4. Worst-Case Scenario Planning: When uncertainty is significant, engineers must evaluate worst-case scenarios and design systems that can handle extreme but possible conditions. Example: In chemical engineering, plants are designed to withstand potential explosions or hazardous material releases, even if the likelihood of such events is low. 
+
+# ### Case Study: Uncertainty in the Management of Flood Risks
+# 
+# Consider the real-world example of managing uncertainty in flood risk. Flood events are inherently uncertain—weather patterns, changes in land use, and climate change make it difficult to predict when or how severely flooding will occur.
+# 
+# Key Points:
+# 
+# - Designing for Uncertain Conditions: Engineers often design levees, dams, and stormwater systems with higher-than-expected flood levels in mind, based on historical data and future projections. However, with climate change, the uncertainty has grown, making it essential to consider extreme weather events.
+# - Mitigation Strategies: To mitigate the uncertainty of flooding, flood-prone areas are often equipped with early-warning systems and emergency plans. Additionally, floodwalls and drainage systems are designed with multiple layers of protection.
+# 
+# The more uncertain the future flood risk, the more effort must be put into designing robust infrastructure, establishing early warning systems, and creating contingency plans.
+
+# ### Safety Considerations in Uncertain Environments
+# 
+# Speaker: When uncertainty is present, safety is about managing risk proactively. Here are some strategies to consider:
+# 
+# - Probabilistic Risk Assessment (PRA): Instead of assuming fixed outcomes, PRA quantifies uncertainty by assessing the probability of various outcomes and their potential impact. It’s used in high-risk industries like nuclear energy or aerospace.
+# 
+# - Design for Flexibility: Design systems that can adapt to changes or unknown factors over time. For example, a bridge might be designed with expansion joints that allow for movement in response to unexpected loads or shifts in the earth.
+# 
+# - Robust Design: Ensure that the system can withstand a range of conditions without failure. A robust design doesn’t just perform well under expected conditions; it holds up under the unexpected as well.
+# 
+# - Iterative Testing: With high uncertainty, engineers often perform multiple rounds of testing and simulation. Each test reduces uncertainty by providing more data, leading to refinements in the design.
+
+# ### Mitigating Uncertainty to Ensure Safety
+# 
+# In summary, safety considerations become even more critical when there is uncertainty. The higher the uncertainty, the more effort is needed to ensure that our designs can withstand unpredictable conditions. Whether through conservative design, redundancy, or worst-case scenario planning, we must proactively address uncertainty to protect public safety.
+# 
+# :::{important}
+# Remember, as future engineers, it’s not about eliminating uncertainty—it’s about managing it effectively so that, even in the face of the unknown, the systems we design remain safe and reliable.
 # :::
 
-# ## Case Study 1: TEPCO Fukushima Power Plant
+# ## Designing for Safety—Key Strategies
 # 
-# The Fukushima Daiichi nuclear disaster, triggered by the 2011 Great East Japan Earthquake and Tsunami, was one of the most significant nuclear accidents in history, second only to the Chernobyl disaster. While the initial event occurred in 2011, the 2014 report by TEPCO (Tokyo Electric Power Company) detailed the ongoing challenges in managing the crisis, the failures of engineering design, and the subsequent impact on public health.
+# Strategies to incorporate safety into engineering designs include:
 # 
-# The Fukushima disaster highlighted critical issues related to engineering design in the nuclear industry, as well as long-lasting consequences for public health and environmental safety. These factors are intertwined, as engineering decisions directly influenced the magnitude of the disaster and the public's exposure to hazardous radioactive materials.
-# Engineering Design and Failure
+# 1. Redundancy: Incorporating redundant systems means that if one part fails, another system can take over to prevent disaster. For example, airplanes have multiple engines, and electrical systems often have backup power sources.
 # 
-# At the core of the Fukushima disaster was a failure in engineering design and risk assessment. The earthquake and tsunami that struck Japan on March 11, 2011, were extreme but not entirely unforeseeable. The plant’s defenses, however, were inadequate to handle the combined force of natural disasters of such magnitude. The plant had been designed to withstand an earthquake, but its tsunami defenses were insufficient.
+# 2. Fail-Safe Designs: Fail-safes are mechanisms that automatically bring a system to a safe state in the event of a failure. An example is a circuit breaker in electrical systems, which cuts power when a fault is detected.
 # 
-# ### Key engineering failures included:
+# 3. Safety Margins: Engineers use safety margins to ensure that structures or systems can withstand conditions beyond what they’re designed for. For example, a bridge may be designed to carry twice the maximum expected load to account for unforeseen stresses. ("When in doubt built it stout!")
 # 
-# - Insufficient tsunami protection: The seawall built to protect the plant was only 10 meters high, while the tsunami waves reached heights of 14 to 15 meters. This allowed seawater to flood the facility, knocking out power systems that were critical for cooling the nuclear reactors.
-# - Vulnerability of backup systems: The plant relied on diesel generators for emergency cooling in the event of power loss, but these generators were located in areas vulnerable to flooding. When the tsunami hit, it disabled these systems, leading to a catastrophic overheating of the reactors and a series of explosions and meltdowns.
-# - Failure to upgrade safety systems: Despite previous warnings from experts about the potential for a large-scale tsunami, TEPCO had not implemented significant upgrades to the plant’s safety systems. There was a reliance on outdated risk assessments that underestimated the potential magnitude of natural disasters.
+# 4. Ergonomics and Human Factors: Designs must also account for human error. Equipment, interfaces, and systems should be intuitive and designed with the user in mind to minimize the chance of misuse.  
 # 
-# The engineering failures at Fukushima were not just technical; they were also failures in risk management and decision-making. The plant’s design did not fully account for the region's seismic and hydrological risks, and emergency planning and backup systems were inadequate.
-# Public Health Consequences
-# 
-# The immediate and long-term public health impacts of the Fukushima disaster have been profound. In the short term, the release of radioactive materials, including iodine-131, cesium-137, and strontium-90, led to contamination of air, water, and soil, posing serious health risks to nearby populations.
-# 
-# - Evacuation and radiation exposure: Over 150,000 people were evacuated from the areas surrounding the Fukushima plant, many of whom faced prolonged displacement. Despite the evacuation, some individuals were exposed to elevated levels of radiation, especially through contaminated food and water.
-# - Thyroid cancer and other health effects: One of the major concerns after the disaster was the potential for increased rates of thyroid cancer, especially in children exposed to iodine-131. While a conclusive link between the disaster and thyroid cancer has been debated, there has been an observed increase in thyroid abnormalities among young people in the region.
-# - Mental health and social consequences: Beyond physical health impacts, the disaster also had significant psychosocial effects. The trauma of displacement, the fear of radiation, and the long-term uncertainty about the safety of returning home have contributed to increased rates of depression, anxiety, and other mental health issues.
-# 
-# ### Engineering Design Lessons and Reforms
-# 
-# The Fukushima disaster underscored the critical importance of robust engineering design in high-risk industries like nuclear energy. In the wake of the disaster, several lessons emerged for engineers and policymakers:
-# 
-# - Design for extreme events: Engineering designs must account for extreme, low-probability events, particularly in high-risk industries. The failure to anticipate a tsunami of the magnitude that hit Fukushima was a major oversight, and future designs must incorporate a broader range of disaster scenarios.
-# - Redundancy and resilience: The failure of backup systems at Fukushima highlighted the need for redundant safety systems that are resistant to multiple modes of failure. Emergency power systems, for instance, should be designed to operate even under extreme conditions such as flooding or fire.
-# - Adaptive safety standards: Engineering safety standards must be dynamic and responsive to new information and evolving risks. In the case of Fukushima, warnings about the potential for a large tsunami had been raised years before the disaster, but safety upgrades were not implemented. A more adaptive approach to risk management, where designs are regularly reassessed and updated based on new data, is essential.
-# - Public communication and transparency: The Fukushima disaster also highlighted the importance of clear communication between engineers, policymakers, and the public. Delays in sharing critical information about radiation levels and safety measures contributed to confusion and mistrust among the public. Transparent decision-making processes are crucial in maintaining public confidence during crises.
-# 
-# ### Conclusion
-# 
-# The 2011 TEPCO Fukushima power plant failure continues to serve as a sobering reminder of the deep interconnections between engineering design and public health. The disaster was a consequence of engineering miscalculations, insufficient risk assessment, and a failure to prepare for extreme events, which had profound impacts on the health and well-being of the local population. Going forward, the lessons learned from Fukushima should drive stronger, more resilient designs, more effective risk management, and an unwavering commitment to public safety in the engineering of critical infrastructure.
-
-# ## Case Study 2: Broad Street Pump
-# In the mid-19th century, London experienced a devastating cholera outbreak, with thousands of deaths attributed to the waterborne disease. At the time, the prevailing theory blamed miasma, or "bad air," rather than contaminated water. Dr. John Snow, a physician and pioneer in epidemiology, challenged this notion.
-# 
-# In 1854, during a severe outbreak in Soho, Snow meticulously mapped cholera cases and identified a significant cluster around the Broad Street pump. He hypothesized that contaminated water from the pump was the source of the outbreak. After persuading local authorities to remove the pump's handle, the number of new cases drastically declined, providing compelling evidence of the link between water quality and public health.
-# 
-# Snow's work not only helped curb the outbreak but also laid the groundwork for modern public health practices, emphasizing the importance of clean water and sanitation. His findings ultimately contributed to **major improvements in London's water supply and sewage systems**, significantly **reducing cholera** cases and enhancing public health in the city.
-# 
-# :::{admonition} Discussion 
-# "What engineering challenges did you think had to be overcome in this case?"
-# :::
-# 
-# ### Background: 
-# Historically, poor water quality led to widespread disease.  
-# ### Engineering Solution(s): 
-# Implementation of filtration, biochemical treatment systems, and disinfection technologies are examples of engineering solutions, which combined with continuous (daily) monitoring greatly improve delivered water quality.
-# ### Public Health Outcome(s): 
-# Fewer waterborne disease outbreaks
-
-# ## Case Study 3: Urban Transportation 
-# words
-# 
-# ### Background: 
-# Traffic congestion and accidents as public health issues.  Urban areas often struggle with traffic congestion, which contributes to air pollution and physical inactivity.
-# ### Engineering Solutions: 
-# - Bike Lanes: Encourage cycling, leading to healthier lifestyles.
-# - Public Transit Improvements: Discuss investments in buses and subways that reduce car dependency and associated emissions.
-# - Pedestrian Infrastructure: Creating walkable neighborhoods fosters community interaction and promotes physical activity.
-#     
-# ### Public Health Outcome: 
-# Reduced air pollution and improved community health metrics. Reference studies showing reductions in asthma rates and obesity levels in cities that have prioritized active transportation.
-# 
-# :::{admonition} Discussion 
-# "Have you noticed any changes in your local transportation systems that have aimed to improve public health?"
-# :::
-# 
-# :::{note}
-# To do:
-# - Include graphs or images showing the correlation between design decisions and public health outcomes. 
-# - Delete this note when completed
+# :::{admonition} Example: 
+# In machinery design, adding guards or automatic shut-offs to protect operators from injury is an essential safety measure.
 # :::
 
-# ## Practical Steps for Students 
+# ## Case Study: The 2010 Deepwater Horizon Incident
 # 
-# ### Learn and Research
-# Stay informed about public health principles.
+# To illustrate the importance of safety considerations, let’s briefly discuss the [Deepwater Horizon oil spill in 2010](https://www.youtube.com/watch?v=VfZlaa3VHaw). One of the largest environmental disasters in history, it was caused in part by design failures in safety systems.
 # 
-# ### Collaborate
-# Work with public health professionals in projects.
-# ### Design Thinking
-# Use design thinking to incorporate user feedback and public health needs into your designs.
-# ### Advocate: 
-# Promote health-focused engineering practices in your communities.
+# Key Lessons:
 # 
-# ## Conclusion 
+# - Poor Risk Assessment: Safety measures were either insufficient or bypassed, particularly with the blowout preventer, which failed to contain the well.
+# - Lack of Redundancy: Critical systems lacked adequate backup, meaning that once one safety mechanism failed, there was no alternative in place.
+# - Pressure to Cut Costs: Financial and time constraints led to shortcuts being taken with safety procedures, showing the danger of prioritizing profits over safety.
 # 
-# "We’ve seen how engineering decisions affect public health and how you can integrate these considerations into your work."
+# This case emphasizes the importance of thorough risk assessment and ensuring that safety systems are robust and effective.
+
+# ## Safety Standards and Regulations
 # 
-# :::{admonition} Include documented consideration of public health in your designs
-# "As you progress in your engineering careers, always remember: the designs you create can lead to healthier communities. Let’s engineer a better future!"
+# Every engineering discipline is guided by safety standards that must be adhered to. These standards are set by industry organizations, governmental bodies, and international agencies.
+# 
+# Key Points:
+# 
+# - ISO and ANSI Standards: Many industries are governed by ISO or ANSI standards that ensure products and processes meet minimum safety requirements.
+# - Industry-Specific Standards: Fields like civil, electrical, and mechanical engineering have their own specific safety guidelines, such as building codes, electrical safety standards (NFPA 70), and machinery safety (ISO 12100).
+# - Regulatory Bodies: Agencies like the Occupational Safety and Health Administration (OSHA) and Environmental Protection Agency (EPA) enforce safety standards to protect workers, the public, and the environment.
+# 
+# :::{warning}
+# Engineers deal with enormous forces.  If you cannot put enough mass between you (or your clients) and the force, then you need to locate yourself outside the line-of-action of that force.  Its quite possible to operate with phenomenally dangerous forces, if you can remember to get away from of the line of action! Even if an authentic accident occurs, the loss of life and limb is greatly minimized.
 # :::
+
+# ## The Cost of Failing to Address Safety
+# 
+# The cost of ignoring safety in engineering design can be catastrophic. Beyond the obvious risk to human life, there are also financial, legal, and reputational consequences.
+# 
+# Key Points:
+# 
+# - Human Cost: The primary risk is injury or death. Designs that fail to account for safety put lives in danger.
+# - Legal Consequences: Failing to meet safety standards can lead to lawsuits, fines, and legal liability for companies and engineers.
+# - Reputation: A single failure can damage the reputation of a firm or an engineer for years to come. Public trust is hard to regain after a safety-related disaster.
+# 
+# Example: The [Tacoma Narrows Bridge collapse in 1940](https://www.youtube.com/watch?v=esfpcnQW6qs) is a classic example of engineering design failure due to inadequate knowledge of wind-induced vibrations. While there was no loss of life, the collapse led to significant financial losses and a complete redesign of suspension bridges.
+
+# ##  Safety in Your Future Engineering Practice
+# 
+# As future engineers, you’ll need to incorporate safety into every stage of your projects. This doesn’t just mean following regulations -- it means **proactively** identifying risks, **planning** for failures, and designing with safety in mind.
+# 
+# Key Points:
+# 
+# - Start with Safety: Safety considerations shouldn’t be an afterthought. They must be part of the design process from the very beginning.
+# - Stay Current with Regulations: Safety standards evolve, and engineers must stay updated with the latest regulations and best practices.
+# - Ethical Responsibility: Remember that your primary responsibility as an engineer is to protect the public. Safety is a direct extension of this ethical obligation.
 
 # ## References
 # 
-# 1. [van Gelder, Pieter et al. “Safe-by-Design in Engineering: An Overview and Comparative Analysis of Engineering Disciplines.” International journal of environmental research and public health vol. 18,12 6329. 11 Jun. 2021, doi:10.3390/ijerph18126329](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8296130/)
+# 1. [Design of blast-resistant buildings in petrochemical facilities / prepared by Task Committee on Blast- Resistant Design of the Petrochemical Committee of the Energy Division of the American Society of Civil Engineers. -- 2nd ed.](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/safety/Design_of_Blast-Resistant_Buildings_in_Petrochemical_Facilities_V2.pdf)
 # 
-# 2. [https://www.nae.edu/281423/Engineering-and-Design-Factors-for-Healthful-Built-Environments](https://www.nae.edu/File.aspx?id=281060)
+# 2. []()
 # 
 # 6. OpenAI (2024). Prompt: "Can you help me prepare a short script (for 40 minute presentation) on "Evaluation of Public Health Considerations" in the context of engineering design? The audience is engineering students about 4 years away from license eligibility?".  ChatGPT-4.0.  URL `https://chatgpt.com/c/66e1f0a5-21cc-800d-8b5a-ee9d9e8d2835`  
 # 

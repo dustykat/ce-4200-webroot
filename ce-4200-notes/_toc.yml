@@ -20,6 +20,8 @@ chapters:
   sections:
   - file: lessons/fereview/FER-math
   - file: lessons/fereview/FER-statistics
+  - file: lessons/fereview/MechanicsMaterials/FER-MechanicsMaterials
+  - file: lessons/fereview/MaterialsScience/FER-MaterialsScience
 # Business Issues
 - file: lessons/qbs/qbs
 - file: lessons/leadershit/leadershit
@@ -33,12 +35,12 @@ chapters:
   - file: lessons/criticalthinking/criticalthinking-case1
 - file: lessons/socialscience/socialscience
 
-#Evaluation of public health considerations        2%
-#Evaluation of safety considerations                      2%
+##Evaluation of public health considerations        2%
+##Evaluation of safety considerations                      2%
 #Evaluation of welfare considerations                    2%
 #Evaluation of global considerations                      2%
 #Evaluation of cultural considerations                   2%
 #Evaluation of the social considerations                              2%
 #Evaluation of the environmental considerations             2%
 #Evaluation of the economic considerations       2%
-#Evaluation of the sustainability in your design  2%
+##Evaluation of the sustainability in your design  2%
