@@ -29,16 +29,12 @@
 # 
 # 1. Hold paramount the safety, health, and welfare of the public.
 #   - Your primary responsibility is always to protect the public. This includes designing safe systems, ensuring quality, and considering the environmental impact of your projects.
-# 
 # 2. Act with honesty and integrity.
 #   - Ethical engineers avoid deception and misrepresentation. Always be transparent with data, project limitations, and potential risks.
-# 
 # 3. Provide competent services.
 #   - Never accept a task you are not qualified to handle. Seek guidance, collaborate, or refer the work to someone with the appropriate expertise.
-# 
 # 4. Disclose potential conflicts of interest.
 #   - Avoid situations where personal interests might conflict with your professional duties. Full transparency is crucial.
-# 
 # 5. Continue professional development.
 #   - Ethical engineers commit to lifelong learning, staying updated with the latest technology and regulations to ensure they can serve society to the best of their abilities.
 
@@ -73,13 +69,10 @@
 # 1. Why is it important for engineers to study past failures?
 #   - Explore how understanding failures can prevent future mistakes.
 #   - Consider the role failures play in improving safety standards, codes, and regulations.
-# 
 # 2. What can be learned from a failure that cannot be learned from success?
 #   - Discuss the unique insights gained when things go wrong, such as the identification of unforeseen weaknesses in systems or designs.
-# 
 # 3. How can studying failures enhance ethical decision-making?
 #   - Explore how learning from ethical lapses that contributed to failures can promote a safety-first mindset and instill a deeper sense of responsibility.
-# 
 # 4. What role does failure play in innovation?
 #   - Consider how studying failure can lead to advancements in technology, materials, and methods by revealing limitations and areas for improvement.
 # 
@@ -87,13 +80,10 @@
 # 
 # 1. Improved Risk Awareness and Management
 #   - By studying past failures, engineers gain a better understanding of risks in their designs, allowing for more informed decision-making and proactive risk mitigation strategies.
-# 
 # 2. Development of Stronger Ethical Standards
 #   - Failure studies highlight the ethical responsibilities of engineers, reinforcing the need to prioritize public safety over cost-saving or external pressures.
-# 
 # 3. Enhanced Learning and Problem-Solving Skills
 #   - Analyzing failures sharpens engineers’ critical thinking and problem-solving abilities, as they learn to identify, assess, and address complex issues that may not be apparent in successful projects.
-# 
 # 4. Informed Design and Policy Improvements
 #   - Learning from failure drives the continuous improvement of engineering standards, practices, and regulatory frameworks, contributing to the overall resilience and reliability of infrastructure and systems.
 # :::
