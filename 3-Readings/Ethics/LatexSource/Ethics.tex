@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Engineering Ethics -- An Essay}
+\author{Theodore G. Cleveland, Ph.D., P.E.\\}
+\date{2 May 2007}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\include{introduction}
+\include{philosophical}
+\include{bribery}
+\include{ethics_law}
+\include{making_ethical_choices}
+\include{code_of_ethics}
+\include{documenting}
+\include{bibliography}
+\end{document}   
