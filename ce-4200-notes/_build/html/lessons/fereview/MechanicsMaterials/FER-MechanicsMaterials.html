@@ -127,6 +127,11 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="../../ethics/ethics.html">
+   Engineering Ethics
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="../../publichealth/publichealth.html">
    Evaluation of Public Health Considerations
   </a>
@@ -395,6 +400,11 @@
      Example 2
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#example-3">
+     Example 3
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -407,11 +417,6 @@
      Example 1
     </a>
    </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id5">
-     Example 2
-    </a>
-   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -420,17 +425,17 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id6">
+    <a class="reference internal nav-link" href="#id5">
      Example 1
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id7">
+    <a class="reference internal nav-link" href="#id6">
      Example 2
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#example-3">
+    <a class="reference internal nav-link" href="#id7">
      Example 3
     </a>
    </li>
@@ -520,13 +525,111 @@
 </div>
 <div class="section" id="axial-stress-and-strain">
 <h2>Axial Stress and Strain<a class="headerlink" href="#axial-stress-and-strain" title="Permalink to this headline">¶</a></h2>
+<p>Axial stress is the ratio of the applied (axial) force to member cross-sectional area.</p>
+<p><span class="math notranslate nohighlight">\(\sigma=\frac{F}{A_0}\)</span></p>
+<p>Strain is the associated change in member length and radius</p>
+<p><span class="math notranslate nohighlight">\(\epsilon = \frac{\Delta L}{L_0}\)</span>  <span class="math notranslate nohighlight">\(\epsilon_r = \frac{\Delta R}{R_0}\)</span></p>
+<p>The material properties are related to the forces and deformation via the elastic modulus</p>
+<p><span class="math notranslate nohighlight">\(E = \frac{\sigma}{\epsilon}\)</span>  The vaues are tabulated for different common materials.</p>
+<p>Poisson’s ratio is the ratio of radial deformation to length deformation</p>
+<p><span class="math notranslate nohighlight">\(\nu = -\frac{\epsilon_r}{\epsilon}\)</span>  The values are tabulated for different materials.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Stress has dimensions of a pressure (sometimes called solids pressure).  The strain is normalized deformation.  The deformation is proportional to the solids pressure. In elastic region the elastic modulus (below) is the constant of proportionality.</p>
+<p>Consider a linear spring, Hookes law states:</p>
+<p><span class="math notranslate nohighlight">\(F=k \Delta x\)</span></p>
+<p>Divide by area</p>
+<p><span class="math notranslate nohighlight">\(\frac{F}{A}=\frac{k}{A} \Delta x\)</span></p>
+<p>Multiply RHS by unity</p>
+<p><span class="math notranslate nohighlight">\(\sigma=\frac{k}{A} \Delta x \frac{L}{L}\)</span></p>
+<p>Algebra</p>
+<p><span class="math notranslate nohighlight">\(\sigma=\frac{k L}{A} \frac{\Delta x}{L}\)</span></p>
+<p>The first term on RHS is the modulus of elasticity, <span class="math notranslate nohighlight">\(E\)</span>, the second term is the axial strain <span class="math notranslate nohighlight">\(\epsilon\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(\sigma=E \epsilon\)</span></p>
+</div>
 <div class="section" id="example-1">
 <h3>Example 1<a class="headerlink" href="#example-1" title="Permalink to this headline">¶</a></h3>
+<p>A 1 in. diameter aluminum rod becomes 0.007 in. longer from a 1500 lbf tensile load.</p>
+<p>Determine:</p>
+<ol class="simple">
+<li><p>The rod’s initial length.</p></li>
+<li><p>The change in radius caused by the applied load.</p></li>
+</ol>
+<p><strong>Solution</strong></p>
+<p>Sketch the situation:</p>
+<p><img alt="" src="../../../_images/AlRod.png" /></p>
+<p>Write governing principles:</p>
+<p><span class="math notranslate nohighlight">\(\epsilon = \frac{\Delta L}{L_0}\)</span></p>
+<p>Isolate unknown:</p>
+<p><span class="math notranslate nohighlight">\(L_0  = \frac{\Delta L}{\epsilon}\)</span></p>
+<p>Find <span class="math notranslate nohighlight">\(\epsilon\)</span> from material properties lookup</p>
+<p><span class="math notranslate nohighlight">\(E = 10 \times 10^{6}~psi\)</span></p>
+<p>Apply definition of elastic modulus</p>
+<p><span class="math notranslate nohighlight">\(\epsilon = \frac{4 F}{\pi D_0^{2}} \times \frac{1}{E}\)</span></p>
+<p><strong>Calculate</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="c1"># input values</span>
+<span class="n">elastic_modulus</span> <span class="o">=</span> <span class="mf">10.0e06</span> <span class="c1">#psi</span>
+<span class="n">diameter</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="c1">#inches</span>
+<span class="n">axial_load</span> <span class="o">=</span> <span class="mi">1500</span> <span class="c1">#lbf</span>
+<span class="n">delta_L</span> <span class="o">=</span> <span class="mf">0.007</span> <span class="c1">#inches</span>
+<span class="c1"># calculated values</span>
+<span class="n">epsilon</span> <span class="o">=</span> <span class="p">(</span><span class="mf">4.0</span><span class="o">*</span><span class="n">axial_load</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">elastic_modulus</span><span class="o">*</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">diameter</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">initial_length</span><span class="o">=</span><span class="n">delta_L</span><span class="o">/</span><span class="n">epsilon</span>
+<span class="c1"># result</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Strain&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">epsilon</span><span class="p">,</span><span class="mi">7</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Initial length :&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">initial_length</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span><span class="s2">&quot; inches&quot;</span><span class="p">)</span>
+</pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Strain 4.77e-05
+Initial length : 146.608  inches
+</pre></div>
+</div>
+</div>
+</div>
+<p>Governing principles</p>
+<p><span class="math notranslate nohighlight">\(\Delta R=-\frac{\epsilon_r}{\epsilon} \times \epsilon \times R_0\)</span></p>
+<p>The first term in the RHS is Poisson’s ratio</p>
+<p><span class="math notranslate nohighlight">\(\Delta R=-\nu \times \epsilon \times R_0\)</span></p>
+<p>Find <span class="math notranslate nohighlight">\(\nu\)</span> from material properties lookup</p>
+<p><span class="math notranslate nohighlight">\(\nu = 0.33\)</span></p>
+<p><strong>Calculate</strong></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">poisson_ratio</span> <span class="o">=</span> <span class="mf">0.33</span>
+<span class="n">deltaR</span> <span class="o">=</span> <span class="o">-</span><span class="n">poisson_ratio</span><span class="o">*</span><span class="n">epsilon</span><span class="o">*</span><span class="p">(</span><span class="mf">0.5</span><span class="o">*</span><span class="n">diameter</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Radius change :&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">deltaR</span><span class="p">,</span><span class="mi">7</span><span class="p">),</span><span class="s2">&quot; inches&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Radius change : -1.58e-05  inches
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="example-2">
 <h3>Example 2<a class="headerlink" href="#example-2" title="Permalink to this headline">¶</a></h3>
+<p>Determine the change in the length of the 4 mm diameter steel wire</p>
+<p><img alt="" src="../../../_images/Cantilever.png" /></p>
+<p><strong>Solution</strong></p>
+<p>Look-up value for elastic modulus of steel</p>
+<p><span class="math notranslate nohighlight">\(E=210~GPa\)</span></p>
+<p>Draw FBD to analyze forces</p>
+<p><img alt="" src="../../../_images/FBDCantilever.png" /></p>
+<p>Moment at pivot solve for wire tension</p>
+<p><img alt="" src="../../../_images/ForceBalance.png" /></p>
+<p>Solve for deformation (observe radius is 2 mm)</p>
+<p><img alt="" src="../../../_images/SolveForDeform.png" /></p>
 </div>
 </div>
+<hr class="docutils" />
 <div class="section" id="thermal-strain">
 <h2>Thermal Strain<a class="headerlink" href="#thermal-strain" title="Permalink to this headline">¶</a></h2>
 <p>Materials expand/contract with <span class="math notranslate nohighlight">\(\Delta\)</span>Temp.</p>
@@ -546,68 +649,255 @@
 <h3>Example 1<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>A steel rod (E=210 GPa, <span class="math notranslate nohighlight">\(\alpha =11.7 \times 10^{-6}~\text{per}~C^{o}\)</span> is constrained and heated. What is the stress induced by a 40<span class="math notranslate nohighlight">\(C^o\)</span> increase in temperature?</p>
 <p><strong>Use Virtual Work</strong></p>
-<ol class="simple">
-<li><p>Let the rod deform, then determine force required to squeeze back into <span class="math notranslate nohighlight">\(L_0\)</span>. Divide this force by cross sectional area to obtain normal stress (<span class="math notranslate nohighlight">\(\sigma\)</span>)</p></li>
-</ol>
-<p><img alt="" src="../../../_images/thermalstress.png" /></p>
-<ol class="simple">
-<li><p>Apply axial stress equivalent to the thermal deformation</p></li>
-</ol>
-<p><img alt="" src="../../../_images/thermalstress2.png" /></p>
+<p>1 Let the rod deform, then determine force required to squeeze back into <span class="math notranslate nohighlight">\(L_0\)</span>. Divide this force by cross sectional area to obtain normal stress (<span class="math notranslate nohighlight">\(\sigma\)</span>)</p>
+<p><img alt="" src="../../../_images/thermalstressReplace.png" /></p>
+<p><span class="math notranslate nohighlight">\(\Delta L = \alpha L_0 (T-T_0)\)</span></p>
+<p><span class="math notranslate nohighlight">\(\frac{\Delta L}{L_0} = \epsilon_T = \alpha (T-T_0) \)</span></p>
+<p>2 Apply axial stress equivalent to the thermal deformation</p>
+<p><span class="math notranslate nohighlight">\(\epsilon_T E = \sigma = \frac{F}{A_0}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\sigma = \alpha (T-T_0) E = (11.7 \times 10^{-6}/^oC)(40^oC)(210 \times 10^9~Pa)=98.2 \times 10^3~kN/m^2=98.2~MPa\)</span></p>
 </div>
 </div>
 <div class="section" id="shear-and-bending-diagrams">
 <h2>Shear and Bending Diagrams<a class="headerlink" href="#shear-and-bending-diagrams" title="Permalink to this headline">¶</a></h2>
+<p>Represents beam’s internal effects in resisting bending, shear, and torsion.</p>
+<p><img alt="" src="../../../_images/bendsheartwist.png" /></p>
+<p>Action/reaction requires <span class="math notranslate nohighlight">\(V\)</span> (shear), <span class="math notranslate nohighlight">\(M\)</span> (bending) , and <span class="math notranslate nohighlight">\(T\)</span> (torsion) to be equal and opposite at internal surface.</p>
+<p>For in-plane (only, no torsion) only consider <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(M\)</span>.</p>
+<p><img alt="" src="../../../_images/VandM.png" /></p>
+<p>Consider the loading below, drawing shear and bending follows simple steps.</p>
+<p><img alt="" src="../../../_images/ShearBendBlank.png" /></p>
+<ol class="simple">
+<li><p>Find all external reactions.  In the diagram above, there are two reactions that are non-zero and in the vertical direction.  We can find magnitude from the Moment at the left support.<br><br> In the drawing if the distance from the left support to the load is <span class="math notranslate nohighlight">\(L_1\)</span>, then the vertical reaction is <span class="math notranslate nohighlight">\(F(\frac{L_1}{L})\)</span>.  The reaction at the roller support is <span class="math notranslate nohighlight">\(F(\frac{L-L_1}{L})\)</span></p></li>
+<li><p>Isolate, determine equilibrium conditions (<span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(M\)</span>)</p></li>
+<li><p>Move section boundary to find <span class="math notranslate nohighlight">\(V\)</span> and <span class="math notranslate nohighlight">\(M\)</span> and new location.</p></li>
+<li><p>Point loads and couples produce discontinuous changes in <span class="math notranslate nohighlight">\(V\)</span> and/or <span class="math notranslate nohighlight">\(M\)</span>.</p></li>
+<li><p>Distributed loads <br><br> <span class="math notranslate nohighlight">\(\frac{d}{dx}(\frac{dM}{dx}) = - w(x)\)</span> <br><br>where <span class="math notranslate nohighlight">\(w(x)\)</span> is the distributed load function.<br><br>Integrate to recover shear<br><br> <span class="math notranslate nohighlight">\(\frac{dM}{dx} = V(x) = \int{-w(x)dx} = -w(x) \cdot x + C\)</span>  <br><br> Integrate again to generate bending moment diagram <br><br> <span class="math notranslate nohighlight">\(M = \int{V(x)dx} = \frac{-w(x)x^2}{2}+Cx+D\)</span><br><br>where <span class="math notranslate nohighlight">\(C\)</span> and <span class="math notranslate nohighlight">\(D\)</span> are constants of integration.</p></li>
+</ol>
+<p><img alt="" src="../../../_images/ShearBendDraw.png" /></p>
 <div class="section" id="id2">
 <h3>Example 1<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Find maximum shear force and its location.</p>
+<p><img alt="" src="../../../_images/Example1Load.png" /></p>
+<p><strong>Find Reactions</strong></p>
+<p>Draw reaction unknowns, replace distributed force by equivalent point load.</p>
+<p><img alt="" src="../../../_images/Ex1Reactions.png" /></p>
+<p><strong>Apply Moment balance at A to find vertical reaction at B</strong></p>
+<p><img alt="" src="../../../_images/Ex1Breaction.png" /></p>
+<p><strong>Apply Static equilibrium balance to find vertical reaction at A</strong></p>
+<p><img alt="" src="../../../_images/Ex1Areaction.png" /></p>
+<p><strong>Draw shear diagram</strong> (recall the distributed force is continuous over its interval)</p>
+<p><img alt="" src="../../../_images/Ex1Shear.png" /></p>
+<p><span class="math notranslate nohighlight">\(V_{max} = P\)</span> located at</p>
+<p><span class="math notranslate nohighlight">\(x=2L\)</span></p>
 </div>
 <div class="section" id="id3">
 <h3>Example 2<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Find the maximum bending moment (for the same load conditions above)</p>
+<p><img alt="" src="../../../_images/Example1Load.png" /></p>
+<p><strong>Integrate the shear diagram to obtain a bending moment diagram</strong></p>
+<p><img alt="" src="../../../_images/Ex2Bending.png" /></p>
+</div>
+<div class="section" id="example-3">
+<h3>Example 3<a class="headerlink" href="#example-3" title="Permalink to this headline">¶</a></h3>
+<p>Sketch the shear and bending moment diagrams for the loading below:</p>
+<p><img alt="" src="../../../_images/Cantilever.png" /></p>
+<p><strong>Apply Steps Above</strong></p>
+<p><img alt="" src="../../../_images/Ex3MandV.png" /></p>
 </div>
 </div>
 <div class="section" id="bending-stress">
 <h2>Bending Stress<a class="headerlink" href="#bending-stress" title="Permalink to this headline">¶</a></h2>
+<p>Models internal stress in a section relative to a neutral axis.</p>
+<p><img alt="" src="../../../_images/InternalStress.png" /></p>
+<p>Bending formula <span class="math notranslate nohighlight">\(\sigma = - \frac{My}{I}\)</span></p>
+<p>where</p>
+<p><span class="math notranslate nohighlight">\(M\)</span> is the bending moment at position <span class="math notranslate nohighlight">\(y\)</span> from a neutral axis, and</p>
+<p><span class="math notranslate nohighlight">\(I\)</span> is the second moment of area for the section.</p>
+<p><span class="math notranslate nohighlight">\(y\)</span> and <span class="math notranslate nohighlight">\(I\)</span> are measured from the centroid of the section, but the parallel axis theorem can be applied if the centroidal values are not readily available.  <span class="math notranslate nohighlight">\(I=I_{c} + A d^2\)</span> where <span class="math notranslate nohighlight">\(d\)</span> is the distance from the neutral axis to the centroid</p>
+<p><img alt="" src="../../../_images/NeutralAxis.png" /></p>
 <div class="section" id="id4">
 <h3>Example 1<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id5">
-<h3>Example 2<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Find the maximum bending stress in the beam</p>
+<p><img alt="" src="../../../_images/CantileverBeam.png" /></p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/CantileverBeamBending.png" /></p>
 </div>
 </div>
 <div class="section" id="shear-stress">
 <h2>Shear Stress<a class="headerlink" href="#shear-stress" title="Permalink to this headline">¶</a></h2>
+<p>Internal shear stress is the integral of bending stress <span class="math notranslate nohighlight">\(\tau_x(y)=\int{\sigma_x(y)dy}\)</span></p>
+<p><img alt="" src="../../../_images/ShearBeam.png" /></p>
+<p>The shear formula (for a section is)</p>
+<p><span class="math notranslate nohighlight">\(\tau = \frac{VQ}{Ib}\)</span>  where</p>
+<p><span class="math notranslate nohighlight">\(V\)</span> is the shear force at  the section (obtain from shear diagram),<br>
+<span class="math notranslate nohighlight">\(Q\)</span> is the first moment of area above the neutral axis,<br>
+<span class="math notranslate nohighlight">\(I\)</span> is the 2nd moment of area, and<br>
+<span class="math notranslate nohighlight">\(b\)</span> is the section width.</p>
+<div class="section" id="id5">
+<h3>Example 1<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Find the largest shear stress in a beam widda rectangular cross section.</p>
+<p><img alt="" src="../../../_images/rectangle.png" /></p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/rectanglesolution.png" /></p>
+</div>
 <div class="section" id="id6">
-<h3>Example 1<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<h3>Example 2<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Find the maximum shear stress in the beam</p>
+<p><img alt="" src="../../../_images/CantileverBeam.png" /></p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/BeamShearMax.png" /></p>
 </div>
 <div class="section" id="id7">
-<h3>Example 2<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="example-3">
-<h3>Example 3<a class="headerlink" href="#example-3" title="Permalink to this headline">¶</a></h3>
+<h3>Example 3<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>Find the ratio of maximum bending stress to the maximum shear stress in a can’t-a-lever beam with an end load and wrecked angular cross section.</p>
+<p><img alt="" src="../../../_images/cantLever.png" /></p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/cantLeverSolve.png" /></p>
 </div>
 </div>
 <div class="section" id="torsion">
 <h2>Torsion<a class="headerlink" href="#torsion" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="../../../_images/torsion.png" /></p>
+<p><img alt="" src="../../../_images/polarMoment.png" /></p>
 <div class="section" id="id8">
 <h3>Example 1<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>Find the maximum torque that can be applied to a 10 cm diameter shaft that tolerate a shear stress of 140 MPa.</p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/MaxTorque.png" /></p>
 </div>
 </div>
 <div class="section" id="principal-stresses-mohr-s-circle">
 <h2>Principal Stresses (Mohr’s Circle)<a class="headerlink" href="#principal-stresses-mohr-s-circle" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="../../../_images/principalstress.png" /></p>
 <div class="section" id="id9">
 <h3>Example 1<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p><img alt="" src="../../../_images/mohrs1.png" /></p>
+<p>To find the principal stresses for the given plane stress condition, we use the principal stress formulas, which are derived from Mohr’s circle:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sigma_x</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">sigma_y</span> <span class="o">=</span> <span class="mi">50</span>
+<span class="n">tau_xy</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">sigma_min</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">-</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">sigma_max</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">+</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">tau_max</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_min&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_min</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tau_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">tau_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>sigma_min 33.82
+sigma_max 56.18
+tau_max 11.18
+</pre></div>
+</div>
+</div>
+</div>
+<p>So the closest answer is <strong>D</strong> as in dog.</p>
 </div>
 <div class="section" id="id10">
 <h3>Example 2<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p><img alt="" src="../../../_images/morhs2.png" /></p>
+<p>To find the principal stresses for the given plane stress condition, we use the principal stress formulas, which are derived from Mohr’s circle:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sigma_x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">140</span>
+<span class="n">sigma_y</span> <span class="o">=</span> <span class="mi">205</span>
+<span class="n">tau_xy</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">sigma_min</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">-</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">sigma_max</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">+</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">tau_max</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_min&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_min</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tau_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">tau_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>sigma_min -166.89
+sigma_max 231.89
+tau_max 199.39
+</pre></div>
+</div>
+</div>
+</div>
+<p>So the closest answer is <strong>C</strong> as in cat.</p>
 </div>
 <div class="section" id="id11">
 <h3>Example 3<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p><img alt="" src="../../../_images/mohrcircle3.png" /></p>
+<p>To find the principal stresses for the given plane stress condition, we use the principal stress formulas, which are derived from Mohr’s circle:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sigma_x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">140</span>
+<span class="n">sigma_y</span> <span class="o">=</span> <span class="mi">205</span>
+<span class="n">tau_xy</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">sigma_min</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">-</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">sigma_max</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">+</span><span class="n">sigma_y</span><span class="p">)</span><span class="o">+</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">tau_max</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">))</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">tau_xy</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_min&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_min</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sigma_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">sigma_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;tau_max&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">tau_max</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>sigma_min -166.89
+sigma_max 231.89
+tau_max 199.39
+</pre></div>
+</div>
+</div>
+</div>
+<p>So the closest answer is <strong>D</strong> as in dog.</p>
+<p><img alt="" src="../../../_images/mohrsangles.png" /></p>
+<p>Here we want to find the angles above and below the <span class="math notranslate nohighlight">\(\sigma\)</span> axis in Mohr’s circle.  Using <span class="math notranslate nohighlight">\(tan(2\Theta)=\frac{2\tau_{xy}}{\sigma_x-\sigma_y}\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sigma_x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">140</span>
+<span class="n">sigma_y</span> <span class="o">=</span> <span class="mi">205</span>
+<span class="n">tau_xy</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">tan2theta</span><span class="o">=</span><span class="mi">2</span><span class="o">*</span><span class="n">tau_xy</span><span class="o">/</span><span class="p">(</span><span class="n">sigma_x</span><span class="o">-</span><span class="n">sigma_y</span><span class="p">)</span>
+<span class="n">two_theta</span><span class="o">=</span><span class="n">math</span><span class="o">.</span><span class="n">atan</span><span class="p">(</span><span class="n">tan2theta</span><span class="p">)</span>
+<span class="n">two_theta</span><span class="o">=</span><span class="n">two_theta</span><span class="o">*</span><span class="p">(</span><span class="mi">180</span><span class="o">/</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>
+<span class="n">one_theta</span><span class="o">=</span><span class="n">two_theta</span><span class="o">/</span><span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Theta_1&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">one_theta</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Theta_2&quot;</span><span class="p">,</span><span class="nb">round</span><span class="p">(</span><span class="n">one_theta</span><span class="o">+</span><span class="mi">90</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Theta_1 -15.051
+Theta_2 74.949
+</pre></div>
+</div>
+</div>
+</div>
+<p>So the closest answer is <strong>D</strong> as in dawg. !Dawg!</p>
 </div>
 </div>
 <div class="section" id="elastic-buckling">
 <h2>Elastic Buckling<a class="headerlink" href="#elastic-buckling" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="../../../_images/elasticbuckling.png" /></p>
+<p>The <span class="math notranslate nohighlight">\(k\)</span> in the buckling formula (NCEES) changes with support conditions:</p>
+<ol class="simple">
+<li><p>Fixed-fixed</p></li>
+<li><p>Pin-fixed</p></li>
+<li><p>Fixed-free</p></li>
+</ol>
 <div class="section" id="id12">
 <h3>Example 1<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>A 20 meter flag pole is made of 6 cm diameter steel (E=210 GPa). Find the maximum axial load (with a factor of safety of 2).</p>
+<p><img alt="" src="../../../_images/polefrag.png" /></p>
+<p><strong>Solution</strong></p>
+<p><img alt="" src="../../../_images/poledance.png" /></p>
 </div>
 </div>
 </div>
