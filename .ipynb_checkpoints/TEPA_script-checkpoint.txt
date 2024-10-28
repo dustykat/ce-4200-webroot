@@ -1,0 +1,122 @@
+Introduction (3 minutes)
+
+Opening Line:
+"Welcome! Today, we’re diving into two crucial topics for every aspiring engineer—Engineering Licensure and the Texas Engineering Practice Act. If you're currently studying engineering and looking toward your future, this information is invaluable."
+
+    Brief overview of what engineering licensure is and why it's important.
+    Introduction to the Texas Engineering Practice Act and its purpose in regulating engineering practice in the state.
+
+Key Points:
+
+    Importance of professional licensure in the engineering field.
+    Protecting public safety, welfare, and health through ethical engineering practice.
+    Career benefits of becoming a licensed professional engineer (PE).
+
+Section 1: What is Engineering Licensure? (7 minutes)
+
+Start with a question:
+"Why should you care about becoming a licensed engineer?"
+
+    Define the PE license and its significance.
+    The role of the National Council of Examiners for Engineering and Surveying (NCEES) in licensure.
+    Basic licensure requirements:
+        Education: ABET-accredited engineering degree.
+        Examination: Passing the Fundamentals of Engineering (FE) and Principles and Practice of Engineering (PE) exams.
+        Experience: Typically 4 years of qualifying work experience under the supervision of a licensed PE.
+
+Explain the FE Exam:
+
+    Timing for taking the FE exam (often taken during or after senior year in college).
+    The importance of the FE exam as the first step toward becoming a PE.
+
+Why Get Licensed?
+
+    Ability to sign and seal engineering documents.
+    Career advancement opportunities.
+    Increased credibility and recognition.
+    The ethical responsibility that comes with ensuring public safety.
+
+Section 2: The Path to Licensure (10 minutes)
+
+"Let's talk about the journey to licensure, which you’re likely just beginning."
+
+    Step 1: Education
+        Completing an ABET-accredited engineering program.
+
+    Step 2: Fundamentals of Engineering (FE) Exam
+        Tips for preparing.
+        What to expect on the exam.
+
+    Step 3: Gaining Experience (4 years)
+        Importance of supervised work under a PE.
+        Documenting your experience and using the NCEES Engineering Work Experience form.
+        Types of work that count towards licensure (design, analysis, project management).
+
+    Step 4: Principles and Practice of Engineering (PE) Exam
+        Brief introduction to the PE exam, taken after gaining the required experience.
+        How the PE exam varies by engineering discipline.
+
+Section 3: The Texas Engineering Practice Act (10 minutes)
+
+Transition Line:
+"Now that you understand the path to becoming a licensed engineer, let’s look at the regulations governing the profession, especially in Texas."
+
+    Introduction to the Texas Engineering Practice Act (TEPA).
+    Purpose of the Act:
+        Protecting the public by regulating the practice of engineering in Texas.
+        Ensuring only qualified individuals offer engineering services.
+
+Key Elements of the Texas Engineering Practice Act:
+
+    The role of the Texas Board of Professional Engineers and Land Surveyors (TBPELS) in enforcing the Act.
+    Definition of engineering services under the Act.
+    Requirements for licensure in Texas (similar to other states but with specific state laws).
+    The importance of ethics and the Texas Engineering Code of Conduct.
+
+Practical Scenarios:
+
+    When and how engineering services must be performed by a licensed PE.
+    The role of a licensed engineer in signing off on designs, drawings, and technical reports.
+    Enforcement: Penalties for practicing engineering without a license.
+
+Section 4: Ethical Responsibilities and Conduct (8 minutes)
+
+Opening Line:
+"As a licensed engineer, you’ll not only be responsible for your work but for upholding high ethical standards."
+
+    Discuss the ethical responsibilities tied to being a licensed PE.
+    Overview of the Texas Engineering Code of Conduct:
+        Ensuring public safety.
+        Providing accurate, honest, and fair services.
+        Accountability for professional actions.
+
+Examples of Ethical Dilemmas:
+
+    Conflicts of interest in engineering projects.
+    Reporting safety concerns.
+    The importance of continuing education to stay informed about new regulations and technologies.
+
+Section 5: Tips for Aspiring Engineers on the Licensure Path (8 minutes)
+
+"Let’s wrap up with some practical advice to help you on your journey."
+
+    Start early: Begin preparing for the FE exam and take it while the material is still fresh.
+    Find a mentor: Work with a licensed PE who can guide you through the licensure process.
+    Gain diverse experience: Get exposure to different areas of engineering to build a strong, well-rounded portfolio.
+    Document everything: Keep thorough records of your work experience—this will make applying for your PE much easier.
+    Stay informed: Keep up with changes in the licensure process, state regulations, and industry best practices.
+
+Closing Thought: "Becoming a licensed professional engineer is a journey, but it’s one that comes with tremendous responsibility and reward. Whether you’re passionate about design, project management, or innovation, licensure is the key to unlocking new opportunities."
+Conclusion (4 minutes)
+
+Recap:
+
+    Importance of licensure for your career and the public.
+    Key steps: FE exam, work experience, PE exam.
+    The Texas Engineering Practice Act and its role in regulating the profession.
+
+Call to Action:
+"Take that first step now—start preparing for your FE exam, and stay curious about the engineering profession. Remember, the work you’ll do as a licensed engineer has a lasting impact on society, and the rewards go beyond personal career growth."
+
+Closing Line:
+"Thank you for watching, and I wish you the best of luck on your journey to becoming a licensed engineer!"

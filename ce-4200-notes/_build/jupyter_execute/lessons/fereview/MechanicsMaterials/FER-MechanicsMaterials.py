@@ -66,7 +66,7 @@
 
 # ### Example 1
 # 
-# A 1 in. diameter aluminum rod becomes 0.007 in. longer from a 1500 lbf tensile load.  
+# A 2 in. diameter aluminum rod becomes 0.007 in. longer from a 1500 lbf tensile load.  
 # 
 # Determine:
 # 
