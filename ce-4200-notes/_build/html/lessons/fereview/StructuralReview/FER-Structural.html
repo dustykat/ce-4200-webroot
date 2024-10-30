@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FE Review - Mechanics of Materials &#8212; Professional Engineering Practice Issues</title>
+    <title>FE Review - Structural &#8212; Professional Engineering Practice Issues</title>
     
   <link href="../../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -42,8 +42,6 @@
     <script src="../../../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -53,6 +51,8 @@
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="FE Review - Mechanics of Materials" href="../MechanicsMaterials/FER-MechanicsMaterials.html" />
+    <link rel="prev" title="Engineering Probability and Statistics" href="../FER-statistics.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -93,7 +93,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../introduction/introduction.html">
    Introduction
@@ -125,6 +125,11 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="../../lifelonglearning/lifelonglearning.html">
+   Lifelong Learning - Strategies
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="../../ethics/ethics.html">
    Engineering Ethics
   </a>
@@ -132,6 +137,21 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../../publichealth/publichealth.html">
    Evaluation of Public Health Considerations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../safety/safety.html">
+   Evaluation of Safety Considerations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../cultural/cultural.html">
+   Evaluation of Cultural Considerations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../social/social.html">
+   Evaluation of Social Considerations
   </a>
  </li>
  <li class="toctree-l1">
@@ -144,16 +164,16 @@
    Fundamentals of Engineering (FE) EXAM
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="../FER-testingprep.html">
    FE Review - Testing Preparation
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="../FER-math.html">
      FE Review - Mathematics
@@ -162,6 +182,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="../FER-statistics.html">
      Engineering Probability and Statistics
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     FE Review - Structural
     </a>
    </li>
    <li class="toctree-l2">
@@ -213,26 +238,9 @@
    Engineering Judgement
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1">
   <a class="reference internal" href="../../criticalthinking/criticalthinking.html">
    Critical Thinking
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../../criticalthinking/criticalthinking-case1.html">
-     Critical Thinking - A Case Study
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../../socialscience/socialscience.html">
-   Social Science and Engineering
   </a>
  </li>
 </ul>
@@ -354,137 +362,6 @@
    Outline
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#axial-stress-and-strain">
-   Axial Stress and Strain
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#example-1">
-     Example 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#example-2">
-     Example 2
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#thermal-strain">
-   Thermal Strain
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Example 1
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#shear-and-bending-diagrams">
-   Shear and Bending Diagrams
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Example 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
-     Example 2
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#bending-stress">
-   Bending Stress
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id4">
-     Example 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id5">
-     Example 2
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#shear-stress">
-   Shear Stress
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id6">
-     Example 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id7">
-     Example 2
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#example-3">
-     Example 3
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#torsion">
-   Torsion
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id8">
-     Example 1
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#principal-stresses-mohr-s-circle">
-   Principal Stresses (Mohr’s Circle)
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id9">
-     Example 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id10">
-     Example 2
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id11">
-     Example 3
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#elastic-buckling">
-   Elastic Buckling
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id12">
-     Example 1
-    </a>
-   </li>
-  </ul>
- </li>
 </ul>
 
             </nav>
@@ -496,122 +373,23 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="fe-review-mechanics-of-materials">
-<h1>FE Review - Mechanics of Materials<a class="headerlink" href="#fe-review-mechanics-of-materials" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="fe-review-structural">
+<h1>FE Review - Structural<a class="headerlink" href="#fe-review-structural" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Usually an actual subject expert would give the review but no-one could be forced at the time of this writing.  So this is a YOYO topic.</p>
+<p>Work in progress</p>
 </div>
 <div class="section" id="readings">
 <h2>Readings<a class="headerlink" href="#readings" title="Permalink to this headline">¶</a></h2>
 <ol class="simple">
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-1.pdf">FER-MechMatls-1.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-2.pdf">FER-MechMatls-2.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mechanics-annotated.pdf">Mechanics-annotated.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mohr%27sCircle.pdf">Mohr’sCircle.pdf</a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-1.pdf">FER-Structural.pdf</a></p></li>
 </ol>
 </div>
 <div class="section" id="videos">
 <h2>Videos<a class="headerlink" href="#videos" title="Permalink to this headline">¶</a></h2>
-<ol class="simple">
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=FF7-VOutTwM&amp;list=PLWbyCDWU1A_iBDKyOeIcPDwH0IOnEwG3h&amp;index=5">Mechanics of Materials YouTube Video by Mark Mattson, PE - SUNY Polytechnical (Utica NY Campus)</a></p></li>
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=SuH8F-X5enE">FE Exam Review: Statics, Dynamics, Mechanics of Deformable Bodies YouTube Video by Gregory Michaelson - Marshall University (Go to 1:00:05 time stamp to view the Mechanics of Materials portion)</a></p></li>
-</ol>
 </div>
 <div class="section" id="outline">
 <h2>Outline<a class="headerlink" href="#outline" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="axial-stress-and-strain">
-<h2>Axial Stress and Strain<a class="headerlink" href="#axial-stress-and-strain" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="example-1">
-<h3>Example 1<a class="headerlink" href="#example-1" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="example-2">
-<h3>Example 2<a class="headerlink" href="#example-2" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="thermal-strain">
-<h2>Thermal Strain<a class="headerlink" href="#thermal-strain" title="Permalink to this headline">¶</a></h2>
-<p>Materials expand/contract with <span class="math notranslate nohighlight">\(\Delta\)</span>Temp.</p>
-<ul class="simple">
-<li><p>deformation is thermal strain</p></li>
-<li><p>if free to deform, then no stress.</p></li>
-</ul>
-<div class="math notranslate nohighlight">
-\[\epsilon_T = \alpha(T-T_0)\]</div>
-<p><span class="math notranslate nohighlight">\(\alpha\)</span> is the coefficient of thermal expansion.</p>
-<p><span class="math notranslate nohighlight">\((T-T_0)\)</span> is the change in temperature.</p>
-<p>The change in length (if deformation is allowed) is</p>
-<div class="math notranslate nohighlight">
-\[\delta_T = \alpha L (T-T_0)\]</div>
-<p><span class="math notranslate nohighlight">\(L\)</span> is the length of the member at <span class="math notranslate nohighlight">\(T_0\)</span></p>
-<div class="section" id="id1">
-<h3>Example 1<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<p>A steel rod (E=210 GPa, <span class="math notranslate nohighlight">\(\alpha =11.7 \times 10^{-6}~\text{per}~C^{o}\)</span> is constrained and heated. What is the stress induced by a 40<span class="math notranslate nohighlight">\(C^o\)</span> increase in temperature?</p>
-<p><strong>Use Virtual Work</strong></p>
-<ol class="simple">
-<li><p>Let the rod deform, then determine force required to squeeze back into <span class="math notranslate nohighlight">\(L_0\)</span>. Divide this force by cross sectional area to obtain normal stress (<span class="math notranslate nohighlight">\(\sigma\)</span>)</p></li>
-</ol>
-<p><img alt="" src="lessons/fereview/StructuralReview/thermalstress.png" /></p>
-<ol class="simple">
-<li><p>Apply axial stress equivalent to the thermal deformation</p></li>
-</ol>
-<p><img alt="" src="lessons/fereview/StructuralReview/thermalstress2.png" /></p>
-</div>
-</div>
-<div class="section" id="shear-and-bending-diagrams">
-<h2>Shear and Bending Diagrams<a class="headerlink" href="#shear-and-bending-diagrams" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id2">
-<h3>Example 1<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id3">
-<h3>Example 2<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="bending-stress">
-<h2>Bending Stress<a class="headerlink" href="#bending-stress" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id4">
-<h3>Example 1<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id5">
-<h3>Example 2<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="shear-stress">
-<h2>Shear Stress<a class="headerlink" href="#shear-stress" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id6">
-<h3>Example 1<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id7">
-<h3>Example 2<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="example-3">
-<h3>Example 3<a class="headerlink" href="#example-3" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="torsion">
-<h2>Torsion<a class="headerlink" href="#torsion" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id8">
-<h3>Example 1<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="principal-stresses-mohr-s-circle">
-<h2>Principal Stresses (Mohr’s Circle)<a class="headerlink" href="#principal-stresses-mohr-s-circle" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id9">
-<h3>Example 1<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id10">
-<h3>Example 2<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="id11">
-<h3>Example 3<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="elastic-buckling">
-<h2>Elastic Buckling<a class="headerlink" href="#elastic-buckling" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id12">
-<h3>Example 1<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
-</div>
 </div>
 </div>
 
@@ -644,6 +422,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="../FER-statistics.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Engineering Probability and Statistics</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../MechanicsMaterials/FER-MechanicsMaterials.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">FE Review - Mechanics of Materials</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         

@@ -12,15 +12,21 @@ chapters:
 - file: lessons/careerplan/careerplan
 - file: lessons/licensing/licensing
 # ABET insertions
+- file: lessons/lifelonglearning/lifelonglearning
 - file: lessons/ethics/ethics
 - file: lessons/publichealth/publichealth
+- file: lessons/safety/safety
+- file: lessons/cultural/cultural
+- file: lessons/social/social
 - file: lessons/sustainability/sustainability
+
 # FE Exam 
 - file: lessons/feexam/feexam
 - file: lessons/fereview/FER-testingprep
   sections:
   - file: lessons/fereview/FER-math
   - file: lessons/fereview/FER-statistics
+  - file: lessons/fereview/StructuralReview/FER-Structural
   - file: lessons/fereview/MechanicsMaterials/FER-MechanicsMaterials
   - file: lessons/fereview/MaterialsScience/FER-MaterialsScience
 # Business Issues
@@ -32,9 +38,7 @@ chapters:
   - file: lessons/PM/PM-Audit
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
-  sections:
-  - file: lessons/criticalthinking/criticalthinking-case1
-- file: lessons/socialscience/socialscience
+
 
 ##Evaluation of public health considerations        2%
 ##Evaluation of safety considerations                      2%
