@@ -29,6 +29,7 @@ chapters:
   - file: lessons/fereview/StructuralReview/FER-Structural
   - file: lessons/fereview/MechanicsMaterials/FER-MechanicsMaterials
   - file: lessons/fereview/MaterialsScience/FER-MaterialsScience
+  - file: lessons/fereview/Dynamics/FER-Dynamics
 # Business Issues
 - file: lessons/qbs/qbs
 - file: lessons/leadershit/leadershit
