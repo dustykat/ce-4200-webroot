@@ -1,0 +1,36 @@
+What role do design codes and manuals of practice play in the engineering-client trust relationship?
+
+A. They complicate the project with unnecessary rules.
+B. They serve as a guide for ethical decision-making and quality assurance.*
+C. They are used only in government projects.
+D. They are outdated and rarely followed in modern projects.
+
+Which trust model relies on shared values and ethical standards as the basis for trust?
+
+A. Principle-Based Trust Model*
+B. Zero-Trust Model
+C. Reputation-Based Trust Model
+D. Contractual Trust Model
+
+In a performance-based trust model, trust is primarily built on:
+
+A. The engineer's personal relationship with the client
+B. The engineer’s consistent delivery of high-quality results*
+C. The engineer’s reputation in the industry
+D. The use of the most expensive materials
+
+Which of the following best describes the principle behind a zero-trust model?
+
+A. Trusting all internal stakeholders without verification
+B. Only trusting individuals after a single initial verification
+C. Trusting but regularly auditing every participant
+D. Never assuming trust; always requiring verification*
+
+What is the most critical factor in establishing trust between an engineer and a client?
+
+A. The engineer's willingness to negotiate fees
+B. The engineer's adherence to design codes and standards*
+C. The engineer's ability to work quickly
+D. The engineer's use of the latest technology
+
+

@@ -1,0 +1,75 @@
+General Sustainability Considerations in Engineering:
+
+    What are the three pillars of sustainability often referred to in engineering and development?
+    A. Economic, Environmental, Legal
+    B. Economic, Environmental, Political
+    C. Environmental, Economic, Social
+    D. Social, Technological, Political
+        Answer: C. Environmental, Economic, Social
+
+    How does sustainable engineering differ from traditional engineering approaches?
+    A. It focuses only on reducing costs.
+    B. It emphasizes environmental impacts and long-term resource use.
+    C. It disregards economic factors.
+    D. It prioritizes social concerns above all else.
+        Answer: B. It emphasizes environmental impacts and long-term resource use.
+
+    What is life-cycle assessment (LCA) in the context of sustainable engineering?
+    A. A method to reduce the cost of a product.
+    B. A process for designing products with minimal environmental impact.
+    C. A process to evaluate the environmental impacts throughout a product’s life cycle.
+    D. A method to increase product life.
+        Answer: C. A process to evaluate the environmental impacts throughout a product’s life cycle.
+
+    Which of the following best describes the concept of a circular economy?
+    A. A system where goods are produced and disposed of as quickly as possible.
+    B. An approach that aims to eliminate waste and maximize resource use.
+    C. A method to slow down production cycles.
+    D. A process to create short-term economic growth.
+        Answer: B. An approach that aims to eliminate waste and maximize resource use.
+
+    What role do renewable energy sources play in sustainable engineering projects?
+    A. They make projects more cost-effective.
+    B. They are crucial for reducing reliance on fossil fuels and lowering carbon emissions.
+    C. They are useful only for specific niche applications.
+    D. They are too expensive for widespread use.
+        Answer: B. They are crucial for reducing reliance on fossil fuels and lowering carbon emissions.
+
+    Which of the following is a benefit of green infrastructure in urban areas?
+    A. It increases traffic flow.
+    B. It promotes efficient building construction.
+    C. It helps manage stormwater and reduces urban heat islands.
+    D. It reduces the number of buildings required for urban development.
+        Answer: C. It helps manage stormwater and reduces urban heat islands.
+
+    How can engineers incorporate social equity into sustainable projects?
+    A. By prioritizing economic gains over all else.
+    B. By focusing solely on environmental benefits.
+    C. By ensuring projects are accessible to underserved populations and involving communities in decision-making.
+    D. By reducing the time and cost of projects.
+        Answer: C. By ensuring projects are accessible to underserved populations and involving communities in decision-making.
+
+ASCE Envision Documents Specific Questions:
+
+    According to the ASCE Envision framework, what is the primary goal of the Leadership credit category?
+    A. To promote innovation in technical design.
+    B. To encourage collaboration, transparency, and long-term accountability.
+    C. To increase the efficiency of construction processes.
+    D. To reduce construction costs.
+        Answer: B. To encourage collaboration, transparency, and long-term accountability.
+
+    What does the term "climate risk evaluation" refer to in the ASCE Envision Documents?
+    A. Assessing the political implications of a project.
+    B. Measuring the likelihood of extreme weather events during construction.
+    C. Evaluating how changing climate conditions might impact a project.
+    D. Reducing the cost of environmental evaluations.
+        Answer: C. Evaluating how changing climate conditions might impact a project.
+
+Advanced Sustainability Considerations:
+
+    What is the concept of "regenerative design"?
+    A. Designing systems that only aim to minimize harm to the environment.
+    B. Creating systems that actively restore and enhance the environment.
+    C. Building temporary infrastructure to limit environmental impacts.
+    D. A new method of reducing project costs.
+        Answer: B. Creating systems that actively restore and enhance the environment.
