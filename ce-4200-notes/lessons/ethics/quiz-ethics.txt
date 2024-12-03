@@ -1,0 +1,101 @@
+The quiz is based on the essay and covers the three ethical philosophies (value, duty, utility), the Greek virtues (ethos, pathos, logos), and general ethical principles from the document.
+Question 1
+
+What is the focus of value ethics in engineering?
+A. Evaluating economic outcomes of decisions
+B. Promoting good character traits and virtues
+C. Following established rules and regulations
+D. Maximizing societal benefits
+
+Answer:
+B. Promoting good character traits and virtues
+Question 2
+
+Which philosopher is most closely associated with duty ethics?
+A. John Locke
+B. Immanuel Kant
+C. John Stuart Mill
+D. Niccolò Machiavelli
+
+Answer:
+B. Immanuel Kant
+Question 3
+
+Utility ethics prioritize which of the following?
+A. Individual well-being over societal well-being
+B. Adherence to moral duties and obligations
+C. Actions that maximize societal benefits
+D. Avoiding harm to specific groups
+
+Answer:
+C. Actions that maximize societal benefits
+Question 4
+
+Which of the following represents ethos in the context of Greek virtues?
+A. Emotional appeals in decision-making
+B. Logical reasoning to justify actions
+C. Demonstrating credibility and moral character
+D. Highlighting the consequences of ethical behavior
+
+Answer:
+C. Demonstrating credibility and moral character
+Question 5
+
+Pathos in ethical reasoning relates to:
+A. Logical consistency of arguments
+B. The emotional impact of decisions on stakeholders
+C. The adherence to established rules
+D. The fairness of resource allocation
+
+Answer:
+B. The emotional impact of decisions on stakeholders
+Question 6
+
+What does logos emphasize in ethical decision-making?
+A. Emotional responses
+B. Logical reasoning and evidence
+C. Intuition and personal beliefs
+D. Compliance with societal norms
+
+Answer:
+B. Logical reasoning and evidence
+Question 7
+
+In the fable of Mercury and the Woodcutter, the ethical lesson most closely aligns with which philosophy?
+A. Utility ethics, as the first woodcutter benefits society
+B. Duty ethics, as honesty fulfills moral obligations
+C. Value ethics, as it demonstrates virtuous behavior
+D. Logos, as it uses logical reasoning to justify actions
+
+Answer:
+C. Value ethics, as it demonstrates virtuous behavior
+Question 8
+
+What is a potential drawback of utility ethics mentioned in the essay?
+A. It ignores societal benefits.
+B. It requires strict adherence to rules.
+C. It can be misused to justify harmful actions.
+D. It relies entirely on individual judgment.
+
+Answer:
+C. It can be misused to justify harmful actions.
+Question 9
+
+What is the primary distinction between law and ethics as discussed in the essay?
+A. Law applies universally, while ethics is culturally dependent.
+B. Ethics guides societal norms, while law enforces codified rules.
+C. Law is based on utility, while ethics is based on duty.
+D. Ethics applies to groups, while law focuses on individuals.
+
+Answer:
+B. Ethics guides societal norms, while law enforces codified rules.
+Question 10
+
+Why are codes of ethics important in engineering?
+A. They provide rigid rules for engineers to follow in all cases.
+B. They guide engineers in resolving conflicts and dilemmas.
+C. They eliminate the need for personal judgment in decisions.
+D. They prioritize legal compliance over ethical behavior.
+
+Answer:
+B. They guide engineers in resolving conflicts and dilemmas.
