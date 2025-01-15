@@ -15,6 +15,16 @@
 \rfoot{Page \thepage\ of \pageref{LastPage}}
 \renewcommand\headrulewidth{0pt}
 
+\usepackage{draftwatermark}
+
+% Set the watermark text
+\SetWatermarkText{DRAFT}
+
+% Customize the watermark
+\SetWatermarkScale{4}  % Adjust the scale (default is 1)
+\SetWatermarkColor[gray]{0.8}  % Set color (gray scale: 0.0 = black, 1.0 = white)
+\SetWatermarkAngle{45}  % Set the angle (default is 45 degrees)
+
 
 
 \begin{document}
@@ -23,7 +33,7 @@
 %%%%%% BEGIN SYLLABUS COMPONENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%2010-0814TGC%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{{Course Location, Textbook, Instructor Contact Information}}
 \begin{tabular}{p{1.5in}p{5.0in}}
-Class meetings: &   11:00-11:50PM, M-W, CE209 (Section 001) \\
+Class meetings: &   11:00-11:50PM, M-W, CE205 (Section 001) \\
 Instructor: & Theodore G. Cleveland, CE Room 203F \\
 TA: & none \\
 Office Hours: & TBD \\%P. Monaco MW 13:00-15:00 \\
@@ -243,52 +253,45 @@ Examination & 50\% \\
 \section*{Schedule}
 \begin{table}[ht!]
    \centering
-   \caption{Fall 2024 Course Schedule}
-   \begin{tabular}{p{0.5in}p{2.5in}p{4.0in}} 
+   \caption{Spring 2025 Course Schedule}
+   \begin{tabular}{p{1.0in}p{2.5in}p{3.0in}} 
    ~ & ~ & ~  \\
 \hline
 DATE & TOPIC & READINGS \& REMARKS  \\
 \hline
-\texttt{DDMMMYY} & Introduction &   \\ %0
-\texttt{DDMMMYY} & ASCE BOK &  \cite{ASCE2019}\\ %1 
-\texttt{DDMMMYY} & ABET Breath Elements & \cite{ASCE2019} \\% 3
-\texttt{DDMMMYY} & Public Health Considerations &  \cite{ASCE2019} \\ %4(1)
-\texttt{DDMMMYY} & Safety Considerations &  \cite{ASCE2019} \\ %5(2)
-\texttt{DDMMMYY} & Welfare Considerations &  \cite{ASCE2019} \\ %6(3)
-\texttt{DDMMMYY} & Global Considerations &  \cite{ASCE2019} \\ %7(4)
-\texttt{DDMMMYY} & Cultural Considerations &  \cite{ASCE2019} \\ %8(5)
-\texttt{DDMMMYY} & Social Considerations &  \cite{ASCE2019} \\ %9(6)
-\texttt{DDMMMYY} & Environmental Considerations &  \cite{ASCE2019} \\ %10(7)
-\texttt{DDMMMYY} & Economic Considerations &  \cite{ASCE2019} \\ %11(8)
-\texttt{DDMMMYY} & Sustainability & ASCE ENVISIONS \cite{ASCE2019} \\ %12(9)
-\texttt{~4SEP24} & Future Expectations as an Engineer & \\ %3 
-\texttt{~9SEP24} & Attitude and Career Guidance &  \cite{Attitude2024} \\ %4 
-\texttt{11SEP24} & Aspects of Professionalism   &  \cite{Lawson2004}\\ %5
-\texttt{16SEP24} & Texas Engineering Practices Act & \cite{TEPA2021}\\ %6 
-\texttt{18SEP24} & WCOE Job Fair (All Engineering)   & Must attend, provide evidence\\ %7
-\texttt{25SEP24} & FE Review - Licensing & Dr. Cleveland \cite{TEPA2021} \\  %9 
-\texttt{30SEP24} & FE Review - Transportation & Dr. H. Liu \cite{NCEES2020}  \cite{Lindeburg2017}\\ % 
-\texttt{~2OCT24} & FE Review - Geotech & Dr. Yimin Lu \cite{NCEES2020}  \cite{Lindeburg2017}\\ %10
-\texttt{~7OCT24} & FE Review - Structural & Dr. Sunghyun Park \cite{NCEES2020} \cite{Lindeburg2017}\\ %11
-\texttt{~9OCT24} & FE Review - Hydrology & Dr. Cleveland \cite{NCEES2020} \cite{Lindeburg2017}\\  %12  
-\texttt{14OCT24} & ASCE Ethics Example, Sara's story  & Dr. Cleveland \cite{ASCE2019}\\ %13
-\texttt{16OCT24} & FE Review - Construction &  Dr. Min Deng \cite{NCEES2020}  \cite{Lindeburg2017}\\ %14
-\texttt{21OCT24} & FE Review - Statics  & Dr. Sanwook Bae \cite{NCEES2020}  \cite{Lindeburg2017}\\ %15
-\texttt{23OCT24} & FE Review - Fluids & Dr. Wenjie Fei \cite{NCEES2020}  \cite{Lindeburg2017}\\ %16
-\texttt{28OCT24} & FE Review - Mechanics of Materials & Dr. Cleveland \cite{NCEES2020} \cite{Lindeburg2017}\\ %17
-\texttt{30OCT24} & FE Review - Materials & Dr. Moon Won \cite{NCEES2020}  \cite{Lindeburg2017}\\ %18
-\texttt{~4NOV24} & FE Review - Dynamics & Dr. Cleveland \cite{NCEES2020}  \cite{Lindeburg2017}\\ %19
-\texttt{~6NOV24} & FE Review - Environmental  & Dr. Evan Gray \cite{NCEES2020}  \cite{Lindeburg2017}\\ %20
-\texttt{11NOV24} & ASCE Sustainability & ASCE ENVISIONS \\ %21 
-%\texttt{13NOV24} & Quality Based Selection &  \cite{TEPAQBS2021} \\ %22
-\texttt{13NOV24} & Evaluation of Safety Considerations &  \cite{ASCE2019} \\ %22
-%\texttt{18NOV24} & Project Management &  \cite{Lawson2022PM} \\ %23
-\texttt{18NOV24} & Evaluation of Public Health Considerations &  \cite{ASCE2019}  \\ %23
-\texttt{20NOV24} & Leadership &  \\ %24
-\texttt{25NOV24} & Judgement and Critical Thinking & \cite{Critical2022} \\ %25
-\texttt{28NOV24} & Thanksgiving Holiday &    \\ %26
-\texttt{~2DEC24} & Summary & \\ %27
-\texttt{~6DEC24} & \textbf{Final Exam} & 13:30-16:00 \\ %ZBS Storm Sewer; Routing ; HEC-HMS; Pumping Test; Wellfield
+\texttt{15 Jan 25} & Introduction &   \\ %1
+\texttt{17 Jan 25} & ASCE BOK &  \cite{ASCE2019}\\ %2 
+\texttt{20 Jan 25} & MLK Holiday & No Meeting \\% 
+\texttt{22 Jan 25} & ABET Breath Elements & \cite{ASCE2019} \\% 3
+\texttt{27 Jan 25} & Public Health Considerations &  \cite{ASCE2019} \\ %4
+\texttt{29 Jan 25} & Safety Considerations &  \cite{ASCE2019} \\ %5
+\texttt{03 Feb 25} & Welfare Considerations &  \cite{ASCE2019} \\ %6
+\texttt{05 Feb 25} & Future Expectations as an Engineer & \\ %7
+\texttt{10 Feb 25} & Attitude and Career Guidance &  \cite{Attitude2024} \\ %8
+\texttt{12 Feb 25} & Job Fair &  Attend Both Days \\ %8
+\texttt{17 Feb 25} & Global Considerations &  \cite{ASCE2019} \\ %9
+\texttt{19 Feb 25} & Cultural Considerations &  \cite{ASCE2019} \\ %10
+\texttt{24 Feb 25} & Social Considerations &  \cite{ASCE2019} \\ %11
+\texttt{26 Feb 25} & Environmental Considerations &  \cite{ASCE2019} \\ %12
+\texttt{03 Mar 25} & Economic Considerations &  \cite{ASCE2019} \\ %13
+\texttt{05 Mar 25} & Sustainability & ASCE ENVISIONS \cite{ASCE2019} \\ %14
+\hline
+\texttt{10 Mar 25} & Aspects of Professionalism   &  \cite{Lawson2004}\\ %16
+\texttt{12 Mar 25} & FE Review - Licensing & \cite{TEPA2021}\\ %17 
+\texttt{26 Mar 25} & FE Review - Transportation & Dr. Liu \cite{NCEES2020}  \cite{Lindeburg2017}\\ %18
+\texttt{31 Mar 25} & FE Review - Geotech & Dr. Lu \cite{NCEES2020}  \cite{Lindeburg2017}\\ %19
+\texttt{02 Apr 25} & FE Review - Structural & Dr. Park \cite{NCEES2020} \cite{Lindeburg2017}\\ %20#
+\texttt{07 Apr 25} & FE Review - Hydrology & Dr. Cleveland \cite{NCEES2020} \cite{Lindeburg2017}\\  %21
+\texttt{09 Apr 25} & ASCE Ethics Example, Sara's story  & Dr. Cleveland \cite{ASCE2019}\\ %22
+\texttt{14 Apr 25} & FE Review - Construction &  Dr. Deng \cite{NCEES2020}  \cite{Lindeburg2017}\\ %23
+\texttt{16 Apr 25} & FE Review - Statics  & Dr. Bae \cite{NCEES2020}  \cite{Lindeburg2017}\\ %24
+\texttt{21 Apr 25} & FE Review - Fluids & Dr. Fei \cite{NCEES2020}  \cite{Lindeburg2017}\\ %25
+\texttt{23 Apr 25} & FE Review - Mechanics of Materials & Dr. Cleveland \cite{NCEES2020} \cite{Lindeburg2017}\\ %26#
+\texttt{23 Apr 25} & FE Review - Materials Science & Dr. Cleveland \cite{NCEES2020} \cite{Lindeburg2017}\\ %26.1#
+\texttt{28 Apr 25} & FE Review - Materials & Dr. Won \cite{NCEES2020}  \cite{Lindeburg2017}\\ %27
+\texttt{30 Apr 25} & FE Review - Dynamics & Dr. Cleveland \cite{NCEES2020}  \cite{Lindeburg2017}\\ %28#
+\texttt{05 May 25} & FE Review - Environmental  & Dr. Gray \cite{NCEES2020}  \cite{Lindeburg2017}\\ %29
+\texttt{XX May 25} & \textbf{Final Exam} & 13:30-16:00 \\ %ZBS Storm Sewer; Routing ; HEC-HMS; Pumping Test; Wellfield
 \hline
    \end{tabular}
    \label{tab:fall2013schedule}

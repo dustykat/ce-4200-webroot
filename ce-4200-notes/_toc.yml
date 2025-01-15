@@ -4,23 +4,28 @@
 format: jb-book
 root: intro
 chapters:
+# ABET catchall
+- file: lessons/1-introduction/introduction
+- file: lessons/2-ascebok/ascebok
+- file: lessons/3-abetbreath/abetbreath
+- file: lessons/4-publichealth/publichealth
+- file: lessons/5-safety/safety
+- file: lessons/6-welfare/welfare
+- file: lessons/7-futureexpectations/futureengineer
+- file: lessons/8-attitudes/attitudes
+  sections:
+  - file: lessons/8.1-careerplan/careerplan
+- file: lessons/9-global/global
+- file: lessons/10-cultural/cultural
+- file: lessons/11-social/social
+- file: lessons/12-environmental/environmental
+- file: lessons/13-economics/economics
+- file: lessons/14-sustainability/sustainability
 # Licensing
-- file: lessons/introduction/introduction
-- file: lessons/futureexpectations/futureengineer
-- file: lessons/trusty/trusty
-- file: lessons/attitudes/attitudes
-- file: lessons/careerplan/careerplan
-- file: lessons/licensing/licensing
-# ABET insertions
-- file: lessons/lifelonglearning/lifelonglearning
+- file: lessons/17-licensing/licensing
 - file: lessons/ethics/ethics
-- file: lessons/publichealth/publichealth
-- file: lessons/safety/safety
-- file: lessons/welfare/welfare
-- file: lessons/cultural/cultural
-- file: lessons/social/social
-- file: lessons/sustainability/sustainability
-
+  sections:
+  - file: lessons/trusty/trusty
 # FE Exam 
 - file: lessons/feexam/feexam
 - file: lessons/fereview/FER-testingprep
@@ -40,7 +45,7 @@ chapters:
   - file: lessons/PM/PM-Audit
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
-
+- file: lessons/3.1-lifelonglearning/lifelonglearning
 
 ##Evaluation of public health considerations        2%
 ##Evaluation of safety considerations                      2%
