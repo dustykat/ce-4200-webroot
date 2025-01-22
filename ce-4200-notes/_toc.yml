@@ -45,7 +45,7 @@ chapters:
   - file: lessons/PM/PM-Audit
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
-- file: lessons/3.1-lifelonglearning/lifelonglearning
+#- file: lessons/3.1-lifelonglearning/lifelonglearning
 
 ##Evaluation of public health considerations        2%
 ##Evaluation of safety considerations                      2%

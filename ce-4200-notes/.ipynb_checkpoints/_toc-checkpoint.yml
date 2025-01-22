@@ -8,7 +8,6 @@ chapters:
 - file: lessons/1-introduction/introduction
 - file: lessons/2-ascebok/ascebok
 - file: lessons/3-abetbreath/abetbreath
-#- file: lessons/3.1-lifelonglearning/lifelonglearning
 - file: lessons/4-publichealth/publichealth
 - file: lessons/5-safety/safety
 - file: lessons/6-welfare/welfare
@@ -46,7 +45,7 @@ chapters:
   - file: lessons/PM/PM-Audit
 - file: lessons/engineeringjudgement/engineeringjudgement
 - file: lessons/criticalthinking/criticalthinking
-
+#- file: lessons/3.1-lifelonglearning/lifelonglearning
 
 ##Evaluation of public health considerations        2%
 ##Evaluation of safety considerations                      2%
