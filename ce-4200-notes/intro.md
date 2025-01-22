@@ -10,7 +10,7 @@ prepare senior BSCE students to enter professional practice.
 
 ## Syllabus
 
-[Link to Syllabus](http://54.243.252.9/ce-4200-webroot/0-Syllabus/syllabus.ce4200-2024-3.pdf)
+[Link to Syllabus](http://54.243.252.9/ce-4200-webroot/0-Syllabus/syllabus.ce4200-2025-1.pdf)
 
 ## Copyright
 
