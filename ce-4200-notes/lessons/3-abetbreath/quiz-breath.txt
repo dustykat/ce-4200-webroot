@@ -1,0 +1,46 @@
+Quiz: ABET Breadth of Knowledge in Civil Engineering
+Question 1:
+
+What does ABET define as "breadth of knowledge" in civil engineering education?
+A) In-depth expertise in one technical area
+B) Knowledge across multiple disciplines to address complex challenges
+C) Specialization in mathematics and natural sciences
+D) Exclusive focus on technical design principles
+
+Answer: B) Knowledge across multiple disciplines to address complex challenges
+Question 2:
+
+Which of the following is one of ABET’s seven broad student outcomes?
+A) Conducting feasibility studies on government contracts
+B) Ability to work effectively in multidisciplinary teams
+C) Mastering advanced programming languages for design
+D) Achieving full professional licensure before graduation
+
+Answer: B) Ability to work effectively in multidisciplinary teams
+Question 3:
+
+What is an example of the technical breadth requirement in ABET’s criteria?
+A) Proficiency in designing a specific structural component only
+B) Mastery of engineering mechanics and ability to apply it to various civil engineering problems
+C) Exclusive focus on geotechnical engineering
+D) Advanced knowledge in one field of physics or chemistry
+
+Answer: B) Mastery of engineering mechanics and ability to apply it to various civil engineering problems
+Question 4:
+
+Why are humanities and social sciences important in civil engineering education?
+A) They replace technical coursework for non-engineering students.
+B) They provide context for societal needs and improve communication with stakeholders.
+C) They focus solely on public relations and marketing.
+D) They fulfill elective requirements unrelated to engineering practice.
+
+Answer: B) They provide context for societal needs and improve communication with stakeholders.
+Question 5:
+
+What is a core example of ABET's focus on ethical responsibility in engineering?
+A) Ensuring budget constraints are prioritized over safety
+B) Adhering to sustainable practices while designing transportation systems
+C) Reducing communication with stakeholders to streamline designs
+D) Exclusively focusing on technical outcomes without public input
+
+Answer: B) Adhering to sustainable practices while designing transportation systems

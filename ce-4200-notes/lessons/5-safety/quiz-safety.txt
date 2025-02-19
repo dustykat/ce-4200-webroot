@@ -1,0 +1,45 @@
+Question 1:
+
+What is the primary reason engineers must prioritize safety in their designs?
+A) To minimize project costs
+B) To enhance public safety, minimize risks, and protect the environment
+C) To ensure faster project completion
+D) To meet client demands for aesthetics
+
+Answer: B) To enhance public safety, minimize risks, and protect the environment
+Question 2:
+
+Which strategy involves designing structures to handle conditions beyond expected levels?
+A) Redundancy
+B) Fail-Safe Design
+C) Safety Margins
+D) Probabilistic Risk Assessment
+
+Answer: C) Safety Margins
+Question 3:
+
+What was one of the critical safety design failures in the 2010 Deepwater Horizon Incident?
+A) Overuse of safety systems
+B) Lack of adequate risk assessment and redundancy in safety systems
+C) Excessive investment in safety systems
+D) Neglecting environmental considerations
+
+Answer: B) Lack of adequate risk assessment and redundancy in safety systems
+Question 4:
+
+What is a common method engineers use to account for uncertainty in their designs?
+A) Simplified modeling
+B) Ignoring low-probability risks
+C) Conservative design and worst-case scenario planning
+D) Prioritizing aesthetics over safety
+
+Answer: C) Conservative design and worst-case scenario planning
+Question 5:
+
+Which of the following is an example of a fail-safe design?
+A) A bridge designed with multiple layers of redundant structural supports
+B) A circuit breaker that automatically shuts off power during a fault
+C) A monitoring system that records structural performance over time
+D) A redundant control system in an airplane
+
+Answer: B) A circuit breaker that automatically shuts off power during a fault

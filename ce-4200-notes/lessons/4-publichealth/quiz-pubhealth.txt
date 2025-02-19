@@ -1,0 +1,45 @@
+Question 1:
+
+What is the primary goal of integrating public health principles into engineering design?
+A) To reduce project costs and timelines
+B) To enhance community well-being through safety, accessibility, and sustainability
+C) To prioritize technical feasibility over community needs
+D) To ensure compliance with government regulations
+
+Answer: B) To enhance community well-being through safety, accessibility, and sustainability
+Question 2:
+
+Which of the following was a key engineering failure at the TEPCO Fukushima Power Plant during the 2011 disaster?
+A) Over-reliance on solar power systems
+B) Lack of earthquake-resistant designs
+C) Insufficient tsunami protection measures
+D) Failure to construct additional reactors
+
+Answer: C) Insufficient tsunami protection measures
+Question 3:
+
+What engineering solution did Dr. John Snow advocate for during the 1854 Broad Street cholera outbreak?
+A) Widening city roads for sanitation access
+B) Removing the handle of a contaminated water pump
+C) Installing air filtration systems in public spaces
+D) Constructing new hospitals to treat cholera patients
+
+Answer: B) Removing the handle of a contaminated water pump
+Question 4:
+
+What is one example of how urban transportation design can positively impact public health?
+A) Increasing the number of highways to reduce commute times
+B) Promoting cycling and walking through dedicated bike lanes and pedestrian infrastructure
+C) Reducing vehicle emissions by implementing toll systems on city roads
+D) Encouraging private car ownership to improve mobility
+
+Answer: B) Promoting cycling and walking through dedicated bike lanes and pedestrian infrastructure
+Question 5:
+
+Which of the following is a core consideration for sustainable engineering practices as related to public health?
+A) Maximizing the lifespan of infrastructure
+B) Reducing greenhouse gas emissions and improving air quality
+C) Ensuring rapid project completion
+D) Prioritizing cost efficiency over long-term benefits
+
+Answer: B) Reducing greenhouse gas emissions and improving air quality

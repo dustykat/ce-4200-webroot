@@ -1,0 +1,46 @@
+Quiz: Expectations of an Engineer
+Question 1:
+
+What is one of the primary purposes of the lesson on expectations for engineers?
+A) To teach technical skills required for engineering software
+B) To prepare students for leadership roles in civil engineering
+C) To guide students in aligning personal goals with career opportunities
+D) To focus on salary negotiations during job interviews
+
+Answer: C) To guide students in aligning personal goals with career opportunities
+Question 2:
+
+Which of the following technologies is increasingly important for future civil engineers?
+A) Blockchain for financial transactions
+B) Geographic Information Systems (GIS)
+C) Hydraulic machinery for manual operations
+D) Mechanical drafting tools
+
+Answer: B) Geographic Information Systems (GIS)
+Question 3:
+
+Why is global and cultural awareness important for civil engineers?
+A) To ensure compliance with local safety standards
+B) To manage projects effectively in diverse cultural and regulatory contexts
+C) To reduce costs on international projects
+D) To avoid collaboration with foreign teams
+
+Answer: B) To manage projects effectively in diverse cultural and regulatory contexts
+Question 4:
+
+Which of the following best describes the ethical responsibilities of a civil engineer?
+A) Minimizing costs by any means necessary
+B) Ensuring safety and addressing social issues like affordable housing and clean water access
+C) Following instructions from clients without question
+D) Prioritizing aesthetics over functionality in designs
+
+Answer: B) Ensuring safety and addressing social issues like affordable housing and clean water access
+Question 5:
+
+What does "lifelong learning" mean for civil engineers?
+A) Pursuing ongoing education, certifications, and staying informed about industry trends
+B) Enrolling in degree programs throughout their careers
+C) Attending annual engineering conferences only
+D) Focusing solely on technical skills in the early stages of their career
+
+Answer: A) Pursuing ongoing education, certifications, and staying informed about industry trends

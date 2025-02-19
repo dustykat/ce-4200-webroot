@@ -1,0 +1,46 @@
+Quiz: Evaluation of Welfare Considerations in Engineering
+Question 1:
+
+What is the functional definition of welfare in civil engineering?
+A) Maximizing project efficiency regardless of societal impact
+B) Maximizing societal benefits without disproportionately disadvantaging others
+C) Minimizing project costs and timelines
+D) Ensuring complete equity in all engineering decisions
+
+Answer: B) Maximizing societal benefits without disproportionately disadvantaging others
+Question 2:
+
+What is a "sacrifice zone" as described in the lesson?
+A) An area designated for cultural preservation
+B) A region that bears the costs of a project for the greater societal good
+C) A location where projects are exempt from environmental regulations
+D) A high-priority zone for infrastructure development
+
+Answer: B) A region that bears the costs of a project for the greater societal good
+Question 3:
+
+Which principle underpins welfare considerations by ensuring no group can be made better off without making another group worse off?
+A) Cost-Benefit Analysis
+B) Pareto Optimality
+C) Environmental Justice
+D) Utility Ethics
+
+Answer: B) Pareto Optimality
+Question 4:
+
+In the context of welfare considerations, what is one limitation of Pareto optimality?
+A) It ignores societal benefits.
+B) It assumes equity is always achievable.
+C) It does not account for the severity of harm experienced by certain groups.
+D) It prioritizes environmental preservation over economic growth.
+
+Answer: C) It does not account for the severity of harm experienced by certain groups.
+Question 5:
+
+Which of the following strategies is recommended to ensure successful welfare consideration in engineering projects?
+A) Avoid public consultations to minimize project delays.
+B) Use decision matrices to evaluate design alternatives based on societal, environmental, and economic factors.
+C) Focus solely on reducing costs to achieve maximum efficiency.
+D) Exclude marginalized groups from stakeholder engagement to streamline decisions.
+
+Answer: B) Use decision matrices to evaluate design alternatives based on societal, environmental, and economic factors.
