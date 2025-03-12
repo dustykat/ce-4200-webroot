@@ -57,10 +57,12 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'lessons/13-economics/economics';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Evaluation of Sustainability Considerations" href="../14-sustainability/sustainability.html" />
+    <link rel="next" title="14. Evaluation of Sustainability Considerations" href="../14-sustainability/sustainability.html" />
     <link rel="prev" title="12. Environmental Considerations" href="../12-environmental/environmental.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -195,8 +197,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../10-cultural/cultural.html">10. Evaluation of Cultural Considerations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../11-social/social.html">11. Evaluation of Social Considerations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../12-environmental/environmental.html">12. Environmental Considerations</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">13. <font color="green"> Economic Considerations </font></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../14-sustainability/sustainability.html">Evaluation of Sustainability Considerations</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#"><font color="green"> 13. Economic Considerations </font></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14-sustainability/sustainability.html">14. Evaluation of Sustainability Considerations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../17-licensing/licensing.html">Engineering Licensing</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../ethics/ethics.html">Engineering Ethics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../trusty/trusty.html">Trust and Trustworthiness</a></li>
@@ -406,7 +408,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>13. <font color = "green"> Economic Considerations </font></h1>
+    <h1><font color = "green"> 13. Economic Considerations </font></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -417,7 +419,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings-references">Readings/References</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fe-review-economics-1">FE-Review-Economics 1.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fe-review-economics-2">FE-Review-Economics 2.</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-section">End of Section</a></li>
 </ul>
             </nav>
@@ -431,7 +437,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="economic-considerations">
-<h1>13. <font color = "green"> Economic Considerations </font><a class="headerlink" href="#economic-considerations" title="Link to this heading">#</a></h1>
+<h1><font color = "green"> 13. Economic Considerations </font><a class="headerlink" href="#economic-considerations" title="Link to this heading">#</a></h1>
 <div class="admonition-course-website admonition">
 <p class="admonition-title">Course Website</p>
 <p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/">http://54.243.252.9/ce-4200-webroot/</a></p>
@@ -453,7 +459,169 @@ document.write(`
 <li><p>case study</p></li>
 <li><p>FE Review problems 27-31 worked</p></li>
 </ul>
+<hr class="docutils" />
+<section id="fe-review-economics-1">
+<h3>FE-Review-Economics 1.<a class="headerlink" href="#fe-review-economics-1" title="Link to this heading">#</a></h3>
+<p>A company can manufacture a product using hand tools.  Costs are <span class="math notranslate nohighlight">\(\$1,000\)</span> for the tools, and <span class="math notranslate nohighlight">\(\$1.50\)</span> manufacturing cost per unit.  An alternative automated system is <span class="math notranslate nohighlight">\(\$15,000\)</span> for the machine, and <span class="math notranslate nohighlight">\(\$0.50\)</span> manufacturing cost per unit.  The anticipated annual sales (the required production) is 5,000 units.  What is the breakeven time in years for the automated system ignoring interest, versus using live humans?</p>
+<p>A) 2.8 <br>
+B) 3.6 <br>
+C) 15.0 <br>
+D) never <br></p>
+<p>Solution (approach)</p>
+<ol class="arabic simple">
+<li><p>Compute cost to produce 5000 units per year by each method. Ratio of added investment to annual cost savings is payback time.</p>
+<ul class="simple">
+<li><p>Manual production <span class="math notranslate nohighlight">\(\$1.50*5000 = \$7,500\)</span><br></p></li>
+<li><p>Machine production <span class="math notranslate nohighlight">\(\$0.50*5000 = \$2,500\)</span><br></p></li>
+<li><p>Annual savings <span class="math notranslate nohighlight">\(\$7,500 - \$2,500 = \$5,000\)</span><br></p></li>
+<li><p>Added investment <span class="math notranslate nohighlight">\(\$15,000 - \$1,000 = \$14,000\)</span><br></p></li>
+<li><p>Payback time <span class="math notranslate nohighlight">\(\frac{\$14,000}{\$5,000/yr} = 2.8~\text{years}\)</span><br></p></li>
+</ul>
+</li>
+<li><p>Or compute cost to produce 5000 units per year by each method choose time when machine costs are less than human costs.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Given data</span>
+<span class="n">machine_cost</span> <span class="o">=</span> <span class="mi">15000</span>
+<span class="n">cpu_machine</span> <span class="o">=</span> <span class="mf">0.50</span>
+<span class="n">hand_tools</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="n">cpu_hand</span> <span class="o">=</span> <span class="mf">1.50</span>
+<span class="n">units</span> <span class="o">=</span> <span class="mi">5000</span>
+
+<span class="c1"># Initialize cost lists for 15 years</span>
+<span class="n">annual_cost_machine</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
+<span class="n">accum_cost_machine</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
+<span class="n">annual_cost_hand</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
+<span class="n">accum_cost_hand</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
+<span class="n">years</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">15</span>
+
+<span class="c1"># Year 0 costs</span>
+<span class="n">annual_cost_machine</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">machine_cost</span> <span class="o">+</span> <span class="n">cpu_machine</span> <span class="o">*</span> <span class="n">units</span>
+<span class="n">annual_cost_hand</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">hand_tools</span> <span class="o">+</span> <span class="n">cpu_hand</span> <span class="o">*</span> <span class="n">units</span>
+<span class="n">accum_cost_machine</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">annual_cost_machine</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">accum_cost_hand</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">annual_cost_hand</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># Compute costs for years 1 to 14</span>
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">15</span><span class="p">):</span>
+    <span class="n">annual_cost_machine</span><span class="p">[</span><span class="n">year</span><span class="p">]</span> <span class="o">=</span> <span class="n">cpu_machine</span> <span class="o">*</span> <span class="n">units</span>
+    <span class="n">annual_cost_hand</span><span class="p">[</span><span class="n">year</span><span class="p">]</span> <span class="o">=</span> <span class="n">cpu_hand</span> <span class="o">*</span> <span class="n">units</span>
+    <span class="n">accum_cost_machine</span><span class="p">[</span><span class="n">year</span><span class="p">]</span> <span class="o">=</span> <span class="n">accum_cost_machine</span><span class="p">[</span><span class="n">year</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">annual_cost_machine</span><span class="p">[</span><span class="n">year</span><span class="p">]</span>
+    <span class="n">accum_cost_hand</span><span class="p">[</span><span class="n">year</span><span class="p">]</span> <span class="o">=</span> <span class="n">accum_cost_hand</span><span class="p">[</span><span class="n">year</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">annual_cost_hand</span><span class="p">[</span><span class="n">year</span><span class="p">]</span>
+
+<span class="c1"># Print table with column labels</span>
+
+<span class="c1">#print(f&quot;{&#39;Year&#39;:&lt;5} {&#39;Automated Cost&#39;:&lt;15} {&#39;Manual Cost&#39;}&quot;)</span>
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">15</span><span class="p">):</span>
+    <span class="n">years</span><span class="p">[</span><span class="n">year</span><span class="p">]</span><span class="o">=</span><span class="n">year</span><span class="o">+</span><span class="mi">1</span>
+<span class="c1">#    print(f&quot;{year+1:&lt;5} {accum_cost_machine[year]:&lt;15.2f} {accum_cost_hand[year]:.2f}&quot;)</span>
+
+<span class="c1"># Plot accumulated costs</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">years</span><span class="p">,</span> <span class="n">accum_cost_machine</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Automated Cost&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">years</span><span class="p">,</span> <span class="n">accum_cost_hand</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;s&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Manual Cost&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Year&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Accumulated Cost ($)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Accumulated Cost Over Time: Automated vs. Manual&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/3062ca615e8987582c18d92509eaf87d9f86961467ea68beef8f5aba59fa3c05.png" src="../../_images/3062ca615e8987582c18d92509eaf87d9f86961467ea68beef8f5aba59fa3c05.png" />
+</div>
+</div>
+<p>The cross over occurs between year 2 and 3, closer to 3 - choose A</p>
 </section>
+<hr class="docutils" />
+<section id="fe-review-economics-2">
+<h3>FE-Review-Economics 2.<a class="headerlink" href="#fe-review-economics-2" title="Link to this heading">#</a></h3>
+<p><img alt="" src="../../_images/3dconcrete.png" /></p>
+<p>The 3-D concrete printer costs <span class="math notranslate nohighlight">\(\$90,000\)</span>  Its salvage value after 5 years is <span class="math notranslate nohighlight">\(\$30,000\)</span>.  Annual PMCS (Preventive Maintenance Checks and Services) is <span class="math notranslate nohighlight">\(\$5000\)</span>. If the interest rate is <span class="math notranslate nohighlight">\(8\%\)</span>, the equivalent uniform annual cost is most nearly</p>
+<p>A) <span class="math notranslate nohighlight">\(\$22,400\)</span> <br>
+B) <span class="math notranslate nohighlight">\(\$30,000\)</span> <br>
+C) <span class="math notranslate nohighlight">\(\$32,700\)</span> <br>
+D) <span class="math notranslate nohighlight">\(\$35,000\)</span> <br></p>
+<p>Solution (approach)</p>
+<ol class="arabic simple">
+<li><p>The formula to convert an initial cost (<span class="math notranslate nohighlight">\(C_0\)</span>) into an equivalent annualized cost stream (<span class="math notranslate nohighlight">\(A\)</span>) over <span class="math notranslate nohighlight">\(n\)</span> years at an interest rate <span class="math notranslate nohighlight">\(r\)</span> (expressed as a decimal) is based on the capital recovery factor: <br><br><span class="math notranslate nohighlight">\(A=C_0 \times \frac{r(1+r)^n}{(1+r)^{n}−1}\)</span><br><br> where,<br><br></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(A\)</span> = Equivalent annualized cost (constant annual payment)</p></li>
+<li><p><span class="math notranslate nohighlight">\(C_0\)</span> = Initial cost (one-time upfront investment)</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> = Interest rate per period (decimal form, i.e., 5% → 0.05)</p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> = Number of years (or periods)<br><br>
+This formula is derived from the present worth to annuity conversion in financial mathematics, assuming payments are made at the end of each period.</p></li>
+</ul>
+</li>
+<li><p>Modification to consider salvage value and annual PMCS is obtained by discounting the salvage value to the present and subtracting its annuitized value then adding the annual PMCS (O&amp;M) to obtain <br><br><span class="math notranslate nohighlight">\(A=C_0 \times \frac{r(1+r)^n}{(1+r)^{n}−1} - S \times \frac{r}{(1+r)^{n}−1} + O\)</span>
+<br><br> where,<br><br></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(A\)</span> = Equivalent annualized cost (constant annual payment)</p></li>
+<li><p><span class="math notranslate nohighlight">\(C_0\)</span> = Initial cost (one-time upfront investment)</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> = Interest rate per period (decimal form, i.e., 5% → 0.05)</p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> = Number of years (or periods)</p></li>
+<li><p><span class="math notranslate nohighlight">\(S\)</span> = Salvage value at the end of nn years</p></li>
+<li><p><span class="math notranslate nohighlight">\(O\)</span> = Annual operation &amp; maintenance cost<br><br></p></li>
+</ul>
+</li>
+<li><p>A python script to illustrate the calculations is below</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="k">def</span> <span class="nf">compute_annualized_cost</span><span class="p">(</span><span class="n">C0</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">S</span><span class="p">,</span> <span class="n">O</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Compute the annualized cost of an investment considering:</span>
+<span class="sd">    - Initial cost (C0)</span>
+<span class="sd">    - Interest rate (r)</span>
+<span class="sd">    - Number of years (n)</span>
+<span class="sd">    - Salvage value (S) at year n</span>
+<span class="sd">    - Annual operation &amp; maintenance cost (O)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Convert interest rate to decimal if given as percentage</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">r</span> <span class="o">/</span> <span class="mi">100</span>  
+
+    <span class="c1"># Capital recovery factor</span>
+    <span class="n">CRF</span> <span class="o">=</span> <span class="p">(</span><span class="n">r</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">r</span><span class="p">)</span><span class="o">**</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="p">((</span><span class="mi">1</span> <span class="o">+</span> <span class="n">r</span><span class="p">)</span><span class="o">**</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="c1"># Present worth factor for salvage value</span>
+    <span class="n">PW_S</span> <span class="o">=</span> <span class="n">S</span> <span class="o">*</span> <span class="p">(</span><span class="n">r</span> <span class="o">/</span> <span class="p">((</span><span class="mi">1</span> <span class="o">+</span> <span class="n">r</span><span class="p">)</span><span class="o">**</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+
+    <span class="c1"># Annualized cost calculation</span>
+    <span class="n">A</span> <span class="o">=</span> <span class="p">(</span><span class="n">C0</span> <span class="o">*</span> <span class="n">CRF</span><span class="p">)</span> <span class="o">-</span> <span class="n">PW_S</span> <span class="o">+</span> <span class="n">O</span>
+
+    <span class="k">return</span> <span class="n">A</span>
+
+<span class="c1"># Example Inputs</span>
+<span class="n">initial_cost</span> <span class="o">=</span> <span class="mi">90000</span>  <span class="c1"># Initial investment cost ($)</span>
+<span class="n">interest_rate</span> <span class="o">=</span> <span class="mi">8</span>      <span class="c1"># Interest rate (% per year)</span>
+<span class="n">years</span> <span class="o">=</span> <span class="mi">5</span>            <span class="c1"># Lifetime of the equipment (years)</span>
+<span class="n">salvage_value</span> <span class="o">=</span> <span class="mi">30000</span>   <span class="c1"># Expected resale or salvage value at year n ($)</span>
+<span class="n">annual_OandM</span> <span class="o">=</span> <span class="mi">5000</span>    <span class="c1"># Annual operation and maintenance cost ($)</span>
+
+<span class="c1"># Compute annualized cost</span>
+<span class="n">annualized_cost</span> <span class="o">=</span> <span class="n">compute_annualized_cost</span><span class="p">(</span><span class="n">initial_cost</span><span class="p">,</span> <span class="n">interest_rate</span><span class="p">,</span> <span class="n">years</span><span class="p">,</span> <span class="n">salvage_value</span><span class="p">,</span> <span class="n">annual_OandM</span><span class="p">)</span>
+
+<span class="c1"># Print result</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Annualized Cost: $</span><span class="si">{</span><span class="n">annualized_cost</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> per year&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Annualized Cost: $22427.39 per year
+</pre></div>
+</div>
+</div>
+</div>
+<p>The computed result is close to <span class="math notranslate nohighlight">\(\$22,400\)</span> - choose A</p>
+</section>
+</section>
+<hr class="docutils" />
 <section id="end-of-section">
 <h2>End of Section<a class="headerlink" href="#end-of-section" title="Link to this heading">#</a></h2>
 </section>
@@ -503,7 +671,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Evaluation of Sustainability Considerations</p>
+        <p class="prev-next-title">14. Evaluation of Sustainability Considerations</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -524,7 +692,11 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings-references">Readings/References</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fe-review-economics-1">FE-Review-Economics 1.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fe-review-economics-2">FE-Review-Economics 2.</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-section">End of Section</a></li>
 </ul>
   </nav></div>
