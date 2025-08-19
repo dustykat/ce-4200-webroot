@@ -1,0 +1,47 @@
+Below is a tentative schedule for CE 4200 this fall.  
+- The class is at 8:00-8:50PM (at night!) in CE205.  
+- There is some flexibilty in moving things around. 
+- The goofy formatting is so the CSS compiler makes a pretty table when posted to the web server.  
+- The rows that show quiz programmed refer to quizzes already programmed at http://3.85.103.207/  
+- You should examine the quiz for your topic (username == ttustudent  passwd == Forid10t$) 
+should grant you access the the course, then navigate to the quizzes.  
+- If you just want to see the quiz simply "take the quiz" and just randomly choose an answer.  
+- If the row needs a quiz; feel free to send me the quiz (pdf, docx) (WITH ANSWERS) and I can program it, 
+  try to go easy on graphics they are a pain in the neck to load.  
+- The students will be taking quizzes on Canvas (not Moodle, but they will function the same).
+- If you have fully worked solutions(not just answers), they will get stored differently - so put them into a different file.
+
+I am taking medical leave week of 23 Sep, so those two days are available for switching into if you wish.
+
+# Schedule
+|date|topic|readings|homework|
+|:---|:---|:---|:---|
+|26 Aug 2025|Introduction|||
+|28 Aug 2025|Framing the Profession: <br> - Knowledge Expectations <br> - ACSE BOK <br> - ABET Breadth and Depth ||| \\NEED A QUIZ
+|02 sep 2025|Beyond the Technical: <br> - Public Health Considerations in Engineering Design <br> -  Evaluation of Safety Considerations in Engineering Design||| \\quiz programmed
+|04 Sep 2025|Beyond the Technical: <br> - Evaluation of Welfare Considerations in Engineering Design <br> - Evaluation of Social Considerations in Engineering Design||| \\quiz programmed
+|09 Sep 2025|Beyond the Technical: <br> - Global Considerations in Engineering Design and Project Delivery <br> - Evaluation of Cultural Considerations in Engineering Design||| \\quiz programmed
+|11 Sep 2025|Beyond the Technical: <br> - Evaluation of Sustainability Considerations in Engineering Design <br> - Evaluation of Environmental Considerations in Engineering Design||| \\quiz programmed
+|16 Sep 2025|<font color="green">No Class (Job Fairy)</font>|||
+|18 Sep 2025|Licensure and FE Exam Preparation: <br> - Engineering Licensing ||| \\quiz programmed
+|23 Sep 2025|||| \\FMLA
+|25 Sep 2025|||| \\FMLA
+|30 Sep 2025|Licensure and FE Exam Preparation: <br> - Ethics and Professional Practice||| \\quiz programmed
+|02 Oct 2025|Licensure and FE Exam Preparation: <br> - Mathematics and Statistics||| \\ quiz programmed
+|07 Oct 2025|Licensure and FE Exam Preparation: <br> - Surveying ||| \\NEED A QUIZ
+|09 Oct 2025|Licensure and FE Exam Preparation: <br> - Statics||| \\quiz programmed
+|14 Oct 2025|Licensure and FE Exam Preparation: <br> - Dynamics||| \\quiz programmed
+|16 Oct 2025|Licensure and FE Exam Preparation: <br> - Mechanics of Materials (Solids) ||| \\quiz programmed
+|21 Oct 2025|Licensure and FE Exam Preparation: <br> - Structural Engineering||| \\quiz programmed
+|23 Oct 2025|Licensure and FE Exam Preparation: <br> - Fluid Mechanics||| \\quiz programmed
+|28 Oct 2025|Licensure and FE Exam Preparation: <br> - Hydraulics (Pipes and Pumps) ||| \\NEED A QUIZ
+|30 Oct 2025|Licensure and FE Exam Preparation: <br> - Hydrology (Runoff and Seepage)||| \\NEED A QUIZ
+|04 Nov 2025|Licensure and FE Exam Preparation: <br> - Water Quality, Testing, and Treatment (Environmental) ||| \\NEED A QUIZ (envionrmental)
+|06 Nov 2025|Licensure and FE Exam Preparation: <br> - Materials Science ||| \\quiz programmed 
+|11 Nov 2025|Licensure and FE Exam Preparation: <br> - Geotechnical Engineering||| \\quiz programmed 
+|13 Nov 2025|Licensure and FE Exam Preparation: <br> - Transportation Engineering||| \quiz programmed
+|18 Nov 2025|Licensure and FE Exam Preparation: <br> - Construction Engineering||| \\quiz programmed
+|20 Nov 2025|||| \\environmental
+|25 Nov 2025|<font color="green">No Class (Self-study)</font>|||
+|02 Dec 2025|Review||| \\ or some bullshit topic
+|08 Dec 2025|<font color="red">Final Exam (on Canvas)</font>|||

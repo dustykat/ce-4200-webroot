@@ -1,0 +1,74 @@
+Engineering Licensure Quiz
+General Questions (1–5)
+
+    What event is widely credited with sparking the push for formal engineering licensure in the U.S.?
+    A. Boston Molasses Flood
+    B. South Fork Dam Collapse / Johnstown Flood
+    C. Galveston Hurricane
+    D. Great Chicago Fire
+    Correct Answer: B
+
+    Which U.S. state was the first to enact an engineering licensure law?
+    A. Texas
+    B. California
+    C. Wyoming
+    D. New York
+    Correct Answer: C
+
+    What are the main components of modern engineering licensure?
+    A. Peer review and portfolio
+    B. Education, experience, and examination
+    C. Union membership and safety record
+    D. Design competition and patent submissions
+    Correct Answer: B
+
+    Why did states begin regulating engineering as a profession in the early 20th century?
+    A. To increase employment opportunities
+    B. To standardize engineering education
+    C. To protect public safety from unqualified individuals
+    D. To promote technological innovation
+    Correct Answer: C
+
+    Which of the following infrastructure types was specifically mentioned as a reason to license engineers?
+    A. Railroads and airports
+    B. Software systems and robotics
+    C. Bridges, dams, and buildings
+    D. Traffic signals and lighting
+    Correct Answer: C
+
+Texas-Specific Questions (6–10)
+
+    What is the name of the organization responsible for engineering licensure in Texas?
+    A. Texas Engineering Licensing Commission (TELC)
+    B. Texas Board of Professional Engineers and Land Surveyors (TBPELS)
+    C. Texas Society of Civil Engineers (TSCE)
+    D. Professional Engineers Association of Texas (PEAT)
+    Correct Answer: B
+
+    Which of the following is required for licensure as a Professional Engineer in Texas?
+    A. U.S. citizenship
+    B. Passing the PE exam, meeting education and experience requirements
+    C. Residency in Texas for at least 5 years
+    D. Military or government engineering service
+    Correct Answer: B
+
+    In Texas, what is the status of the title “Engineer” for individuals who are not licensed?
+    A. Anyone can use the title freely
+    B. It may only be used in academia
+    C. Its use is restricted in commercial/public practice contexts
+    D. It is reserved only for mechanical engineers
+    Correct Answer: C
+
+    Which law governs the licensure of engineers in Texas?
+    A. Texas Civil Practice Code
+    B. Texas Licensing and Practice Act for Engineers
+    C. Texas Occupations Code, Chapter 1001
+    D. Engineering and Surveying Act of 1907
+    Correct Answer: C
+
+    What is a unique feature of Texas engineering licensure compared to many other states?
+    A. License is valid internationally
+    B. Use of digital seals is prohibited
+    C. Licensure also governs the use of job titles and business marketing
+    D. Licensure includes mandatory military service
+    Correct Answer: C
