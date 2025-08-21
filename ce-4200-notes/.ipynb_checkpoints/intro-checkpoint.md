@@ -7,10 +7,14 @@ This required course addresses civil engineering body of knowledge topics includ
 [Link to Syllabus](http://54.243.252.9/ce-4200-webroot/0-Syllabus/syllabus.ce4200-2025-1.pdf)
 
 ## Suggested Citation
-William D. Lawson and Theodore G. Cleveland (2023). Instructor’s Notes to accompany CE-4200, Department of Civil, Environmental, and Construction Engineering, Whitacre College of Engineering. [http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html)
+Theodore G. Cleveland (2025). Instructor’s Notes to accompany CE-4200, Department of Civil, Environmental, and Construction Engineering, Whitacre College of Engineering. [http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html)
+
+<!--William D. Lawson and Theodore G. Cleveland (2025). Instructor’s Notes to accompany CE-4200, Department of Civil, Environmental, and Construction Engineering, Whitacre College of Engineering. [http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html)-->
 
 ## Copyright(s)
-Copyright © 2023 William D. Lawson and Theodore G. Cleveland, *The contents of this Jupyter Book are licensed for free consumption under the following license: [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Copyright © 2025 Theodore G. Cleveland, *The contents of this Jupyter Book are licensed for free consumption under the following license: [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<!--Copyright © 2023 William D. Lawson and Theodore G. Cleveland, *The contents of this Jupyter Book are licensed for free consumption under the following license: [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)-->
 
 ## Webpages
 
