@@ -5,8 +5,8 @@ format: jb-book
 root: intro
 chapters:
 # General                                                             #########################
-- file: lessons/1-introduction/introduction
 - file: lessons/0-syllabus/syllabus
+- file: lessons/1-introduction/introduction
 - file: lessons/8.1-careerplan/careerplan
 # Framing the Profession: Knowledge Expectations in Civil Engineering #########################
 - file: lessons/7-futureexpectations/futureengineer #
