@@ -31,6 +31,7 @@ chapters:
 - file: lessons/fereview/Economics/EngineeringEconomics-WorkItOut #10
 - file: lessons/fereview/Statics/FER-Statics #11
 - file: lessons/fereview/Dynamics/FER-Dynamics #12
+- file: lessons/fereview/FluidMechanics/FER-Fluids #12.1
 - file: lessons/fereview/MechanicsMaterials/FER-MechanicsMaterials #13
 - file: lessons/fereview/MaterialsScience/FER-MaterialsScience #14
 - file: lessons/fereview/Surveying/FER-Surveying #15
