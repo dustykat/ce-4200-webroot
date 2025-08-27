@@ -4,7 +4,7 @@ This required course addresses civil engineering body of knowledge topics includ
 
 ## Syllabus
 
-[Link to Syllabus](http://54.243.252.9/ce-4200-webroot/0-Syllabus/syllabus.ce4200-2025-1.pdf)
+[Link to Syllabus](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/0-syllabus/syllabus.html)
 
 ## Suggested Citation
 Theodore G. Cleveland (2025). Instructor’s Notes to accompany CE-4200, Department of Civil, Environmental, and Construction Engineering, Whitacre College of Engineering. [http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html](http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/intro.html)
