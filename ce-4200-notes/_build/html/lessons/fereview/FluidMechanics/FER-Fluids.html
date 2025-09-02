@@ -422,7 +422,6 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fluid-properties">Fluid Properties</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pressure">Pressure.</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#viscosity">Viscosity.</a></li>
@@ -433,6 +432,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fluid-dynamics">Fluid Dynamics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
 </ul>
             </nav>
         </div>
@@ -448,26 +448,22 @@ document.write(`
 <h1>17. FER - Fluid Mechanics<a class="headerlink" href="#fer-fluid-mechanics" title="Link to this heading">#</a></h1>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Under construction.</p>
+<p>This section is still under construction.</p>
 </div>
 <section id="readings">
 <h2>Readings<a class="headerlink" href="#readings" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-1.pdf">FER-MechMatls-1.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-2.pdf">FER-MechMatls-2.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mechanics-annotated.pdf">Mechanics-annotated.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mohr'sCircle.pdf">Mohr’sCircle.pdf</a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/FluidMechanics/FER-Fluids-A.pdf">FER-Fluids-A.pdf</a> older study guidelines</p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/FluidMechanics/FER-Fluids-B.pdf">FER-Fluids-B.pdf</a> Example quiz, hand written problems and solutions</p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/FluidMechanics/FER-Fluids-Quiz.pdf">FER-Fluids-Quiz.pdf</a> Example quiz; no solutions</p></li>
 </ol>
 </section>
 <section id="videos">
 <h2>Videos<a class="headerlink" href="#videos" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=FF7-VOutTwM&amp;amp;list=PLWbyCDWU1A_iBDKyOeIcPDwH0IOnEwG3h&amp;amp;index=5">Mechanics of Materials YouTube Video by Mark Mattson, PE - SUNY Polytechnical (Utica NY Campus)</a></p></li>
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=SuH8F-X5enE">FE Exam Review: Statics, Dynamics, Mechanics of Deformable Bodies YouTube Video by Gregory Michaelson - Marshall University (Go to 1:00:05 time stamp to view the Mechanics of Materials portion)</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=XqjfnpqGWS0">FE Fluid Mechanics Review Session 2022 (Mark Mattson)</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=y9MkIEBIWr4">FE Exam Fluid Mechanics Review – Master the Core Concepts Through 11 Real Problems</a></p></li>
 </ol>
-</section>
-<section id="outline">
-<h2>Outline<a class="headerlink" href="#outline" title="Link to this heading">#</a></h2>
 </section>
 <section id="fluid-properties">
 <h2>Fluid Properties<a class="headerlink" href="#fluid-properties" title="Link to this heading">#</a></h2>
@@ -525,29 +521,31 @@ moving down in a fluid increases pressure, moving up in a fluid decreases pressu
 </section>
 <section id="fluid-dynamics">
 <h2>Fluid Dynamics<a class="headerlink" href="#fluid-dynamics" title="Link to this heading">#</a></h2>
-<p>Behavior of fluids than may be accelerating.
-Conservation of Mass. Mass flows are conserved.
-˙m1 = ˙m2
-Also used in velocity and/or discharge form as
-ρ1A1v1 = ρ2A2v2 and/or ρ1Q1 = ρ2Q2
-If incompressible, then ρ is a constant and conservation of flux is sufficient.
-Conservation of Energy. Fluid system energy is comprised of pressure, velocity,
-and gravitational potentials (heads).
-htotal = p
-γ + v2
-2g + z
-Hydraulic Grade Line is a plot of the pressure head in a system referenced to
-some datum (i.e. z = 0).
-Energy Grade Line is a plot of the pressure and velocity head in a system.
-Bernoulli’s Equation In absence of energy losses (friction) the total head (energy)
-in a system is a constant.
-p1
-γ + v2
-1
-2g + z1 = p2
-γ + v2
-2
-2g + z2</p>
+<p>Behavior of fluids that are in motion and may be accelerating.</p>
+<p><strong>Conservation of Mass.</strong></p>
+<ul class="simple">
+<li><p>Mass flows are conserved.</p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\( \dot{m1} = \dot{m2}\)</span></p>
+<ul class="simple">
+<li><p>Also used in velocity and/or discharge form as</p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\(\rho_1 A_1 V_1 = \rho_2 A_2 V_2 ~~~\text{and/or}~~~ \rho_1 Q_1 = \rho_2 Q_2\)</span></p>
+<p>If incompressible, then <span class="math notranslate nohighlight">\(\rho\)</span> is a constant and conservation of flux is sufficient.</p>
+<p><strong>Conservation of Energy.</strong></p>
+<ul class="simple">
+<li><p>Fluid system energy is comprised of pressure, velocity, and gravitational potentials (heads).</p></li>
+<li><p><span class="math notranslate nohighlight">\(h_{total} = \frac{p}{\gamma} + \frac{V^2}{2g} + z\)</span></p></li>
+<li><p>Hydraulic Grade Line is a plot of the pressure head <span class="math notranslate nohighlight">\(\frac{p}{\gamma} + z \)</span> versus <span class="math notranslate nohighlight">\(x\)</span> in a system.</p></li>
+<li><p>Energy Grade Line is a plot of the pressure and velocity head <span class="math notranslate nohighlight">\(\frac{p}{\gamma} +  \frac{V^2}{2g} +z \)</span> versus <span class="math notranslate nohighlight">\(x\)</span> in a system.</p></li>
+<li><p>Bernoulli’s Equation: In absence of energy losses (friction) the total head (energy) in a system is a constant.
+<span class="math notranslate nohighlight">\(\frac{p_1}{\gamma} + \frac{V_1^2}{2g} + z_1 = \frac{p_2}{\gamma} + \frac{V_2^2}{2g} + z_2\)</span></p></li>
+<li><p>Energy (modified Bernoulli’s equation): Includes acounting for energy losses (and additions) <span class="math notranslate nohighlight">\(\frac{p_1}{\gamma} + \frac{V_1^2}{2g} + z_1 + h_{gains} = \frac{p_2}{\gamma} + \frac{V_2^2}{2g} + z_2 + h_{losses}\)</span></p></li>
+</ul>
+</section>
+<section id="section-end">
+<h2>Section End<a class="headerlink" href="#section-end" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/FluidMechanics/FluidsPreview.pdf">Fluids Quiz Preview</a></p>
 </section>
 </section>
 
@@ -617,7 +615,6 @@ p1
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fluid-properties">Fluid Properties</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pressure">Pressure.</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#viscosity">Viscosity.</a></li>
@@ -628,6 +625,7 @@ p1
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fluid-dynamics">Fluid Dynamics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
 </ul>
   </nav></div>
 

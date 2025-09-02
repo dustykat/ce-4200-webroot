@@ -1,0 +1,71 @@
+Quiz: Evaluation of Social Considerations
+
+1. Which of the following best describes the role of social considerations in engineering design?
+A. They are optional concerns that can be added if time allows
+B. They ensure that designs are responsible, sustainable, and inclusive
+C. They are mostly relevant only in public relations campaigns
+D. They are the same as economic cost-benefit analyses
+Answer: B
+
+2. According to Freeman’s Stakeholder Approach, stakeholders are:
+A. Only the investors who provide capital
+B. Any group or individual affected by or affecting the organization
+C. Only government regulators and policy makers
+D. Primarily the project engineers and technical staff
+Answer: B
+
+3. Which document provides international guidance on project management, including stakeholder engagement?
+A. ISO 9001: Quality Management Systems
+B. ISO 14001: Environmental Management Systems
+C. ISO 21500: Guidance on Project Management
+D. ASTM E84: Surface Burning Characteristics
+Answer: C
+
+4. Why is stakeholder management critical in engineering projects?
+A. It avoids dealing with legal liability altogether
+B. It ensures only the most powerful stakeholders are satisfied
+C. It balances the priorities of multiple groups that may conflict
+D. It eliminates the need for professional ethics
+Answer: C
+
+5. The inclusion of social considerations in engineering practice is most closely tied to:
+A. Professional ethics and societal responsibility
+B. Faster project approval timelines
+C. Reducing engineering labor costs
+D. Marketing and branding strategies
+Answer: A
+
+6. In Freeman’s work, stakeholder theory emphasizes that organizations should:
+A. Focus only on shareholder profit maximization
+B. Build relationships with stakeholders to improve outcomes
+C. Prioritize government regulations above all else
+D. Avoid engagement with stakeholders to prevent delays
+Answer: B
+
+7. Which of the following is NOT an example of a social consideration in engineering?
+A. Community impacts of infrastructure placement
+B. Equity in access to engineering solutions
+C. Aesthetic and cultural values of a project site
+D. Minimizing internal rate of return for investors
+Answer: D
+
+8. The CE 4200 lesson on social considerations emphasizes that:
+A. Technical excellence is sufficient to define successful design
+B. Engineering design impacts society and must account for stakeholders
+C. Engineers are not responsible for broader societal impacts
+D. Social considerations can be ignored once a design is approved
+Answer: B
+
+9. Which of the following best illustrates stakeholder conflict in engineering design?
+A. Engineers debating the efficiency of two pump designs
+B. A community opposing a highway expansion that benefits commuters
+C. A contractor choosing between two suppliers for steel beams
+D. A student group selecting a meeting time
+Answer: B
+
+10. Incorporating social considerations into engineering design helps ensure:
+A. Projects meet only technical performance metrics
+B. Stakeholders are excluded from decision-making processes
+C. Long-term sustainability and public trust in engineering outcomes
+D. Engineers avoid professional licensure requirements
+Answer: C

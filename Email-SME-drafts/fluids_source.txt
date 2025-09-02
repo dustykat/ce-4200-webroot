@@ -1,0 +1,9 @@
+Dear,
+
+Wenjie, Fei; Ameri Gurley; David Spears; Wei Zhang.
+
+Attached is the tentative schedule for CE 4200 this fall.  As in the past a 50-minute SME led review of Fluid Mechanics is requested.
+
+The class is at 8:00-8:50PM (at night!) in CE205.  I have targeted you as either a recent or current instructor, only one of you needs to provide a review.  I have linked what I have on the course web page for the topic. http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/FluidMechanics/FER-Fluids.html
+
+If you have materials you would like added to the webpage, you can send them as PDF (i will simply store and link), docx (I will store as supplied then convert to PDF and link), or if you want to build out the page docx (or markdown is easiest for me to convert into html).  An example page is shown at http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/Economics/EngineeringEconomics-WorkItOut.html
