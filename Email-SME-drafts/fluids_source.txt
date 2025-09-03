@@ -4,6 +4,35 @@ Wenjie, Fei; Ameri Gurley; David Spears; Wei Zhang.
 
 Attached is the tentative schedule for CE 4200 this fall.  As in the past a 50-minute SME led review of Fluid Mechanics is requested.
 
-The class is at 8:00-8:50PM (at night!) in CE205.  I have targeted you as either a recent or current instructor, only one of you needs to provide a review.  I have linked what I have on the course web page for the topic. http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/FluidMechanics/FER-Fluids.html
+The class is at 8:00-8:50PM (at night!) in CE205.  I have targeted you as either a recent or current instructor, only one of you needs to provide a review. Please decide who does the session let me know (and the others).  If you can think of other people to add to the list also let me know so we can share the fun in the future.
 
-If you have materials you would like added to the webpage, you can send them as PDF (i will simply store and link), docx (I will store as supplied then convert to PDF and link), or if you want to build out the page docx (or markdown is easiest for me to convert into html).  An example page is shown at http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/Economics/EngineeringEconomics-WorkItOut.html
+I have linked what I have on the course web page for the topic. http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/FluidMechanics/FER-Fluids.html
+
+If you have materials you would like added to the webpage, you can send them as PDF (i will simply store and link), docx (I will store as supplied then convert to PDF and link), or if you want to build out the page docx is easiest for me to convert into html be sure to imbed graphics).  
+
+An example "training page" is shown at http://54.243.252.9/ce-4200-webroot/ce-4200-notes/_build/html/lessons/fereview/Economics/EngineeringEconomics-WorkItOut.html  
+
+
+
+Attached is a schedule for CE 4200 - I have simply reused people who played in the past. Class is T-TH at 20:00-20:50 (8:00 - 8:50pm CE 205), its a one-time show (OK to reuse your past meterials).   If you have a conflict can you browbeat a colleague to take your materials and designated day to present the materials.
+
+Also in the schedule are "links" that go to the course website (as it currently exists).  If you have materials you would like added to the webpage for your topic, you can send them as PDF (i will simply store and link), docx (I will store as supplied then convert to PDF and link), or if you want me to build out the page; docx is easiest for me to convert into html be sure to imbed graphics).  If you have quizzes you want me to program (into Canvas) send them as docx (with answers), I will program them.  If you have fully worked solutions, those are a better fit for a built-out web page (I can do that too). 
+
+The presentation should be about 40-minutes, so about 3-4 FE-type problems in some depth; focus should be where in NCEES supplied reference to find supporting information (equations; tabular data) - then how to complete the problem swiftly.
+
+
+Hoyoung.Seo@ttu.edu
+Sangwook.Bae@ttu.edu
+wfei@ttu.edu
+Evan.Gray@ttu.edu
+Moon.Won@ttu.edu
+Yimin.Lu@ttu.edu
+sunghyun.park@ttu.edu
+David.Spears@ttu.edu
+Venky.Shankar@ttu.edu
+Ameri.B.Gurley@ttu.edu
+ww.Zhang@ttu.edu
+Hongchao.Liu@ttu.edu
+Delong.Zuo@ttu.edu
+Xinzhong.Chen@ttu.edu
+Pawel.Polaczyk@ttu.edu
