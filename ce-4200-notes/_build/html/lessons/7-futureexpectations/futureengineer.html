@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -57,8 +57,6 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'lessons/7-futureexpectations/futureengineer';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -182,9 +180,9 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../1-introduction/introduction.html">1.0 Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../0-syllabus/syllabus.html">Syllabus</a></li>
 
+<li class="toctree-l1"><a class="reference internal" href="../1-introduction/introduction.html">1.0 Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../8.1-careerplan/careerplan.html">1.1 Developing A Personal Career Plan</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">2.0 Expectations of an Engineer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../3-abetbreath/abetbreath.html">2.1 ABET Breadth of Knowledge Considerations for Civil Engineering</a></li>
@@ -213,6 +211,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../fereview/Economics/EngineeringEconomics-WorkItOut.html">10. FER - Engineering Economics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fereview/Statics/FER-Statics.html">11. FER - Statics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fereview/Dynamics/FER-Dynamics.html">12 FER - Dynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fereview/FluidMechanics/FER-Fluids.html">17. FER - Fluid Mechanics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fereview/MechanicsMaterials/FER-MechanicsMaterials.html">13. FER - Mechanics of Materials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fereview/MaterialsScience/FER-MaterialsScience.html">14. FER - Materials Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../fereview/Surveying/FER-Surveying.html">15. FER - Surveying</a></li>
@@ -421,19 +420,6 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-objectives">Key Objectives:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-motivation-matters">Why Motivation Matters:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#looking-ahead">Looking Ahead</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-a-personal-career-plan">Developing A Personal Career Plan</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#job-hunting-101">Job Hunting 101</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-you-have-goals">Do you have goals?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-about-multiple-offers">What about multiple offers?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wcoe-services">WCOE Services</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-services">Other Services</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-expectations-of-a-civil-engineer">Future Expectations of a Civil Engineer</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-section">End of Section</a></li>
@@ -473,118 +459,6 @@ document.write(`
 <li><p><a class="reference external" href="https://youtu.be/kYEhKzBJUqo">Pros and Cons of of being a Civil Engineer</a></p></li>
 <li><p><a class="reference external" href="https://youtu.be/v46cZM7iDio">Highest Paying Countries for Civil Engineer (Civil Engineering)</a></p></li>
 </ol>
-</section>
-<section id="purpose">
-<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
-<p>The purpose of this lesson is to provide guidance and preparation for the upcoming <strong>Job Fair</strong>, equipping you with the mindset and foundational strategies to make the most of the opportunity. While this lesson is primarily <strong>motivational</strong>, its impact might not feel immediately tangible. However, upon reflection, you may realize you’ve absorbed valuable insights that influence how you approach the event and your career development.</p>
-<section id="key-objectives">
-<h3>Key Objectives:<a class="headerlink" href="#key-objectives" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Motivate and Inspire</strong>:</p>
-<ul>
-<li><p>Encourage a proactive and confident approach to networking and presenting yourself to potential employers.</p></li>
-<li><p>Highlight the importance of viewing the Job Fair as a learning experience, regardless of immediate outcomes.</p></li>
-</ul>
-</li>
-<li><p><strong>Preparation for Action</strong>:</p>
-<ul>
-<li><p>Ensure you approach the Job Fair with a clear purpose and realistic expectations.</p></li>
-<li><p>Provide strategies for effective communication, self-presentation, and professional etiquette that can help you stand out.</p></li>
-</ul>
-</li>
-<li><p><strong>Set the Stage for Growth</strong>:</p>
-<ul>
-<li><p>Plant the seeds for a growth-oriented mindset that aligns with the follow-up lesson on <strong>Attitude</strong>.</p></li>
-<li><p>Connect the dots between motivation, preparation, and attitude, emphasizing how these elements contribute to long-term career success.</p></li>
-</ul>
-</li>
-</ul>
-</section>
-<section id="why-motivation-matters">
-<h3>Why Motivation Matters:<a class="headerlink" href="#why-motivation-matters" title="Link to this heading">#</a></h3>
-<p>Job Fairs can feel overwhelming or intimidating, but this lesson is designed to help you see them as <strong>opportunities for growth</strong>, not just high-pressure events. By cultivating the right mindset:</p>
-<ul class="simple">
-<li><p>You’ll view conversations with employers as a chance to learn and gain feedback, not just as “make-or-break” moments.</p></li>
-<li><p>You’ll build resilience and adaptability, critical skills in navigating your early career path.</p></li>
-</ul>
-<p>Remember, the focus here is less about specific knowledge or skills and more about <strong>how you approach the process</strong>. Keep this in mind as you review these notes and consider how your attitude and preparation can shape your experience.</p>
-</section>
-<section id="looking-ahead">
-<h3>Looking Ahead<a class="headerlink" href="#looking-ahead" title="Link to this heading">#</a></h3>
-<p>In the next lesson, <strong>Attitude</strong>, we’ll dive deeper into how maintaining a positive, professional, and resilient mindset can have a transformative impact on your career. For now, take the motivational messages from this lesson as an invitation to prepare mentally, emotionally, and strategically for the opportunities ahead.</p>
-</section>
-</section>
-<section id="developing-a-personal-career-plan">
-<h2>Developing A Personal Career Plan<a class="headerlink" href="#developing-a-personal-career-plan" title="Link to this heading">#</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Subsection under development</p>
-</div>
-</section>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
-<p>A question frequently asked by graduating senior students is, how do I know what job to choose?  Perhaps now you are not thinking about getting a job.  But imagine that in about 6 months, you find yourself with multiple job offers, as some of our students are doing.  How would you answer this question?  This is actually a misdirected question.  More specifically:</p>
-<ul class="simple">
-<li><p>Not a job, but a fit<span class="math notranslate nohighlight">\(^*\)</span></p></li>
-<li><p>Not what others want for you, but what you want for yourself</p></li>
-<li><p>Not just salary, it’s about personal satisfaction</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><span class="math notranslate nohighlight">\(^*\)</span>Fit is currently (circa 2022) a trigger word in HR circles.</p>
-</div>
-</section>
-<section id="job-hunting-101">
-<h2>Job Hunting 101<a class="headerlink" href="#job-hunting-101" title="Link to this heading">#</a></h2>
-<p>You are not looking for a job.  You are looking for a good match between your skills, talents, gifts, abilities, interests and needs, and a place/way to express those in the workplace.  In this way, job hunting becomes transformed from a filtered search (numbers game) to a diligent, focused inquiry for information and insight both inward (yourself) and outward (potential employers).</p>
-<p>Exercise: What are you good at?  Can you think of a way to express this in the workplace?</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You have to eat, have shelter, and such.  While usually it is better to be a king in hell than a slave in heaven; There will be times in your career when these simple requirements (food, clothing, shelter) will dominate decisions, and that’s OK - but have an exit plan.</p>
-</div>
-</section>
-<section id="do-you-have-goals">
-<h2>Do you have goals?<a class="headerlink" href="#do-you-have-goals" title="Link to this heading">#</a></h2>
-<p>It has been said that the happiest time in your life are when you are pursuing a goal.  Aimlessness is not fun. What are your goals?  What about after graduation? Where do you prefer to live? What type of work interests you? Do you plan to save money and grow wealth?  Do you think you will continue your formal education? Want to travel? Want to start a family?
-Spiritual. Vocational. Educational. Financial. Personal.
-Your assignment gets into this.</p>
-</section>
-<section id="what-about-multiple-offers">
-<h2>What about multiple offers?<a class="headerlink" href="#what-about-multiple-offers" title="Link to this heading">#</a></h2>
-<p>Learn about the companies that appear interesting to you.<br />
-Start with research, and refine your inquiry with the interview and office (or site) visit.<br />
-This is not only a great way to make a clear impression that you are deeply interested in the company, but to communicate that you have things personal and unique to offer.</p>
-<ul class="simple">
-<li><p>Identify what is important to you. What are the factors?  Categories and subcategories.</p></li>
-<li><p>Put weighting factors on these (point spread).</p></li>
-<li><p>Carefully reflect on how you should rank each opportunity.</p></li>
-<li><p>Sum them up.</p></li>
-<li><p>Make your decision</p></li>
-</ul>
-</section>
-<section id="wcoe-services">
-<h2>WCOE Services<a class="headerlink" href="#wcoe-services" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>The mighty Job Fair! <br><img alt="" src="../../_images/jobfair2023.png" /></p></li>
-<li><p>JobGrid! <br><img alt="" src="../../_images/jobgrid2023.png" /></p></li>
-<li><p>If you visit WCOE pages here is the guidance for the Job Grid/Job Fairy <br><img alt="" src="../../_images/jobsteps2023.png" /></p></li>
-</ul>
-<p><a class="reference external" href="https://www.depts.ttu.edu/coe/careers/students/">WCOE Career Services</a></p>
-</section>
-<section id="other-services">
-<h2>Other Services<a class="headerlink" href="#other-services" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://www.indeed.com/">Indeed.com</a>.   I know of 2 people since 2014 that found engineering jobs and accepted them using Indeed so its not bunk.</p>
-<p><a class="reference external" href="https://www.monster.com/">Monster.com</a>.  A little more geared to IT and manufacturing chump jobs, but much like Indeed.</p>
-<p><a class="reference external" href="https://www.usajobs.gov/">USA Jobs</a>.  All federal jobs post here - Corps of Engineers, Bureau of Reclaimation, NTSB, USGS, US EPA ….   there are a fair amount of entry level engineering jobs all over the USA and globally.  Many have citizenship requirement; but a large number only require right to work in USA.   Its a pain in the ass to get everything uploaded, but once done it is easy to apply for new jobs as they arise - i think uploads are stored on their server for 2 years, and they email you when your data is about to pumpkin.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you are a veteran (and old enough like me), many jobs require documents that don’t exist for you - its an IQ test; I place documents that state: “At the time of my discharge such forms/requirements did not exist hence such a form is not applicable”  then upload as a PDF with the proper form name to get by the computer screen.  If a human ever sees your application they can institute a work around.</p>
-<p>USA Jobs knows about this flaw, but they don’t have a fix yet.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>“Ok, I kind of tricked you with that job fair stuff, but you should be able to make a potential employer believe you are aware of the future expectations of a civil engineer.”</strong>  The remainder of the lesson is formally addressing the actual title; i’ll try to avoid such shenanigans most of the time</p>
-</div>
 </section>
 <section id="future-expectations-of-a-civil-engineer">
 <h2>Future Expectations of a Civil Engineer<a class="headerlink" href="#future-expectations-of-a-civil-engineer" title="Link to this heading">#</a></h2>
@@ -713,19 +587,6 @@ This is not only a great way to make a clear impression that you are deeply inte
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#key-objectives">Key Objectives:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-motivation-matters">Why Motivation Matters:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#looking-ahead">Looking Ahead</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-a-personal-career-plan">Developing A Personal Career Plan</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#job-hunting-101">Job Hunting 101</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-you-have-goals">Do you have goals?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-about-multiple-offers">What about multiple offers?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wcoe-services">WCOE Services</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-services">Other Services</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#future-expectations-of-a-civil-engineer">Future Expectations of a Civil Engineer</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-section">End of Section</a></li>
