@@ -57,6 +57,8 @@
     <script async="async" src="../../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'lessons/fereview/Surveying/FER-Surveying';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -205,6 +207,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../12-environmental/environmental.html">6.1 Environmental Considerations in Engineering Design</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../17-licensing/licensing.html">7.0 Engineering Licensing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../feexam/feexam.html">7.1 Fundamentals of Engineering (FE) EXAM</a></li>
+
 
 <li class="toctree-l1"><a class="reference internal" href="../Mathematics/FER-Math.html">8.1 FE Review - Mathematics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Statistics/FER-Statistics.html">9. Engineering Probability and Statistics</a></li>
@@ -420,9 +423,16 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#angles-distances-and-trigonometry">Angles, Distances, and Trigonometry</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#angles-distances-and-trigonometry">Angles, Distances, and Trigonometry</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1">Example 1:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-2">Example 2:</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#area-computations">Area Computations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earthwork-and-volume-computations">Earthwork and Volume Computations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earthwork-and-volume-computations">Earthwork and Volume Computations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-3">Example 3:</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-systems">Coordinate Systems</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leveling">Leveling</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
@@ -449,7 +459,7 @@ document.write(`
 <li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Surveying/13CivilPracticeSurveying.pdf">Civil Civil Surveying (PPI excerpt circa 2010)</a></p></li>
 <li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Surveying/MFE_EXAM+SOLNS_Surveying.pdf">Mock FE Worked Solutions</a></p></li>
 <li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Surveying/NCEES_FE_CivilPractice_Exam_SURVEYING.pdf">NCEES FE Practice Questions (no solutions) </a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-2.pdf">Placeholder</a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/3-Readings/FE-Exam-Stuff/fe-handbook-10-4.pdf">FE Handbook 10-4 (local copy)</a></p></li>
 <li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-1.pdf">Placeholder</a></p></li>
 <li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-2.pdf">Placeholder</a></p></li>
 </ol>
@@ -466,23 +476,70 @@ document.write(`
 </section>
 <section id="angles-distances-and-trigonometry">
 <h2>Angles, Distances, and Trigonometry<a class="headerlink" href="#angles-distances-and-trigonometry" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Narrative and equations go here.</p>
+</div>
+<section id="example-1">
+<h3>Example 1:<a class="headerlink" href="#example-1" title="Link to this heading">#</a></h3>
+<p><img alt="" src="../../../_images/problem1.png" /></p>
+<p><img alt="" src="../../../_images/answer1.png" /></p>
+</section>
+<hr class="docutils" />
+<section id="example-2">
+<h3>Example 2:<a class="headerlink" href="#example-2" title="Link to this heading">#</a></h3>
+<p><img alt="" src="../../../_images/problem2.png" /></p>
+<p><img alt="" src="../../../_images/answer2.png" /></p>
+</section>
 </section>
 <section id="area-computations">
 <h2>Area Computations<a class="headerlink" href="#area-computations" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Coordinate systems matter.  UTM is nearly cartesian and can use Homer Simpson’s rule for plane areas.</p>
+<p>Convert DMS into cartesian before making area calculations or use great circle projections then convert DMS<span class="math notranslate nohighlight">\(^2\)</span> into plane areas.</p>
+</div>
+<p><img alt="" src="../../../_images/problemArea2.png" /></p>
+<p><img alt="" src="../../../_images/answerArea2.png" /></p>
+<hr class="docutils" />
+<p><img alt="" src="../../../_images/problemArea1.png" /></p>
+<p><img alt="" src="../../../_images/answerArea1.png" /></p>
 </section>
 <section id="earthwork-and-volume-computations">
 <h2>Earthwork and Volume Computations<a class="headerlink" href="#earthwork-and-volume-computations" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Narrative and equations go here.</p>
+</div>
+<section id="example-3">
+<h3>Example 3:<a class="headerlink" href="#example-3" title="Link to this heading">#</a></h3>
+<p><img alt="" src="../../../_images/problem3.png" /></p>
+<p><img alt="" src="../../../_images/answer3.png" /></p>
+</section>
 </section>
 <section id="coordinate-systems">
 <h2>Coordinate Systems<a class="headerlink" href="#coordinate-systems" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Narrative and equations go here.</p>
+</div>
 </section>
 <section id="leveling">
 <h2>Leveling<a class="headerlink" href="#leveling" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Narrative and equations go here.</p>
+</div>
+<p><img alt="" src="../../../_images/problem4.png" /></p>
+<p><img alt="" src="../../../_images/answer4.png" /></p>
+<hr class="docutils" />
+<p><img alt="" src="../../../_images/problem5.png" /></p>
+<p><img alt="" src="../../../_images/answer5.png" /></p>
 </section>
 <section id="section-end">
 <h2>Section End<a class="headerlink" href="#section-end" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="#dummy"><span class="xref myst">Surveying Quiz Preview</span></a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9">Surveying Quiz Preview</a>  Placeholder no active link</p></li>
 </ul>
 </section>
 </section>
@@ -553,9 +610,16 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#angles-distances-and-trigonometry">Angles, Distances, and Trigonometry</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#angles-distances-and-trigonometry">Angles, Distances, and Trigonometry</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1">Example 1:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-2">Example 2:</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#area-computations">Area Computations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earthwork-and-volume-computations">Earthwork and Volume Computations</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#earthwork-and-volume-computations">Earthwork and Volume Computations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-3">Example 3:</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coordinate-systems">Coordinate Systems</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leveling">Leveling</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
