@@ -573,6 +573,26 @@ head E :  395
 (B)  9.0 acre-feet <br>
 (C) 10.0 acre-feet <br>
 (D) 11.0 acre-feet</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">CN</span> <span class="o">=</span> <span class="mi">78</span>
+<span class="n">P</span> <span class="o">=</span> <span class="mf">3.2</span>
+<span class="n">A</span> <span class="o">=</span> <span class="mi">95</span>
+<span class="n">S</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">/</span><span class="n">CN</span> <span class="o">-</span> <span class="mi">10</span>
+<span class="n">Q</span> <span class="o">=</span> <span class="p">((</span><span class="n">P</span><span class="o">-</span><span class="mf">0.2</span><span class="o">*</span><span class="n">S</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">P</span><span class="o">+</span><span class="mf">0.8</span><span class="o">*</span><span class="n">S</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Runoff in watershed inches&quot;</span><span class="p">,</span><span class="n">Q</span><span class="p">)</span>
+<span class="n">acre_feet</span> <span class="o">=</span> <span class="p">(</span><span class="n">Q</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span><span class="o">*</span><span class="n">A</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Runoff in acre-feet&quot;</span><span class="p">,</span><span class="n">acre_feet</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Runoff in watershed inches 1.2733564680933103
+Runoff in acre-feet 10.080738705738707
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 <section id="section-end">
 <h2>Section End<a class="headerlink" href="#section-end" title="Link to this heading">#</a></h2>
