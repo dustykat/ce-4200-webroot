@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -57,6 +57,8 @@
     <script async="async" src="../../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'lessons/fereview/Hydrology/FER-Hydrology';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -421,7 +423,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-59-ncees-practice-exam-manual">Problem 59 (NCEES Practice Exam Manual)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-61-ncees-practice-exam-manual">Problem 61 (NCEES Practice Exam Manual)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem">Problem</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
 </ul>
             </nav>
         </div>
@@ -435,28 +440,144 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="fer-hydrology-runoff-and-seepage">
 <h1>16. FER - Hydrology (Runoff and Seepage)<a class="headerlink" href="#fer-hydrology-runoff-and-seepage" title="Link to this heading">#</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Usually an actual subject expert would give the review but no-one could be forced at the time of this writing.  So this is a YOYO topic.</p>
+<div class="admonition-contributors admonition">
+<p class="admonition-title">Contributors</p>
+<p>TBA</p>
 </div>
 <section id="readings">
 <h2>Readings<a class="headerlink" href="#readings" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-1.pdf">FER-MechMatls-1.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/FER-MechMatls-2.pdf">FER-MechMatls-2.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mechanics-annotated.pdf">Mechanics-annotated.pdf</a></p></li>
-<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/MechanicsMaterials/Mohr'sCircle.pdf">Mohr’sCircle.pdf</a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Hydrology/FER-HydrologyAndHydraulicsPractice.pdf">FER-HydrologyAndHydraulicsPractice.pdf</a></p></li>
+<li><p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Hydrology/CE4101-Hydrology-2017-10.pdf">Diagnostic quiz in Lindeburg FE Civil Review preceding chapters 9-11</a></p></li>
 </ol>
 </section>
 <section id="videos">
 <h2>Videos<a class="headerlink" href="#videos" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=FF7-VOutTwM&amp;amp;list=PLWbyCDWU1A_iBDKyOeIcPDwH0IOnEwG3h&amp;amp;index=5">Mechanics of Materials YouTube Video by Mark Mattson, PE - SUNY Polytechnical (Utica NY Campus)</a></p></li>
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=SuH8F-X5enE">FE Exam Review: Statics, Dynamics, Mechanics of Deformable Bodies YouTube Video by Gregory Michaelson - Marshall University (Go to 1:00:05 time stamp to view the Mechanics of Materials portion)</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=-Vn37socO8Q">Civil FE/PE Exam – Hydraulics &amp; Hydrology – Best Drainage Analysis Method for Pond Storage</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=YvTV5TmtQOU">FE Exam Concepts - Darcy’s Law - Groundwater Flow - Civil &amp; Environmental FE</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=B6xu6Ea_DB0">Hydrology Topic 2-3-5 Precipitation Data Analysis / Point Precipitation / Mean Areal Rainfall</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/tJWV_Uxv-jM">Hydrology, Hydraulics, and Groundwater Quiz with Explained Solutions (Cleveland)</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/8eNB6CKf9S0">Lindeburg Quiz P1-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/RfuNCZA0QEE">Lindeburg Quiz P2-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/qqx9Vu_n9ec">Lindeburg Quiz P3-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/e-rRGHKfzn8">Lindeburg Quiz P4-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/cTiEVGrdm9s">Lindeburg Quiz P5-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/agYS7wsVh-4">Lindeburg Quiz P6-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/q32973xh-dU">Lindeburg Quiz P7-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/okMVYZdVNk0">Lindeburg Quiz P8-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/7DTtxhdHwgo">Lindeburg Quiz P9-Solution</a></p></li>
+<li><p><a class="reference external" href="https://youtu.be/srp54kuOagQ">Lindeburg Quiz P10-Solution</a></p></li>
 </ol>
 </section>
-<section id="outline">
-<h2>Outline<a class="headerlink" href="#outline" title="Link to this heading">#</a></h2>
+<section id="problem-59-ncees-practice-exam-manual">
+<h2>Problem 59 (NCEES Practice Exam Manual)<a class="headerlink" href="#problem-59-ncees-practice-exam-manual" title="Link to this heading">#</a></h2>
+<p>For a new development of 75 acres (0.117 <span class="math notranslate nohighlight">\(~mi^2\)</span>), the peak runoff for a 25-year storm of 360 <em>cfs</em> is to be limited to 180 <em>cfs</em> by use of a detention basin.  The total runoff <span class="math notranslate nohighlight">\(Q\)</span> is 3.4 inches.  Assume Type II rainfall. Using the TR55 Method and the figure below, the preliminary estimate of storage volume (ac-ft) is most nearly:</p>
+<p><img alt="" src="../../../_images/TR55-chart.png" /></p>
+<p>A. 0.07<br>
+B. 0.11<br>
+C. 3.80<br>
+D. 5.94<br></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># solution - find total runoff in acre feet</span>
+<span class="n">Q</span><span class="o">=</span><span class="mf">3.4</span> <span class="c1">#in</span>
+<span class="n">A</span><span class="o">=</span><span class="mf">75.0</span> <span class="c1">#acres</span>
+<span class="n">volRunoff</span><span class="o">=</span><span class="n">Q</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span><span class="o">*</span><span class="n">A</span>
+<span class="c1"># use required peak discharge ratio 180/360 to find storage to runoff ratio from chart</span>
+<span class="n">qratio</span> <span class="o">=</span> <span class="mi">180</span><span class="o">/</span><span class="mi">360</span>
+<span class="c1"># look up storage to runoff ratio in chart</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Discharge Ratio : &quot;</span><span class="p">,</span><span class="n">qratio</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Discharge Ratio :  0.5
+</pre></div>
+</div>
+</div>
+</div>
+<p>look up storage to runoff ratio in chart</p>
+<p><img alt="" src="../../../_images/TR55-chart-annotate.png" /></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">stor2runoff</span> <span class="o">=</span> <span class="mf">0.28</span>
+<span class="c1"># compute required storage</span>
+<span class="n">basinStorage</span> <span class="o">=</span> <span class="n">stor2runoff</span><span class="o">*</span><span class="n">volRunoff</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Runoff Volume : &quot;</span><span class="p">,</span><span class="n">volRunoff</span><span class="p">,</span><span class="s2">&quot; acre-ft &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Discharge Ratio : &quot;</span><span class="p">,</span><span class="n">qratio</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Storage to Runoff Ratio : &quot;</span><span class="p">,</span><span class="n">stor2runoff</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Basin Storage Required : &quot;</span><span class="p">,</span><span class="n">basinStorage</span><span class="p">,</span><span class="s2">&quot; acre-ft &quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Runoff Volume :  21.25  acre-ft 
+Discharge Ratio :  0.5
+Storage to Runoff Ratio :  0.28
+Basin Storage Required :  5.95  acre-ft 
+</pre></div>
+</div>
+</div>
+</div>
+<p>Computed answer is 5.92 acre-ft, choose “D”</p>
+</section>
+<section id="problem-61-ncees-practice-exam-manual">
+<h2>Problem 61 (NCEES Practice Exam Manual)<a class="headerlink" href="#problem-61-ncees-practice-exam-manual" title="Link to this heading">#</a></h2>
+<p>Four monitoring wells - A,B,C,and D - lie equidistant (200~ft) form a fifth well E.  The depth to the water table is measured at each well and is shown below.  The datum for the top of casing (TOC) for each well is equal to the five wells.  Groundwater moves in which direction from point E?</p>
+<p><img alt="" src="../../../_images/WellField.png" /></p>
+<p>(A) South <br>
+(B) East <br>
+(C) North <br>
+(D) West</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># solution - the values given are depth to water (DTW) so we subtract from TOC to get head</span>
+<span class="n">toc</span> <span class="o">=</span> <span class="mi">500</span> <span class="c1"># any number would be fine</span>
+<span class="n">dtwA</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">dtwB</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">dtwC</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">dtwD</span> <span class="o">=</span> <span class="mi">110</span>
+<span class="n">dtwE</span> <span class="o">=</span> <span class="mi">105</span>
+<span class="n">hA</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwA</span>
+<span class="n">hB</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwB</span>
+<span class="n">hC</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwC</span>
+<span class="n">hD</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwD</span>
+<span class="n">hE</span> <span class="o">=</span> <span class="n">toc</span><span class="o">-</span><span class="n">dtwE</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head A : &quot;</span><span class="p">,</span><span class="n">hA</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head B : &quot;</span><span class="p">,</span><span class="n">hB</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head C : &quot;</span><span class="p">,</span><span class="n">hC</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head D : &quot;</span><span class="p">,</span><span class="n">hD</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;head E : &quot;</span><span class="p">,</span><span class="n">hE</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>head A :  395
+head B :  400
+head C :  395
+head D :  390
+head E :  395
+</pre></div>
+</div>
+</div>
+</div>
+<p>now draw equipotentials, and find flowline</p>
+<p><img alt="" src="../../../_images/WellFieldAnnotate.png" /></p>
+<p>Best answer is A (South)</p>
+</section>
+<section id="problem">
+<h2>Problem<a class="headerlink" href="#problem" title="Link to this heading">#</a></h2>
+<p>A 3.2-inch storm is uniformly distributed over a 95 acre watershed. The NRCS Curve Number for the watershed is CN = 78. The anticipated watershed runoff is about</p>
+<p>(A)  8.0 acre-feet <br>
+(B)  9.0 acre-feet <br>
+(C) 10.0 acre-feet <br>
+(D) 11.0 acre-feet</p>
+</section>
+<section id="section-end">
+<h2>Section End<a class="headerlink" href="#section-end" title="Link to this heading">#</a></h2>
+<p><strong><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4101/Hydrology(NewEngine).pdf">FER-Hydrology Preview</a></strong></p>
+<p><a class="reference external" href="http://54.243.252.9/ce-4200-webroot/ce-4200-notes/lessons/fereview/Hydrology/FER-HydrologyAndHydraulicsPractice-AnswerKey.pdf">FER-HydrologyAndHydraulicsPractice-AnswerKey.pdf</a></p>
 </section>
 </section>
 
@@ -526,7 +647,10 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#readings">Readings</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#videos">Videos</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outline">Outline</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-59-ncees-practice-exam-manual">Problem 59 (NCEES Practice Exam Manual)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-61-ncees-practice-exam-manual">Problem 61 (NCEES Practice Exam Manual)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem">Problem</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-end">Section End</a></li>
 </ul>
   </nav></div>
 
