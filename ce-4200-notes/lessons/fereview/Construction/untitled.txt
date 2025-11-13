@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/FE_Construction_Management</text>
+    </category>
+  </question>
+
+  <!-- ================================ -->
+  <!-- CONCEPTUAL MULTIPLE-CHOICE ITEMS -->
+  <!-- ================================ -->
+
+  <!-- Q1 -->
+  <question type="multichoice">
+    <name><text>Critical Path Definition</text></name>
+    <questiontext format="html">
+      <text>In a construction project schedule, the critical path is:</text>
+    </questiontext>
+    <answer fraction="100"><text>The path of activities that determines the minimum project duration.</text></answer>
+    <answer fraction="0"><text>The sequence of activities with the highest total cost.</text></answer>
+    <answer fraction="0"><text>The activities with the greatest number of resources assigned.</text></answer>
+    <answer fraction="0"><text>The activities most likely to cause safety incidents.</text></answer>
+  </question>
+
+  <!-- Q2 -->
+  <question type="multichoice">
+    <name><text>Cost-Loaded Schedule Purpose</text></name>
+    <questiontext format="html">
+      <text>A cost-loaded schedule is primarily used for:</text>
+    </questiontext>
+    <answer fraction="100"><text>Tracking planned vs. actual expenditures across the project timeline.</text></answer>
+    <answer fraction="0"><text>Identifying the order in which subcontractors must be hired.</text></answer>
+    <answer fraction="0"><text>Determining time–cost tradeoffs during project acceleration.</text></answer>
+    <answer fraction="0"><text>Ensuring equipment is delivered to the site on time.</text></answer>
+  </question>
+
+  <!-- Q3 -->
+  <question type="multichoice">
+    <name><text>Contract Type - Risk</text></name>
+    <questiontext format="html">
+      <text>Which type of construction contract places the most financial risk on the contractor?</text>
+    </questiontext>
+    <answer fraction="100"><text>Lump sum (fixed price)</text></answer>
+    <answer fraction="0"><text>Cost-plus-fixed-fee</text></answer>
+    <answer fraction="0"><text>Guaranteed maximum price</text></answer>
+    <answer fraction="0"><text>Unit price</text></answer>
+  </question>
+
+  <!-- Q4 -->
+  <question type="multichoice">
+    <name><text>Experience Modification Rate (EMR)</text></name>
+    <questiontext format="html">
+      <text>In construction safety management, the EMR is used by insurers to:</text>
+    </questiontext>
+    <answer fraction="100"><text>Calculate a contractor’s workers’ compensation insurance premium.</text></answer>
+    <answer fraction="0"><text>Determine whether a contractor is allowed to bid on public work.</text></answer>
+    <answer fraction="0"><text>Measure equipment depreciation rates for tax purposes.</text></answer>
+    <answer fraction="0"><text>Quantify lost work days due to injury.</text></answer>
+  </question>
+
+  <!-- Q5 -->
+  <question type="multichoice">
+    <name><text>Change Order Definition</text></name>
+    <questiontext format="html">
+      <text>A change order is typically issued when:</text>
+    </questiontext>
+    <answer fraction="100"><text>The owner requests a modification to the work after contract award.</text></answer>
+    <answer fraction="0"><text>The contractor wants to purchase new equipment for future projects.</text></answer>
+    <answer fraction="0"><text>Weather delays require the project to be extended.</text></answer>
+    <answer fraction="0"><text>The contractor submits their final payment application.</text></answer>
+  </question>
+
+  <!-- ================================= -->
+  <!-- QUANTITATIVE QUESTIONS (MC FORMAT) -->
+  <!-- ================================= -->
+
+  <!-- Q6 CPM Duration -->
+  <question type="multichoice">
+    <name><text>CPM Duration</text></name>
+    <questiontext format="html">
+      <text>Using the given activity network, what is the total project duration?</text>
+    </questiontext>
+    <answer fraction="100"><text>18 days</text></answer>
+    <answer fraction="0"><text>15 days</text></answer>
+    <answer fraction="0"><text>20 days</text></answer>
+    <answer fraction="0"><text>22 days</text></answer>
+  </question>
+
+  <!-- Q7 Critical Path -->
+  <question type="multichoice">
+    <name><text>Critical Path Activities</text></name>
+    <questiontext format="html">
+      <text>Which sequence represents the critical path?</text>
+    </questiontext>
+    <answer fraction="100"><text>A → C → E → F</text></answer>
+    <answer fraction="0"><text>A → B → D → F</text></answer>
+    <answer fraction="0"><text>A → C → D → F</text></answer>
+    <answer fraction="0"><text>B → C → E → F</text></answer>
+  </question>
+
+  <!-- Q8 Crashing -->
+  <question type="multichoice">
+    <name><text>Crashing for Maximum Benefit</text></name>
+    <questiontext format="html">
+      <text>Given crash costs and a $3,000/day early completion bonus, which crashing plan maximizes net benefit?</text>
+    </questiontext>
+    <answer fraction="100"><text>Crash A by 1 day and E by 2 days</text></answer>
+    <answer fraction="0"><text>Crash C by 2 days only</text></answer>
+    <answer fraction="0"><text>Crash F by 1 day, then B</text></answer>
+    <answer fraction="0"><text>Crash E by 1 day only</text></answer>
+  </question>
+
+  <!-- Q9 Equipment Production -->
+  <question type="multichoice">
+    <name><text>Bulldozer Production Rate</text></name>
+    <questiontext format="html">
+      <text>What is the effective production rate of the bulldozer?</text>
+    </questiontext>
+    <answer fraction="100"><text>75 cubic yards per hour</text></answer>
+    <answer fraction="0"><text>45 cubic yards per hour</text></answer>
+    <answer fraction="0"><text>60 cubic yards per hour</text></answer>
+    <answer fraction="0"><text>90 cubic yards per hour</text></answer>
+  </question>
+
+  <!-- Q10 Labor Productivity -->
+  <question type="multichoice">
+    <name><text>Slab Placement Duration</text></name>
+    <questiontext format="html">
+      <text>Approximately how many days are needed to place 12,000 square feet of concrete slab?</text>
+    </questiontext>
+    <answer fraction="100"><text>7 days</text></answer>
+    <answer fraction="0"><text>5 days</text></answer>
+    <answer fraction="0"><text>6 days</text></answer>
+    <answer fraction="0"><text>9 days</text></answer>
+  </question>
+
+</quiz>
