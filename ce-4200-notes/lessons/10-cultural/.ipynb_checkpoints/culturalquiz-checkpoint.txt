@@ -1,0 +1,129 @@
+Quiz: Evaluation of Cultural Considerations
+
+1. Which book by E.F. Schumacher emphasized economics “as if people mattered”?
+A. Design for the Real World
+B. The Design of Everyday Things
+C. Small Is Beautiful
+D. Silent Spring
+
+Answer: C
+
+2. Don Norman’s The Design of Everyday Things mainly focuses on:
+A. Economic sustainability in rural communities
+B. Human-centered product and system design
+C. Water resource management in developing countries
+D. Government regulation of toxic waste
+
+Answer: B
+
+3. The major public health issue discussed in Bangladesh relates to:
+A. Malnutrition
+B. Arsenic contamination in groundwater
+C. Urban air pollution
+D. Soil erosion from agriculture
+
+Answer: B
+
+4. The U.S. EPA ETV Program document cited in the readings addresses:
+A. Energy efficiency standards
+B. Transportation safety
+C. Arsenic treatment technologies
+D. Renewable energy deployment
+
+Answer: C
+
+5. In cultural considerations for engineering, “Small Is Beautiful” emphasizes:
+A. Maximizing industrial output regardless of cost
+B. Designing systems with sensitivity to human and environmental needs
+C. Focusing only on financial profit
+D. Expanding global resource exploitation
+
+Answer: B
+
+6. The journal article by Yingliang Zhao et al. (2023) deals with:
+A. Policy impacts on global climate agreements
+B. Arsenic immobilization using waste-derived binders
+C. Cultural anthropology in rural Asia
+D. Energy distribution networks
+
+Answer: B
+
+7. The work Design for the Real World by Victor Papanek argues for:
+A. Military applications of engineering design
+B. Culturally sensitive and socially responsible design
+C. Purely aesthetic consumer product design
+D. Market-driven globalization
+
+Answer: B
+
+8. Which phrase best reflects the link between culture and engineering design?
+A. Design choices are independent of social context
+B. Technical performance always outweighs cultural factors
+C. Local practices, beliefs, and values influence engineering solutions
+D. Culture is irrelevant to global design standards
+
+Answer: C
+
+9. The case of arsenic in Bangladesh illustrates that:
+A. Technological fixes alone can solve all problems
+B. Public health crises can arise from culturally blind water development practices
+C. Engineering projects in developing nations rarely face obstacles
+D. Cultural context is secondary to engineering economics
+
+Answer: B
+
+10. A key reason to evaluate cultural considerations in engineering projects is to:
+A. Reduce project duration at all costs
+B. Ensure solutions are technically complex
+C. Increase the cultural and social acceptance of designs
+D. Focus exclusively on cutting-edge technology
+
+Answer: C
+
+Would you like me to also format this quiz in pure Markdown with --- separators and no inline answers (so you can use it directly in your quiz engine), or keep the answers included as shown above? 
+
+------------------------
+
+🌱 Small Is Beautiful – 5-Question Quiz
+
+(Four options each; one correct answer)
+
+1. Schumacher argues that modern economics overlooks an essential dimension. What is it?
+
+A. The effects of global taxation
+B. Human well-being and ethical values
+C. Competition between large corporations
+D. International trade balances
+Answer: B
+
+2. In the book, Schumacher criticizes the idea that “bigger is better.” What alternative principle does he propose?
+
+A. Continuous automation of labor
+B. Decentralization and human-scaled systems
+C. A fully planned national economy
+D. Dominance of multinational corporations
+Answer: B
+
+3. Which term does Schumacher use to describe technology appropriate for developing countries and small communities?
+
+A. Micro-replicating systems
+B. Rational mechanization
+C. Intermediate technology
+D. Hybrid innovation
+Answer: C
+
+4. Schumacher argues that modern industrial society treats certain natural resources incorrectly. How does he believe they should be viewed?
+
+A. As infinite reserves waiting to be explored
+B. As commodities whose value is set purely by price
+C. As income streams to be maximized
+D. As irreplaceable capital that must be preserved
+Answer: D
+
+5. Which of the following themes best captures Schumacher’s overarching message?
+
+A. Unrestricted economic growth is the key to prosperity
+B. True progress places people, community, and environment at the center of economics
+C. A strong military ensures economic stability
+D. The world economy should be organized around a single global authority
+Answer: B

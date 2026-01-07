@@ -1,0 +1,53 @@
+🌎 Evaluation of Sustainability Considerations
+5-Question Multiple-Choice Quiz
+1. Which statement best reflects the Brundtland Commission definition of sustainability?
+
+A. Meeting future needs by slowing economic development today
+B. Meeting present needs without compromising the ability of future generations to meet theirs
+C. Reserving non-renewable resources exclusively for developing nations
+D. Accepting environmental degradation as unavoidable
+Answer: B
+
+
+6.0 Evaluation of Sustainabilit…
+
+2. The Triple Bottom Line evaluates sustainability using which three pillars?
+
+A. Carbon, Climate, Capital
+B. Water, Waste, Workforce
+C. People, Planet, Profit
+D. Energy, Equity, Efficiency
+Answer: C
+
+
+6.0 Evaluation of Sustainabilit…
+
+3. Which of the following is an example of a tool or framework used to assess sustainability in engineering design?
+
+A. OSHA Safety Regulations
+B. Life Cycle Assessment (LCA)
+C. Standard Cost Analysis
+D. Highway Capacity Manual
+Answer: B
+
+
+6.0 Evaluation of Sustainabilit…
+
+4. What is one major challenge identified in implementing sustainability in engineering projects?
+
+A. Too much public enthusiasm
+B. Lack of available technology
+C. Higher upfront costs and resistance to change
+D. No regulatory oversight
+Answer: C
+
+
+6.0 Evaluation of Sustainabilit…
+
+5. What key insight is raised in the section “Is Sustainability Thermodynamically Possible?”
+
+A. Absolute sustainability violates the First Law of Thermodynamics
+B. Engineering sustainability is impossible under all conditions
+C. Sustainability requires recognizing entropy but designing systems using renewable inputs
+D. Renewable energy can stop entropy entirely
+Answer: C

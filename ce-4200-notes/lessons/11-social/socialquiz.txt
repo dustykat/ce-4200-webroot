@@ -69,3 +69,49 @@ B. Stakeholders are excluded from decision-making processes
 C. Long-term sustainability and public trust in engineering outcomes
 D. Engineers avoid professional licensure requirements
 Answer: C
+
+------------------
+
+🧭 Social Impact Assessment (SIA) – 5-Question Quiz
+
+(Four options per question; one correct answer)
+
+1. Which of the following best describes the purpose of Social Impact Assessment (SIA)?
+
+A. To evaluate the profitability of development projects
+B. To forecast and manage the social consequences of planned actions
+C. To ensure projects meet architectural design standards
+D. To assess environmental air quality impacts
+Answer: B
+
+2. Burdge argues that SIAs should be conducted at what point in a project’s timeline?
+
+A. After construction is completed
+B. Only when negative impacts are observed
+C. Early in planning, before major decisions are finalized
+D. During the final environmental compliance hearing
+Answer: C
+
+3. Burdge emphasizes the importance of which group in the SIA process?
+
+A. Only project managers
+B. Only elected government officials
+C. Affected stakeholders and communities
+D. International regulatory agencies
+Answer: C
+
+4. Which of the following is a key component of Burdge’s SIA method?
+
+A. Secret assessments to prevent stakeholder interference
+B. Development of a predictive model for engineering design
+C. Systematic identification, measurement, and monitoring of social changes
+D. Exclusive focus on economic cost-benefit ratios
+Answer: C
+
+5. Which statement aligns with Burdge’s view of successful SIA practice?
+
+A. Public participation introduces unnecessary conflict
+B. Social impacts can be ignored if environmental impacts are mitigated
+C. SIAs should help communities shape projects, not just react to them
+D. Social impacts are too subjective to assess reliably
+Answer: C
